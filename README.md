@@ -20,7 +20,7 @@ Installing and starting can be tested already.
 2. Start the exporter:
     `prometheus_fzj_weather_exporter`
 
-# Testing:
+# Testing
 To test the exporter, you can host the script on your own machine:
   1. `prometheus_fzj_weather_exporter`
   2. (from another terminal) `curl 127.0.0.1:9840`
@@ -36,3 +36,15 @@ The default port in the script is 9840.
 Change the port with `prometheus_fzj_weather_exporter --port <port>`
 
 (The output should be similar for other data points, i.e. humidity)
+
+# Usage
+```
+usage: prometheus_fzj_weather_exporter [-h] [-p PORT | -i IP]
+
+Set up the Prometheus exporter (connection ports)
+
+options:
+  -h, --help            show this help message and exit
+  -p PORT, --port PORT  Port of this machine to run the script on
+  -i IP, --insecure IP  Full IP address of the server to run the script on, including port
+```
