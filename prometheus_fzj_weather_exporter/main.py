@@ -14,6 +14,7 @@
 # > fzj_weather_air_temperature 14.0
 # (equivalent output for other data i.e. humidity)
 
+import sys
 import argparse
 import time
 from prometheus_client import start_http_server, REGISTRY
@@ -24,7 +25,15 @@ def main():
     args = get_parsed_args()
 
     REGISTRY.register(exporter_file.FZJWeatherExporter())
-    start_http_server(args.port)
+
+    if not len(sys.argv) > 1:
+        start_http_server(port=9840, addr='127.0.0.1') # Default, if no args were given
+    elif args.port is not None:
+        start_http_server(args.port)
+    elif args.ip is not None:
+        port = int(args.ip.split(":")[1])
+        addr = str(args.ip.split(":")[0])
+        start_http_server(port=port, addr=addr) # --port and --insecure are mutually exclusive and None as per default
 
     # keep the thing going indefinitely
     while True:
@@ -34,12 +43,17 @@ def main():
 def get_parsed_args():
     parser = argparse.ArgumentParser(
         description='Set up the Prometheus exporter (connection ports)')
-    parser.add_argument(
+    mutual_group = parser.add_mutually_exclusive_group()
+    mutual_group.add_argument(
         '-p', '--port',
         type=int,
         dest='port',
-        default=9840,
-        help='Port to run the script on')
+        help='Port of this machine to run the script on')
+    mutual_group.add_argument(
+        '-i', '--insecure',
+        type=str,
+        dest='ip',
+        help='Full IP address of the server to run the script on; including port')
 
     return parser.parse_args()
 
