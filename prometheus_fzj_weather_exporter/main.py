@@ -24,7 +24,10 @@ from . import exporter_file
 def main():
     args = get_parsed_args()
 
-    REGISTRY.register(exporter_file.FZJWeatherExporter())
+    try:
+        REGISTRY.register(exporter_file.FZJWeatherExporter())
+    except Exception as e:
+        sys.exit(e)
 
     if not len(sys.argv) > 1:
         start_http_server(port=9840, addr='127.0.0.1') # Default, if no args were given

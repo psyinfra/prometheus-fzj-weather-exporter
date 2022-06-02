@@ -16,6 +16,10 @@ def get_weather_data():
     url = "https://www.fz-juelich.de/de/gs/ueber-uns/meteo/aktuelle-wetterdaten/wetterdaten"
 
     r = requests.get(url)
+
+    if r.status_code != 200:
+        raise Exception("Something's wrong with the Website:\n" + url)
+
     soup = BeautifulSoup(r.text, 'html.parser')
 
     weather_dict = make_weather_dict(url, soup)  # {header: data}
