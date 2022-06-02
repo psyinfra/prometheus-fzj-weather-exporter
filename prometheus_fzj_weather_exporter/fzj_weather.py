@@ -13,8 +13,7 @@ from bs4 import BeautifulSoup
 # Python module to execute
 
 def get_weather_data():
-    url = "https://www.fz-juelich.de/gs/DE/UeberUns" \
-          "/Organisation/S-U/Meteorologie/wetter/wd402_node.html"
+    url = "https://www.fz-juelich.de/de/gs/ueber-uns/meteo/aktuelle-wetterdaten/wetterdaten"
 
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
