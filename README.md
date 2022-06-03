@@ -16,7 +16,7 @@ Installing and starting can be tested already.
 
 # Installing
 1. Install the package from the corresponding Github Repository:
-    `pip install git+https://github.com/o-druska/fzj-weather-prometheus-exporter`
+    `pip install git+https://github.com/psyinfra/prometheus_fzj_weather_exporter.git`
 2. Start the exporter:
     `prometheus_fzj_weather_exporter`
 
