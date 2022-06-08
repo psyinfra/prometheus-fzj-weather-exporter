@@ -10,10 +10,6 @@ It consists of two parts:
 `main.py` references the weather script and other needed scripts. It 
 therefore marks the entry point of the exporter.
 
-# Exporter is currently under development
-The exporter is not finished yet and full functionality is not guaranteed yet.
-Installing and starting can be tested already.
-
 # Installing
 1. Install the package from the corresponding Github Repository:
     `pip install git+https://github.com/psyinfra/prometheus_fzj_weather_exporter.git`
