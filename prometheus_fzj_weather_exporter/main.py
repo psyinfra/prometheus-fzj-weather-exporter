@@ -5,7 +5,7 @@
 
 # exporter entry point
 
-# usage:    > python3 main.py --port :9840
+# usage:    > python3 main.py --port 9840
 # test:     > curl 127.0.0.1:9840
 # (test in a different console or start in background)
 # expected output (similar to):
@@ -29,15 +29,15 @@ def main():
     except Exception as e:
         sys.exit(e)
 
-    if not len(sys.argv) > 1:
-        start_http_server(port=9840, addr='127.0.0.1') # Default, if no args were given
-    elif args.port is not None:
-        start_http_server(args.port)
-    elif args.ip is not None:
-        port = int(args.ip.split(":")[1])
-        addr = str(args.ip.split(":")[0])
-        start_http_server(port=port, addr=addr) # --port and --insecure are mutually exclusive and None as per default
-
+    if args.port is None:
+        start_http_server(port=9840, addr='127.0.0.1')
+    else:
+        ip = args.port.split(":")
+        if len(ip) == 1: #when only a port was specified; no ":"in args.port => split has length == 1"
+            start_http_server(port=int(ip[0]))
+        else:
+            start_http_server(port=int(ip[1]), addr=str(ip[0]))
+    
     # keep the thing going indefinitely
     while True:
         time.sleep(1)
@@ -49,14 +49,16 @@ def get_parsed_args():
     mutual_group = parser.add_mutually_exclusive_group()
     mutual_group.add_argument(
         '-p', '--port',
-        type=int,
+        type=str,
         dest='port',
-        help='Port of this machine to run the script on')
+        help='IP address of the machine to run the script on.\n'\
+                'If you only wanna specify the port, do so via `--port <port>`\n'\
+                'If you wanna use a whole IP addres: `--port <address>:<port>`')
     mutual_group.add_argument(
         '-i', '--insecure',
-        type=str,
-        dest='ip',
-        help='Full IP address of the server to run the script on; including port')
+        type=bool,
+        dest='insecure',
+        help='If True, ignores the SSL certificate of the website, pulling the information from.')
 
     return parser.parse_args()
 
