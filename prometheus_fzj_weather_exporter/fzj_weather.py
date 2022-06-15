@@ -50,8 +50,3 @@ def make_weather_dict(url, soup):
             = re.sub('[^0-9 , .]', '', weather_td[1].get_text(strip=True))
 
     return weather_data
-
-
-if __name__ == "__main__":
-    ret = get_weather_data()
-    print(ret, end='')
