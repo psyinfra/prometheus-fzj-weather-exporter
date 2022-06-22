@@ -29,7 +29,3 @@ def fzj_weather_crawler():
         wind_direction=int(crawled_weather_data['Windrichtung'])
     )
     return weather_return
-
-
-if __name__ == '__main__':
-    print(fzj_weather_crawler())
