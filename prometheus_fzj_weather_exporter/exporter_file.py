@@ -13,10 +13,15 @@ REQUEST_TIME = Summary("weather_exporter_collect_seconds",
 
 
 class FZJWeatherExporter:
+    insec : bool
+
+    def __init__(self, insec_bool) -> None:
+        self.insec = insec_bool
 
     @REQUEST_TIME.time()
     def collect(self):
-        weather = fzj_weather_crawler.fzj_weather_crawler()
+
+        weather = fzj_weather_crawler.fzj_weather_crawler(self.insec)
 
         g = GaugeMetricFamily(
             name='fzj_weather_air_temperature_celsius',

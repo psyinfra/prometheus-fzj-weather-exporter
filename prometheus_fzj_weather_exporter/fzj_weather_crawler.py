@@ -15,17 +15,18 @@ class Weather:
     wind_power: int  # beaufort
     wind_direction: int  # degree
 
-
-def fzj_weather_crawler():
+def fzj_weather_crawler(insec_bool):
     """ scrapes data from the FZJ weather site via the fzj_weather.py script
         and returns a dataclass object containing the information """
-    crawled_weather_data = fzj_weather.get_weather_data()
 
+    crawled_weather_data = fzj_weather.get_weather_data(insec_bool)
+    
     weather_return = Weather(
         temperature=float(crawled_weather_data['Lufttemperatur']),
-        air_pressure=float(crawled_weather_data['Luftdruck (92 m ü.N.N.)']),
+        air_pressure=float(crawled_weather_data['Luftdruck (92 m ü.N.H.N.)']),
         humidity=int(crawled_weather_data['relative Feuchte']),
         wind_power=int(crawled_weather_data['Windstärke']),
         wind_direction=int(crawled_weather_data['Windrichtung'])
     )
+
     return weather_return

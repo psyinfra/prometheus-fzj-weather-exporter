@@ -12,13 +12,13 @@ from bs4 import BeautifulSoup
 
 # Python module to execute
 
-def get_weather_data():
+def get_weather_data(insec_bool):
     url = "https://www.fz-juelich.de/de/gs/ueber-uns/meteo/aktuelle-wetterdaten/wetterdaten"
 
-    r = requests.get(url)
+    r = requests.get(url, verify = not insec_bool) # if insec_bool, then Request shall ignore the SSL certificate
 
     if r.status_code != 200:
-        raise Exception("Something's wrong with the Website:\n" + url)
+        raise ConnectionError("Something's wrong with the Website:\n" + url + "\n" + str(r.status_code))
 
     soup = BeautifulSoup(r.text, 'html.parser')
 

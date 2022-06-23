@@ -25,9 +25,9 @@ def main():
     args = get_parsed_args()
 
     try:
-        REGISTRY.register(exporter_file.FZJWeatherExporter())
-    except Exception as e:
-        sys.exit(e)
+        REGISTRY.register(exporter_file.FZJWeatherExporter(args.insecure))
+    except ConnectionError as c:
+        sys.exit(c.strerror)
 
     if args.port is None:
         start_http_server(port=9840, addr='127.0.0.1')
@@ -56,8 +56,9 @@ def get_parsed_args():
                 'If you wanna use a whole IP addres: `--port <address>:<port>`')
     mutual_group.add_argument(
         '-i', '--insecure',
-        type=bool,
         dest='insecure',
+        action='store_true',
+        default=False,
         help='If True, ignores the SSL certificate of the website, pulling the information from.')
 
     return parser.parse_args()
