@@ -35,12 +35,13 @@ Change the port with `prometheus_fzj_weather_exporter --port <port>`
 
 # Usage
 ```
-usage: prometheus_fzj_weather_exporter [-h] [-p PORT | -i IP]
+usage: prometheus_fzj_weather_exporter [-h] [-p PORT | -i]
 
 Set up the Prometheus exporter (connection ports)
 
 options:
   -h, --help            show this help message and exit
-  -p PORT, --port PORT  Port of this machine to run the script on
-  -i IP, --insecure IP  Full IP address of the server to run the script on, including port
+  -p PORT, --port PORT  IP address of the machine to run the script on. If you only wanna specify the port, do so via `--port <port>`
+                        If you wanna use a whole IP address: `--port <address>:<port>`
+  -i, --insecure        If True, ignores the SSL certificate of the website, pulling the information from.
 ```
