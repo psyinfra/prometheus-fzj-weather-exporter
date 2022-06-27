@@ -59,7 +59,7 @@ def get_parsed_args():
         dest='insecure',
         action='store_true',
         default=False,
-        help='If True, ignores the SSL certificate of the website, pulling the information from.')
+        help='Skip SSL validation of the weather website.')
 
     return parser.parse_args()
 
