@@ -5,7 +5,7 @@
 
 # exporter entry point
 
-# usage:    > python3 main.py --port 9840
+# usage:    > python3 main.py --web.listen-address 9840
 # test:     > curl 127.0.0.1:9840
 # (test in a different console or start in background)
 # expected output (similar to):
@@ -29,15 +29,15 @@ def main():
     except ConnectionError as c:
         sys.exit(c.strerror)
 
-    if args.port is None:
+    if args.listenaddress is None:
         start_http_server(port=9840, addr='127.0.0.1')
     else:
-        ip = args.port.split(":")
-        if len(ip) == 1: #when only a port was specified; no ":"in args.port => split has length == 1"
-            start_http_server(port=int(ip[0]))
-        else:
-            start_http_server(port=int(ip[1]), addr=str(ip[0]))
-    
+        ip, port = args.listenaddress.split(":")
+        if ip:
+            start_http_server(port=int(port), addr=ip)
+        else:  # listen on all interfaces
+            start_http_server(port=int(port))
+
     # keep the thing going indefinitely
     while True:
         time.sleep(1)
@@ -48,12 +48,12 @@ def get_parsed_args():
         description='Set up the Prometheus exporter (connection ports)')
     mutual_group = parser.add_mutually_exclusive_group()
     mutual_group.add_argument(
-        '-p', '--port',
+        '-w', '--web.listen-address',
         type=str,
-        dest='port',
-        help='IP address of the machine to run the script on.\n'\
-                'If you only wanna specify the port, do so via `--port <port>`\n'\
-                'If you wanna use a whole IP addres: `--port <address>:<port>`')
+        dest='listenaddress',
+        help='Address and port to expose metrics and web interface. Default: ":9840"\n'
+                'To listen on all interfaces, omit the IP. ":<port>"`\n'\
+                'To listen on a specific IP: <address>:<port>')
     mutual_group.add_argument(
         '-i', '--insecure',
         dest='insecure',

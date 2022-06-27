@@ -28,20 +28,19 @@ structure like this:
 # TYPE fzj_weather_air_temperature gauge
 fzj_weather_air_temperature 14.0
 ```
-The default port in the script is 9840.
-Change the port with `prometheus_fzj_weather_exporter --port <port>`
-
 (The output should be similar for other data points, i.e. humidity)
 
 # Usage
 ```
-usage: prometheus_fzj_weather_exporter [-h] [-p PORT | -i]
+usage: prometheus_fzj_weather_exporter [-h] [-i] [-w LISTEN_ADDRESS]
 
 Set up the Prometheus exporter (connection ports)
 
 options:
   -h, --help            show this help message and exit
-  -p PORT, --port PORT  IP address of the machine to run the script on. If you only wanna specify the port, do so via `--port <port>`
-                        If you wanna use a whole IP address: `--port <address>:<port>`
-  -i, --insecure        If True, ignores the SSL certificate of the website, pulling the information from.
+  -i, --insecure        skip SSL validation of the weather website
+  -w LISTEN_ADDRESS, --web.listen-address LISTEN_ADDRESS
+                        address and port to expose metrics and web interface. Default: `:9840`
+                        To listen on all interfaces, omit the IP. `:<port>`
+                        To listen on a specific IP: `<address>:<port>`
 ```
