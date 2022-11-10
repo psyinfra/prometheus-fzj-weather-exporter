@@ -46,15 +46,15 @@ def main():
 def get_parsed_args():
     parser = argparse.ArgumentParser(
         description='Set up the Prometheus exporter (connection ports)')
-    mutual_group = parser.add_mutually_exclusive_group()
-    mutual_group.add_argument(
+    group = parser.add_argument_group()
+    group.add_argument(
         '-w', '--web.listen-address',
         type=str,
         dest='listenaddress',
         help='Address and port to expose metrics and web interface. Default: ":9840"\n'
                 'To listen on all interfaces, omit the IP. ":<port>"`\n'\
                 'To listen on a specific IP: <address>:<port>')
-    mutual_group.add_argument(
+    group.add_argument(
         '-i', '--insecure',
         dest='insecure',
         action='store_true',
