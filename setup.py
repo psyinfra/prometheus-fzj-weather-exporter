@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='prometheus_fzj_weather_exporter',
-    version='1.1.1',
+    version='1.3.0',
     description='prometheus exporter for weather data from FZJ',
     author='Oskar Druska',
     author_email='o.druska@fz-juelich.de',
