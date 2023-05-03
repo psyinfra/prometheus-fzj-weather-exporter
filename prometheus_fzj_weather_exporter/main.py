@@ -5,8 +5,8 @@
 
 # exporter entry point
 
-# usage:    > python3 main.py --web.listen-address 9840
-# test:     > curl 127.0.0.1:9840
+# usage:    > python3 main.py --web.listen-address 9184
+# test:     > curl 127.0.0.1:9184
 # (test in a different console or start in background)
 # expected output (similar to):
 # > # HELP fzj_weather_air_temperature temperature in celsius
@@ -30,7 +30,7 @@ def main():
         sys.exit(c.strerror)
 
     if args.listenaddress is None:
-        start_http_server(port=9840, addr='127.0.0.1')
+        start_http_server(port=9184, addr='127.0.0.1')
     else:
         ip, port = args.listenaddress.split(":")
         if ip:
@@ -51,7 +51,7 @@ def get_parsed_args():
         '-w', '--web.listen-address',
         type=str,
         dest='listenaddress',
-        help='Address and port to expose metrics and web interface. Default: ":9840"\n'
+        help='Address and port to expose metrics and web interface. Default: ":9184"\n'
                 'To listen on all interfaces, omit the IP. ":<port>"`\n'\
                 'To listen on a specific IP: <address>:<port>')
     group.add_argument(

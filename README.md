@@ -20,9 +20,9 @@ marks the entry point of the exporter.
 ## Test
 To test the exporter, you can host the script on your own machine:
   1. `prometheus_fzj_weather_exporter`
-  2. (from another terminal) `curl 127.0.0.1:9840`
+  2. (from another terminal) `curl 127.0.0.1:9184`
 
-Running `curl 127.0.0.1:9840` should give you an output of similar structure
+Running `curl 127.0.0.1:9184` should give you an output of similar structure
 like this:
 ```
 # HELP fzj_weather_air_temperature temperature in celsius
@@ -41,7 +41,7 @@ options:
   -h, --help            show this help message and exit
   -i, --insecure        skip SSL validation of the weather website
   -w LISTEN_ADDRESS, --web.listen-address LISTEN_ADDRESS
-                        address and port to expose metrics and web interface. Default: `:9840`
+                        address and port to expose metrics and web interface. Default: `:9184`
                         To listen on all interfaces, omit the IP. `:<port>`
                         To listen on a specific IP: `<address>:<port>`
 ```
