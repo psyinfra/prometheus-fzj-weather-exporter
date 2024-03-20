@@ -5,9 +5,9 @@
 
 # exporter entry point
 
-# usage:    > python3 main.py --web.listen-address 9184
-# test:     > curl 127.0.0.1:9184
-# (test in a different console or start in background)
+# test usage:
+# > python prometheus_fzj_weather_exporter/main.py --web.listen-address 127.0.0.1:9184
+# > curl 127.0.0.1:9184 (in different window)
 # expected output (similar to):
 # > # HELP fzj_weather_air_temperature temperature in celsius
 # > # TYPE fzj_weather_air_temperature gauge
@@ -18,7 +18,7 @@ import sys
 import argparse
 import time
 from prometheus_client import start_http_server, REGISTRY
-from . import exporter_file
+from prometheus_fzj_weather_exporter import exporter_file
 
 
 def main():

@@ -4,7 +4,7 @@
 # For further information look up LICENSE.txt
 
 from dataclasses import dataclass
-from . import fzj_weather
+from prometheus_fzj_weather_exporter import fzj_weather
 
 
 @dataclass
