@@ -12,7 +12,7 @@ class Weather:
     temperature: float  # celsius
     air_pressure: float  # hectoPascal
     humidity: int  # percent
-    wind_power: int  # beaufort
+    wind_power: float  # beaufort
     wind_direction: int  # degree
 
 def fzj_weather_crawler(insec_bool):
@@ -25,7 +25,7 @@ def fzj_weather_crawler(insec_bool):
         temperature=float(crawled_weather_data['Lufttemperatur']),
         air_pressure=float(crawled_weather_data['Luftdruck (92 m ü.N.H.N.)']),
         humidity=int(crawled_weather_data['relative Feuchte']),
-        wind_power=int(crawled_weather_data['Windstärke']),
+        wind_power=float(crawled_weather_data['Windstärke']),
         wind_direction=int(crawled_weather_data['Windrichtung'])
     )
 
