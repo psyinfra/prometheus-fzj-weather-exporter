@@ -15,7 +15,7 @@ setup(
         'BeautifulSoup4',
         'prometheus_client'
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.11",
     entry_points={
         'console_scripts': [
             'prometheus_fzj_weather_exporter=prometheus_fzj_weather_exporter.main:main'
