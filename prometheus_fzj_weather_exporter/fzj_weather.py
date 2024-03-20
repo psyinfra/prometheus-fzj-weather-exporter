@@ -15,7 +15,8 @@ from bs4 import BeautifulSoup
 def get_weather_data(insec_bool):
     url = "https://www.fz-juelich.de/de/gs/ueber-uns/meteo/aktuelle-wetterdaten/wetterdaten"
 
-    r = requests.get(url, verify = not insec_bool) # if insec_bool, then Request shall ignore the SSL certificate
+    # if insec_bool, then Request shall ignore the SSL certificate
+    r = requests.get(url, verify=(not insec_bool))
 
     if r.status_code != 200:
         raise ConnectionError("Something's wrong with the Website:\n" + url + "\n" + str(r.status_code))

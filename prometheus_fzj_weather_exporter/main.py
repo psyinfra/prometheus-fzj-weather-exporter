@@ -52,8 +52,8 @@ def get_parsed_args():
         type=str,
         dest='listenaddress',
         help='Address and port to expose metrics and web interface. Default: ":9184"\n'
-                'To listen on all interfaces, omit the IP. ":<port>"`\n'\
-                'To listen on a specific IP: <address>:<port>')
+             'To listen on all interfaces, omit the IP. ":<port>"\n'
+             'To listen on a specific IP: <address>:<port>')
     group.add_argument(
         '-i', '--insecure',
         dest='insecure',

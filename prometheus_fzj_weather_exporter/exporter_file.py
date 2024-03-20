@@ -13,7 +13,7 @@ REQUEST_TIME = Summary("weather_exporter_collect_seconds",
 
 
 class FZJWeatherExporter:
-    insec : bool
+    insec: bool
 
     def __init__(self, insec_bool) -> None:
         self.insec = insec_bool
