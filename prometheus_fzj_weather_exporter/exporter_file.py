@@ -6,22 +6,25 @@
 from prometheus_client import Summary
 from prometheus_client.core import GaugeMetricFamily
 
-from . import fzj_weather_crawler
+from prometheus_fzj_weather_exporter import fzj_weather_crawler
 
 REQUEST_TIME = Summary("weather_exporter_collect_seconds",
                        "Time spent to collect metrics from fzj_weather.py")
 
 
 class FZJWeatherExporter:
-    insec : bool
+    insecure: bool
+    url: str
 
-    def __init__(self, insec_bool) -> None:
-        self.insec = insec_bool
+    def __init__(self,
+                 url: str,
+                 insecure: bool) -> None:
+        self.url = url
+        self.insecure = insecure
 
     @REQUEST_TIME.time()
     def collect(self):
-
-        weather = fzj_weather_crawler.fzj_weather_crawler(self.insec)
+        weather = fzj_weather_crawler.fzj_weather_crawler(self.url, self.insecure)
 
         g = GaugeMetricFamily(
             name='fzj_weather_air_temperature_celsius',
