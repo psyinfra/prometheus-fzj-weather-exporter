@@ -1,0 +1,1593 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://www.fz-juelich.de/de/gs/ueber-uns/meteo/aktuelle-wetterdaten/wetterdaten
+  response:
+    body:
+      string: "<!doctype html>\n              <html lang=\"en\" data-reactroot=\"\"><head><meta
+        charSet=\"utf-8\"/><title data-react-helmet=\"true\">Wetterdaten von J\xFClich</title><meta
+        data-react-helmet=\"true\" name=\"description\" content=\"\"/><script>window.env
+        = {\"apiPath\":\"https:\\u002F\\u002Fwww.fz-juelich.de\",\"publicURL\":\"https:\\u002F\\u002Fwww.fz-juelich.de\"};</script><link
+        rel=\"icon\" href=\"/favicon.ico\" sizes=\"any\"/><link rel=\"icon\" href=\"/icon.svg\"
+        type=\"image/svg+xml\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\"/><link
+        rel=\"manifest\" href=\"/site.webmanifest\"/><meta name=\"generator\" content=\"Plone
+        6 - https://plone.org\"/><meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\"/><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"/><link
+        data-chunk=\"client\" rel=\"preload\" as=\"style\" href=\"/static/css/18.e3e17644.chunk.css\"/><link
+        data-chunk=\"client\" rel=\"preload\" as=\"script\" href=\"/static/js/runtime~client.aebd907e.js\"/><link
+        data-chunk=\"client\" rel=\"preload\" as=\"script\" href=\"/static/js/18.e3e17644.chunk.js\"/><link
+        data-chunk=\"client\" rel=\"preload\" as=\"script\" href=\"/static/js/client.13655d32.chunk.js\"/><link
+        data-chunk=\"client\" rel=\"stylesheet\" href=\"/static/css/18.e3e17644.chunk.css\"/></head><body
+        class=\"view-viewview contenttype-embeddedpage section-de section-gs section-ueber-uns
+        section-meteo section-aktuelle-wetterdaten section-wetterdaten is-anonymous
+        public-ui manual-profile openCookieBanner\"><div role=\"navigation\" aria-label=\"Toolbar\"
+        id=\"toolbar\"></div><div id=\"main\"><div class=\"skiplinks-wrapper\" role=\"complementary\"
+        aria-label=\"skiplinks\"><a class=\"skiplink\" href=\"#view\">Hauptinhalt
+        \xFCberspringen</a><a class=\"skiplink\" href=\"#navigation\">Navigation \xFCberspringen</a><a
+        class=\"skiplink\" href=\"#footer\">Footer \xFCberspringen</a></div><div role=\"banner\"
+        class=\"ui basic segment header-wrapper institut\"><div class=\"ui container\"><div
+        class=\"header\"><div class=\"header-top\"><div class=\"language-selector\"><span
+        class=\"selected\">de<!-- -->\_</span><a aria-label=\"Wechseln zu english\"
+        class=\"\" title=\"English\" href=\"/en/s\">en<!-- -->\_</a></div></div><div
+        class=\"logo-nav-wrapper\"><div class=\"logo\"><a title=\"Website\" href=\"/de\"><img
+        title=\"Website\" src=\"/static/media/Logo.2ceb35fc.svg\" alt=\"Website\"
+        class=\"ui image\"/></a><div class=\"institut-title\"><a href=\"/de/gs\"><h1>Sicherheit
+        und Strahlenschutz</h1></a></div></div><div class=\"mobile-nav mobile only
+        tablet only\"><div class=\"hamburger-wrapper\"><button class=\"hamburger hamburger--collapse\"
+        aria-label=\"Men\xFC \xF6ffnen\" title=\"Men\xFC \xF6ffnen\" type=\"button\"><span
+        class=\"hamburger-box\"><span class=\"hamburger-inner\"></span></span></button></div></div><a
+        class=\"search mobile-nav mobile only tablet only\" title=\"Search\" href=\"/de/gs/@@search?allow_local=true&amp;local=true\"><button
+        aria-label=\"Suche\" class=\"ui basic icon button institut-search\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 38 38\" style=\"height:36px;width:auto;fill:currentColor\" class=\"icon\"><path
+        d=\"M2.14770459,15.3498891 C2.14770459,8.07006652 8.07185629,2.15521064 15.3453094,2.15521064
+        C22.6267465,2.15521064 28.5429142,8.07804878 28.5429142,15.3498891 C28.5429142,22.6217295
+        22.6267465,28.5525499 15.3453094,28.5525499 C8.07185629,28.5525499 2.14770459,22.6297118
+        2.14770459,15.3498891 M35.6886228,34.1640798 L26.9381238,25.4155211 C29.2853493,22.7175166
+        30.7065868,19.1973392 30.7065868,15.3498891 C30.7065868,6.88070953 23.8162874,0
+        15.3532934,0 C6.88223553,0 0,6.8886918 0,15.3498891 C0,23.8110865 6.89021956,30.6997783
+        15.3532934,30.6997783 C19.2015968,30.6997783 22.7225549,29.2789357 25.4211577,26.9321508
+        L34.1716567,35.6807095 C34.3792415,35.8882483 34.6586826,36 34.9301397,36
+        C35.2015968,36 35.4810379,35.8962306 35.6886228,35.6807095 C36.1037924,35.2656319
+        36.1037924,34.5791574 35.6886228,34.1640798\" transform=\"translate(1 1)\"
+        fill=\"#023d6b\" stroke=\"#023d6b\" stroke-width=\"2\" fill-rule=\"evenodd\"/></svg></button></a></div><div
+        class=\"institut-nav\"><nav id=\"navigation\" aria-label=\"navigation\" class=\"navigation\"><div
+        class=\"ui pointing secondary stackable computer large screen widescreen only
+        menu\"><ul class=\"desktop-menu\"><li><button class=\"item\">Fachbereiche</button><div
+        class=\"submenu-wrapper\"><div class=\"submenu\"><div role=\"presentation\"
+        class=\"close\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 36
+        36\" style=\"height:48px;width:auto;fill:currentColor\" class=\"icon\"><path
+        fill-rule=\"evenodd\" d=\"M27.899 9.515L26.485 8.101 18 16.586 9.514 8.101
+        8.1 9.515 16.586 18 8.1 26.486 9.514 27.9 18 19.414 26.485 27.9 27.899 26.486
+        19.414 18z\"/></svg></div><div class=\"submenu-inner\"><a class=\"submenu-header\"
+        href=\"/de/gs/fachbereiche\"><h2><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 36 36\" style=\"height:40px;width:auto;fill:currentColor\" class=\"icon
+        left-arrow\"><path fill-rule=\"evenodd\" d=\"M14.707 26.707L13.293 25.293
+        20.586 18 13.293 10.707 14.707 9.293 23.414 18z\"/></svg>Zur \xDCbersicht<!--
+        --> <!-- -->Fachbereiche</h2></a><ul><div class=\"subitem-wrapper\"><li><a
+        href=\"/de/gs/fachbereiche/genehmigungen-s-g\"><span>Genehmigungen</span></a></li><div
+        class=\"sub-submenu\"><ul><div class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/genehmigungen-s-g/fremdfirmenbetreuung\"><span
+        class=\"left-arrow\">\u25BE</span><span>Fremdfirmenbetreuung</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/genehmigungen-s-g/genehmigungsverfahren\"><span
+        class=\"left-arrow\">\u25BE</span><span>Genehmigungsverfahren</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/genehmigungen-s-g/betriebsueberwachung\"><span
+        class=\"left-arrow\">\u25BE</span><span>Betriebs\xFCberwachung</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/genehmigungen-s-g/materialueberwachung\"><span
+        class=\"left-arrow\">\u25BE</span><span>Material\xFCberwachung</span></a></li></div></ul></div></div><div
+        class=\"subitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/umgebungsueberwachung-s-u\"><span>Umgebungs\xFCberwachung</span></a></li><div
+        class=\"sub-submenu\"><ul></ul></div></div><div class=\"subitem-wrapper\"><li><a
+        href=\"/de/gs/fachbereiche/betrieblicher-strahlenschutz-s-b\"><span>Betrieblicher
+        Strahlenschutz</span></a></li><div class=\"sub-submenu\"><ul><div class=\"subsubitem-wrapper\"><li><a
+        href=\"/de/gs/fachbereiche/betrieblicher-strahlenschutz-s-b/apha-beta-analytik\"><span
+        class=\"left-arrow\">\u25BE</span><span>Apha-Beta-Analytik</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/betrieblicher-strahlenschutz-s-b/strahlenschutz-einsatzdienste\"><span
+        class=\"left-arrow\">\u25BE</span><span>Strahlenschutz-Einsatzdienste</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/betrieblicher-strahlenschutz-s-b/ansprechpartner\"><span
+        class=\"left-arrow\">\u25BE</span><span>Ansprechpartner</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/betrieblicher-strahlenschutz-s-b/amtlich-anerkannte-inkorporationsmessstelle\"><span
+        class=\"left-arrow\">\u25BE</span><span>Amtlich anerkannte Inkorporationsmessstelle</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/betrieblicher-strahlenschutz-s-b/personendosimetrie\"><span
+        class=\"left-arrow\">\u25BE</span><span>Personendosimetrie</span></a></li></div></ul></div></div><div
+        class=\"subitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/messtechnik\"><span>Messtechnik</span></a></li><div
+        class=\"sub-submenu\"><ul><div class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/messtechnik/messgeraete-s-mg\"><span
+        class=\"left-arrow\">\u25BE</span><span>Messger\xE4te</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/messtechnik/messanlagen-s-ma\"><span
+        class=\"left-arrow\">\u25BE</span><span>Messanlagen</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/messtechnik/physikalische-dosimetrie-s-md\"><span
+        class=\"left-arrow\">\u25BE</span><span>Physikalische Dosimetrie</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/messtechnik/mechanik-s-mm\"><span
+        class=\"left-arrow\">\u25BE</span><span>Mechanik</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/messtechnik/kontakt\"><span
+        class=\"left-arrow\">\u25BE</span><span>Ansprechpartner</span></a></li></div></ul></div></div><div
+        class=\"subitem-wrapper\"><li><a href=\"/de/gs/fachbereiche/betriebslabor-s-l-1\"><span>Betriebslabor</span></a></li><div
+        class=\"sub-submenu\"><ul></ul></div></div><div class=\"subitem-wrapper\"><li><a
+        href=\"/de/gs/fachbereiche/werkfeuerwehr-s-f-1\"><span>Feuerwehr</span></a></li><div
+        class=\"sub-submenu\"><ul></ul></div></div></ul></div></div></div></li><li><button
+        class=\"item\">Leistungen</button><div class=\"submenu-wrapper\"><div class=\"submenu\"><div
+        role=\"presentation\" class=\"close\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 36 36\" style=\"height:48px;width:auto;fill:currentColor\" class=\"icon\"><path
+        fill-rule=\"evenodd\" d=\"M27.899 9.515L26.485 8.101 18 16.586 9.514 8.101
+        8.1 9.515 16.586 18 8.1 26.486 9.514 27.9 18 19.414 26.485 27.9 27.899 26.486
+        19.414 18z\"/></svg></div><div class=\"submenu-inner\"><a class=\"submenu-header\"
+        href=\"/de/gs/leistungen\"><h2><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 36 36\" style=\"height:40px;width:auto;fill:currentColor\" class=\"icon
+        left-arrow\"><path fill-rule=\"evenodd\" d=\"M14.707 26.707L13.293 25.293
+        20.586 18 13.293 10.707 14.707 9.293 23.414 18z\"/></svg>Zur \xDCbersicht<!--
+        --> <!-- -->Leistungen</h2></a><ul></ul></div></div></div></li><li><button
+        class=\"item\">Karriere</button><div class=\"submenu-wrapper\"><div class=\"submenu\"><div
+        role=\"presentation\" class=\"close\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 36 36\" style=\"height:48px;width:auto;fill:currentColor\" class=\"icon\"><path
+        fill-rule=\"evenodd\" d=\"M27.899 9.515L26.485 8.101 18 16.586 9.514 8.101
+        8.1 9.515 16.586 18 8.1 26.486 9.514 27.9 18 19.414 26.485 27.9 27.899 26.486
+        19.414 18z\"/></svg></div><div class=\"submenu-inner\"><a class=\"submenu-header\"
+        href=\"/de/gs/karriere\"><h2><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 36 36\" style=\"height:40px;width:auto;fill:currentColor\" class=\"icon
+        left-arrow\"><path fill-rule=\"evenodd\" d=\"M14.707 26.707L13.293 25.293
+        20.586 18 13.293 10.707 14.707 9.293 23.414 18z\"/></svg>Zur \xDCbersicht<!--
+        --> <!-- -->Karriere</h2></a><ul></ul></div></div></div></li><li><button class=\"item\">\xDCber
+        uns</button><div class=\"submenu-wrapper\"><div class=\"submenu\"><div role=\"presentation\"
+        class=\"close\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 36
+        36\" style=\"height:48px;width:auto;fill:currentColor\" class=\"icon\"><path
+        fill-rule=\"evenodd\" d=\"M27.899 9.515L26.485 8.101 18 16.586 9.514 8.101
+        8.1 9.515 16.586 18 8.1 26.486 9.514 27.9 18 19.414 26.485 27.9 27.899 26.486
+        19.414 18z\"/></svg></div><div class=\"submenu-inner\"><a aria-current=\"page\"
+        class=\"submenu-header active\" href=\"/de/gs/ueber-uns\"><h2><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 36 36\" style=\"height:40px;width:auto;fill:currentColor\" class=\"icon
+        left-arrow\"><path fill-rule=\"evenodd\" d=\"M14.707 26.707L13.293 25.293
+        20.586 18 13.293 10.707 14.707 9.293 23.414 18z\"/></svg>Zur \xDCbersicht<!--
+        --> <!-- -->\xDCber uns</h2></a><ul><div class=\"subitem-wrapper\"><li><a
+        href=\"/de/gs/ueber-uns/ansprechpartner\"><span>Ansprechpartner</span></a></li><div
+        class=\"sub-submenu\"><ul></ul></div></div><div class=\"subitem-wrapper\"><li><a
+        href=\"/de/gs/ueber-uns/anfahrt\"><span>Anfahrt</span></a></li><div class=\"sub-submenu\"><ul></ul></div></div><div
+        class=\"subitem-wrapper\"><li><a aria-current=\"page\" class=\"active\" href=\"/de/gs/ueber-uns/meteo\"><span>Meteorologie</span></a></li><div
+        class=\"sub-submenu\"><ul><div class=\"subsubitem-wrapper\"><li><a aria-current=\"page\"
+        class=\"active\" href=\"/de/gs/ueber-uns/meteo/aktuelle-wetterdaten\"><span
+        class=\"left-arrow\">\u25BE</span><span>Aktuelle Wetterdaten</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/meteo/wetterstation\"><span
+        class=\"left-arrow\">\u25BE</span><span>Wetterstation</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/meteo/klimastation\"><span
+        class=\"left-arrow\">\u25BE</span><span>Klimastation</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/meteo/erdbebenmessstelle\"><span
+        class=\"left-arrow\">\u25BE</span><span>Erdbebenmessstelle</span></a></li></div></ul></div></div><div
+        class=\"subitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/organigramm\"><span>Organigramm</span></a></li><div
+        class=\"sub-submenu\"><ul></ul></div></div><div class=\"subitem-wrapper\"><li><a
+        href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2\"><span>Beauftragte
+        Personen im Forschungszentrum J\xFClich</span></a></li><div class=\"sub-submenu\"><ul><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2/gefahrgut\"><span
+        class=\"left-arrow\">\u25BE</span><span>Gefahrgut</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2/immissionsschutz\"><span
+        class=\"left-arrow\">\u25BE</span><span>Immissionsschutz</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2/abfallbeauftragter-im-forschungszentrum-juelich\"><span
+        class=\"left-arrow\">\u25BE</span><span>Abfallbeauftragter im Forschungszentrum
+        J\xFClich</span></a></li></div><div class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2/gewaesserschutz-im-forschungszentrum-juelich\"><span
+        class=\"left-arrow\">\u25BE</span><span>Gew\xE4sserschutz im Forschungszentrum
+        J\xFClich</span></a></li></div><div class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2/brandschutzbeauftragter\"><span
+        class=\"left-arrow\">\u25BE</span><span>Brandschutzbeauftragter</span></a></li></div><div
+        class=\"subsubitem-wrapper\"><li><a href=\"/de/gs/ueber-uns/beauftragte-personen-im-forschungszentrum-juelich-2/leitende-sicherheitsfachkraft-im-forschungszentrum-juelich\"><span
+        class=\"left-arrow\">\u25BE</span><span>Leitende Sicherheitsfachkraft im Forschungszentrum
+        J\xFClich</span></a></li></div></ul></div></div></ul></div></div></div></li><li><button
+        class=\"item\">Projekte</button><div class=\"submenu-wrapper\"><div class=\"submenu\"><div
+        role=\"presentation\" class=\"close\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 36 36\" style=\"height:48px;width:auto;fill:currentColor\" class=\"icon\"><path
+        fill-rule=\"evenodd\" d=\"M27.899 9.515L26.485 8.101 18 16.586 9.514 8.101
+        8.1 9.515 16.586 18 8.1 26.486 9.514 27.9 18 19.414 26.485 27.9 27.899 26.486
+        19.414 18z\"/></svg></div><div class=\"submenu-inner\"><a class=\"submenu-header\"
+        href=\"/de/gs/projekte\"><h2><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 36 36\" style=\"height:40px;width:auto;fill:currentColor\" class=\"icon
+        left-arrow\"><path fill-rule=\"evenodd\" d=\"M14.707 26.707L13.293 25.293
+        20.586 18 13.293 10.707 14.707 9.293 23.414 18z\"/></svg>Zur \xDCbersicht<!--
+        --> <!-- -->Projekte</h2></a><ul><div class=\"subitem-wrapper\"><li><a href=\"/de/gs/projekte/projekt-a\"><span>International
+        Knowledge and Information Centre (IKIC)</span></a></li><div class=\"sub-submenu\"><ul></ul></div></div></ul></div></div></div></li></ul></div></nav><button
+        aria-label=\"Suche\" class=\"ui basic icon button institut-search computer
+        large screen widescreen only\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 38 38\" style=\"height:36px;width:auto;fill:currentColor\" class=\"icon\"><path
+        d=\"M2.14770459,15.3498891 C2.14770459,8.07006652 8.07185629,2.15521064 15.3453094,2.15521064
+        C22.6267465,2.15521064 28.5429142,8.07804878 28.5429142,15.3498891 C28.5429142,22.6217295
+        22.6267465,28.5525499 15.3453094,28.5525499 C8.07185629,28.5525499 2.14770459,22.6297118
+        2.14770459,15.3498891 M35.6886228,34.1640798 L26.9381238,25.4155211 C29.2853493,22.7175166
+        30.7065868,19.1973392 30.7065868,15.3498891 C30.7065868,6.88070953 23.8162874,0
+        15.3532934,0 C6.88223553,0 0,6.8886918 0,15.3498891 C0,23.8110865 6.89021956,30.6997783
+        15.3532934,30.6997783 C19.2015968,30.6997783 22.7225549,29.2789357 25.4211577,26.9321508
+        L34.1716567,35.6807095 C34.3792415,35.8882483 34.6586826,36 34.9301397,36
+        C35.2015968,36 35.4810379,35.8962306 35.6886228,35.6807095 C36.1037924,35.2656319
+        36.1037924,34.5791574 35.6886228,34.1640798\" transform=\"translate(1 1)\"
+        fill=\"#023d6b\" stroke=\"#023d6b\" stroke-width=\"2\" fill-rule=\"evenodd\"/></svg></button></div></div><div
+        class=\"sticky-menu\"><ul><li class=\"sticky-item\"><a title=\"Anfahrt\" href=\"/de/gs/ueber-uns/anfahrt\"><svg
+        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 24\" style=\"height:24px;width:auto;fill:currentColor\"
+        class=\"icon\"><path d=\"M15.48 10.8L9.8 22.89A2 2 0 0 1 8 24a2 2 0 0 1-1.78-1.11L.52
+        10.8A6.52 6.52 0 0 1 0 8a8 8 0 0 1 16 0 6.52 6.52 0 0 1-.52 2.8zM8 4a4 4 0
+        1 0 4 4 4 4 0 0 0-4-4z\" fill=\"#004176\"/></svg></a></li><li class=\"sticky-item\"><a
+        title=\"Ansprechpartner\" href=\"/de/gs/ueber-uns/ansprechpartner\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 22.88 16.02\" style=\"height:24px;width:auto;fill:currentColor\"
+        class=\"icon\"><path d=\"M3.5 12.58H1.14A1.14 1.14 0 0 1 0 11.44V10.3A2.29
+        2.29 0 0 1 2.29 8h2.29a2.28 2.28 0 0 1 1.61.66 5.26 5.26 0 0 0-2.69 3.92zm-2.36-8a2.29
+        2.29 0 1 1 2.29 2.28 2.29 2.29 0 0 1-2.29-2.28zm17.16 8.69v1A1.71 1.71 0 0
+        1 16.59 16H6.29a1.71 1.71 0 0 1-1.71-1.7v-1a4.12 4.12 0 0 1 4.11-4.15H9a5.55
+        5.55 0 0 0 4.9 0h.3a4.12 4.12 0 0 1 4.1 4.12zM7.44 4a4 4 0 1 1 4 4 4 4 0 0
+        1-4-4zm15.44 6.3v1.14a1.14 1.14 0 0 1-1.14 1.14h-2.36a5.24 5.24 0 0 0-2.69-3.91A2.3
+        2.3 0 0 1 18.3 8h2.29a2.29 2.29 0 0 1 2.29 2.3zm-5.72-5.72a2.29 2.29 0 1 1
+        2.29 2.28 2.29 2.29 0 0 1-2.29-2.28z\" fill=\"#004176\"/></svg></a></li></ul></div></div></div><div
+        role=\"navigation\" aria-label=\"Brotkrumen\" class=\"ui secondary vertical
+        segment breadcrumbs\"><div class=\"ui container\"><div class=\"ui breadcrumb\"><a
+        class=\"section\" title=\"Startseite\" href=\"/de/gs\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 36 36\" style=\"height:18px;width:auto;fill:currentColor\" class=\"icon\"><g
+        fill-rule=\"evenodd\"><path d=\"M18 4.826L4.476 13.148 5.524 14.851 18 7.174
+        30.476 14.851 31.524 13.148zM25 27L21 27 21 19 15 19 15 27 11 27 11 15 9 15
+        9 29 17 29 17 21 19 21 19 29 27 29 27 15 25 15z\"/></g></svg></a><div class=\"divider\">/</div><a
+        class=\"section\" href=\"/de/gs/ueber-uns\">\xDCber uns</a><div class=\"divider\">/</div><a
+        class=\"section\" href=\"/de/gs/ueber-uns/meteo\">Meteorologie</a><div class=\"divider\">/</div><a
+        class=\"section\" href=\"/de/gs/ueber-uns/meteo/aktuelle-wetterdaten\">Aktuelle
+        Wetterdaten</a><div class=\"divider\">/</div><div class=\"active section\">Aktuelle
+        Messwerte</div></div></div></div><div class=\"ui basic segment content-area\"><main><div
+        id=\"view\"><div class=\"ui container ui stackable grid content-grid\"><div
+        class=\"eight wide computer twelve wide tablet column content-body\"><span
+        style=\"display:block\"><div id=\"page-document\" class=\"ui container\"><h1
+        class=\"documentFirstHeading\">Wetterdaten von J\xFClich</h1><div><div style=\"width:
+        560px;\">\n\n  <h4><u> \n    Aktuelle Messwerte vom 16.04.2024 12:00 Uhr MEZ</u>
+        \n  </h4>\n\n  <table border=\"2\" width=\"400\" bgcolor=\"#f0f0f0\" cellpadding=\"4\">\n
+        \   <tr valign=\"top\">\n      <td align=\"left\">\n        Luftdruck (92&#160;m
+        &#252;.N.H.N.) \n      </td>\n      <td align=\"right\">\n        991.7&#160;hPa\n
+        \     </td>\n    </tr>\n    <tr valign=\"top\">\n      <td align=\"left\">\n
+        \       Lufttemperatur \n      </td>\n      <td align=\"right\">\n        10.2&#160;&#176;C\n
+        \     </td>\n    </tr>\n    <tr valign=\"top\">\n      <td align=\"left\">\n
+        \       relative Feuchte \n      </td>\n      <td align=\"right\">\n        82&#160;%\n
+        \     </td>\n    </tr>\n    <tr valign=\"top\">\n      <td align=\"left\">\n
+        \       Windst&#228;rke \n      </td>\n      <td align=\"right\">\n        8.0&#160;m/s\n
+        \     </td>\n    </tr>\n    <tr valign=\"top\">\n      <td align=\"left\">\n
+        \       Windrichtung \n      </td>\n      <td align=\"right\">\n        265&#160;Grad\n
+        \     </td>\n    </tr>\n  </table>\n\n  <p align=\"justify\">\n    <br><img
+        src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/leer.gif\" height=\"12\"
+        width=\"0\" alt=\"Leerraum2\"> \n\n    </p><h4> <u> Wetterentwicklung w&#228;hrend
+        der vergangenen 24 Stunden</u> </h4>\n\n    <table border=\"2\" width=\"400\"
+        bgcolor=\"#f0f0f0\" cellpadding=\"4\">\n      <tr valign=\"top\">\n        <td
+        align=\"center\">\n          Messgr&#246;&#223;e \n        </td>\n        <td
+        align=\"left\">\n          Die X-Achsen geben die Zeit (Stunden) in MEZ an.\n
+        \       </td>\n      </tr>\n      <tr valign=\"top\">\n        <td align=\"center\"
+        width=\"33%\">\n          <br>Luftdruck<br> [hPa] \n        </td>\n        <td
+        align=\"left\">\n          <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/pp.png\"
+        alt=\"Verlauf des Luftdrucks\" width=\"400\" height=\"72\"> \n        </td>\n
+        \     </tr>\n      <tr valign=\"top\">\n        <td align=\"center\" width=\"33%\">\n
+        \         <br>Temperatur<br> [&#176;&#160;C] \n        </td>\n        <td
+        align=\"left\">\n          <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/tt.png\"
+        alt=\"Verlauf der Temperatur\" width=\"400\" height=\"72\"> \n        </td>\n
+        \     </tr>\n      <tr valign=\"top\">\n        <td align=\"center\" width=\"33%\">\n
+        \         <br>rel. Feuchte<br> [%] \n        </td>\n        <td align=\"left\">\n
+        \         <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/rf.png\"
+        alt=\"Verlauf der rel. Feuchte\" width=\"400\" height=\"72\"> \n        </td>\n
+        \     </tr>\n      <tr valign=\"top\">\n        <td align=\"center\" width=\"33%\">\n
+        \         <br>Windgeschwin-<br>digkeit [m/s] \n        </td>\n        <td
+        align=\"left\">\n          <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/ff.png\"
+        alt=\"Verlauf der Windgeschwindigkeit\" width=\"400\" height=\"72\"> \n        </td>\n
+        \     </tr>\n      <tr valign=\"top\">\n        <td align=\"center\" width=\"33%\">\n
+        \         <br>max. Wind-<br>spitze [m/s] \n        </td>\n        <td align=\"left\">\n
+        \         <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/mb.png\"
+        alt=\"Verlauf der Spitzenwindgeschwindigkeit\" width=\"400\" height=\"72\">
+        \n        </td>\n      </tr>\n      <tr valign=\"top\">\n        <td align=\"center\"
+        width=\"33%\">\n          <br>Windrichtung<br> [Grad] \n        </td>\n        <td
+        align=\"left\">\n          <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/dd.png\"
+        alt=\"Verlauf der Windrichtung\" width=\"400\" height=\"72\"> \n        </td>\n
+        \     </tr>\n      <tr valign=\"top\">\n        <td align=\"center\" width=\"33%\">\n
+        \         <br>Niederschlags-<br> summe [mm] \n        </td>\n        <td align=\"left\">\n
+        \         <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/rr.png\"
+        alt=\"Niederschlagssumme\" width=\"400\" height=\"72\"> \n        </td>\n
+        \     </tr>\n      <tr valign=\"top\">\n        <td align=\"center\" width=\"33%\">\n
+        \         <br>Sonnenschein-<br> dauer [%] \n        </td>\n        <td align=\"left\">\n
+        \         <img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/sd.png\"
+        alt=\"Sonnenscheindauer\" width=\"400\" height=\"72\"> \n        </td>\n      </tr>\n
+        \   </table>\n\n    <p align=\"justify\">\n      <br><img src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/leer.gif\"
+        height=\"12\" width=\"0\" alt=\"Leerraum2\"> \n\n      </p><h4> <u>Klimawerte</u></h4>\n\n
+        \     <table border=\"2\" width=\"400\" bgcolor=\"#f0f0f0\" cellpadding=\"4\">\n
+        \       <tr valign=\"top\">\n          <td align=\"left\" width=\"60%\">\n
+        \           Tiefste&#160;Temperatur \n            (gestern&#160;7:00&#160;-&#160;heute&#160;7:00&#160;MEZ)
+        \n          </td>\n          <td align=\"right\">\n            3.1&#160;&#176;C\n
+        \         </td>\n        </tr>\n        <tr valign=\"top\">\n          <td
+        align=\"left\" width=\"47%\">\n            H&#246;chste&#160;Temperatur<br>
+        \n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \n
+        \         </td>\n          <td align=\"right\">\n            13.7&#160;&#176;C\n
+        \         </td>\n        </tr>\n        <tr valign=\"top\">\n          <td
+        align=\"left\" width=\"47%\">\n            Windst&#228;rkemaximum<br> \n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ)
+        \n          </td>\n          <td align=\"right\">\n            22.5&#160;m/s\n
+        \         </td>\n        </tr>\n        <tr valign=\"top\">\n          <td
+        align=\"left\" width=\"47%\">\n            24-std.&#160;Niederschlagssumme<br>
+        \n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \n
+        \         </td>\n          <td align=\"right\">\n            8.4&#160;mm\n
+        \         </td>\n        </tr>\n        <tr valign=\"top\">\n          <td
+        align=\"left\">\n            Sonnenscheindauer (gestern) \n          </td>\n
+        \         <td align=\"right\">\n            4.6&#160;h\n          </td>\n
+        \       </tr>\n      </table>\n\n      <p align=\"justify\">\n        <br><img
+        src=\"https://apps.fz-juelich.de/wetterturm/ws402/bild/leer.gif\" height=\"12\"
+        width=\"0\" alt=\"Leerraum2\"> \n\n        </p><h4> <u>Astronomische Daten
+        f&#252;r J&#252;lich vom 16.04.2024</u> </h4>\n\n        <table border=\"2\"
+        width=\"400\" bgcolor=\"#f0f0f0\" cellpadding=\"4\">\n          <tr valign=\"top\">\n
+        \           <td align=\"left\">\n              Sonnenaufgang \n            </td>\n
+        \           <td align=\"right\">\n              5:37 MEZ\n            </td>\n
+        \         </tr>\n          <tr valign=\"top\">\n            <td align=\"left\">\n
+        \             Sonnenuntergang \n            </td>\n            <td align=\"right\">\n
+        \             19:33 MEZ\n            </td>\n          </tr>\n          <tr
+        valign=\"top\">\n            <td align=\"left\">\n              max. Sonnenh&#246;he
+        heute \n            </td>\n            <td align=\"right\">\n              49.2
+        Grad\n            </td>\n          </tr>\n        </table>\n\n</div>\n</div></div></span><div
+        id=\"modified-container\" class=\"ui container\"><div class=\"last-modified-slot\">Letzte
+        \xC4nderung:<!-- -->\_<!-- -->07.02.2024</div></div><div class=\"ui container
+        tags\"><a class=\"ui label\" href=\"/search?Subject=Wetter\">Wetter</a><a
+        class=\"ui label\" href=\"/search?Subject=Messwerte\">Messwerte</a><a class=\"ui
+        label\" href=\"/search?Subject=Messungen\">Messungen</a></div></div><aside
+        class=\"four wide computer twelve wide tablet column aside-right-slot\"></aside></div></div></main></div><footer
+        id=\"footer\"><div class=\"footer-tools\"><div class=\"ui container\"><div
+        class=\"ui stackable three column grid\"><div class=\"column print\"><button
+        class=\"ui basic icon button\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 46 46\" style=\"height:24px;width:auto;fill:currentColor\" class=\"icon\"><path
+        d=\"M35.4583633 35.3240967C34.9292734 35.3240967 34.5 34.8760654 34.5 34.3240654
+        34.5 33.7720654 34.9292734 33.3240342 35.4583633 33.3240342L41.2083633 33.3240342C42.7934766
+        33.3240342 44.0833633 31.9780654 44.0833633 30.3240342L44.0833633 16.3240654C44.0833633
+        14.6700342 42.7934766 13.3240654 41.2083633 13.3240654L4.79172656 13.3240654C3.20652344
+        13.3240654 1.91672656 14.6700342 1.91672656 16.3240654L1.91672656 30.3240342C1.91672656
+        31.9780654 3.20652344 33.3240342 4.79172656 33.3240342L9.58845679 33.3240342C10.1173669
+        33.3240342 10.5467302 33.7720654 10.5467302 34.3240654 10.5467302 34.8760654
+        10.1173669 35.3240967 9.58845679 35.3240967L4.79172656 35.3240967C2.14861328
+        35.3240967 0 33.0800029 0 30.3240342L0 16.3240654C0 13.5680967 2.14861328
+        11.3240967 4.79172656 11.3240967L41.2083633 11.3240967C43.8513867 11.3240967
+        46 13.5680967 46 16.3240654L46 30.3240342C46 33.0800029 43.8513867 35.3240967
+        41.2083633 35.3240967L35.4583633 35.3240967zM16.0000268 40.3240967C15.4480292
+        40.3240967 15 39.8760794 15 39.3240967 15 38.7721139 15.4480292 38.3240967
+        16.0000268 38.3240967L27.9999732 38.3240967C28.5520645 38.3240967 29 38.7721139
+        29 39.3240967 29 39.8760794 28.5520645 40.3240967 27.9999732 40.3240967L16.0000268
+        40.3240967z\"/><path d=\"M16.0000268 36.3240967C15.4480292 36.3240967 15 35.8761522
+        15 35.3240498 15 34.7720412 15.4480292 34.3240967 16.0000268 34.3240967L27.9999732
+        34.3240967C28.5520645 34.3240967 29 34.7720412 29 35.3240498 29 35.8761522
+        28.5520645 36.3240967 27.9999732 36.3240967L16.0000268 36.3240967zM15.9999375
+        32.3240967C15.4479375 32.3240967 15 31.8761522 15 31.3241436 15 30.7720412
+        15.4479375 30.3240967 15.9999375 30.3240967L19.9999688 30.3240967C20.5519688
+        30.3240967 21 30.7720412 21 31.3241436 21 31.8761522 20.5519688 32.3240967
+        19.9999688 32.3240967L15.9999375 32.3240967zM34.0714544 12.3954942L34.0714544
+        4.96693517C34.0714544 3.43104558 32.7735531 2.18121466 31.1785908 2.18121466L13.8214092
+        2.18121466C12.2264469 2.18121466 10.9285456 3.43104558 10.9285456 4.96693517L10.9285456
+        12.3954942C10.9285456 12.9080667 10.4965145 13.3240967 9.964318 13.3240967
+        9.4319407 13.3240967 9 12.9080667 9 12.3954942L9 4.96693517C9 2.40781562 11.1619635.32409668
+        13.8214092.32409668L31.1785908.32409668C33.8381269.32409668 36 2.40781562
+        36 4.96693517L36 12.3954942C36 12.9080667 35.5680593 13.3240967 35.0357724
+        13.3240967 34.5033951 13.3240967 34.0714544 12.9080667 34.0714544 12.3954942z\"/><path
+        d=\"M10.9285456,26.233155 L10.9285456,40.5513165 C10.9285456,42.1301623 12.2264469,43.4149488
+        13.8214092,43.4149488 L31.1785908,43.4149488 C32.7735531,43.4149488 34.0714544,42.1301623
+        34.0714544,40.5513165 L34.0714544,26.233155 L10.9285456,26.233155 Z M31.1785908,45.3240967
+        L13.8214092,45.3240967 C11.1619635,45.3240967 9,43.1820102 9,40.5513165 L9,25.2786706
+        C9,24.7516728 9.4319407,24.3240967 9.9642276,24.3240967 L35.0357724,24.3240967
+        C35.5680593,24.3240967 36,24.7516728 36,25.2786706 L36,40.5513165 C36,43.1820102
+        33.8381269,45.3240967 31.1785908,45.3240967 L31.1785908,45.3240967 Z\"/></svg>Seite
+        drucken</button></div><div class=\"column scroll-to-top\"><a href=\"#main\"><button
+        class=\"ui basic icon button\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 36 36\" style=\"height:24px;width:auto;fill:currentColor\" class=\"icon\"><g
+        fill-rule=\"evenodd\"><path d=\"M17.9287 11L17.9997 10.929 18.0717 11 17.9287
+        11zM8.8077 17.293L10.2217 18.707 16.9997 11.929 16.9997 31 18.9997 31 18.9997
+        11.929 25.7787 18.707 27.1927 17.293 17.9997 8.101 8.8077 17.293zM7 7L29 7
+        29 5 7 5z\"/></g></svg>nach oben</button></a></div><div class=\"column social-media
+        hide\"><a aria-label=\"fz-juelich RSS-Feed\" href=\"https://go.fzj.de/rss-feed\"><svg
+        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 36 36\" style=\"height:24px;width:auto;fill:currentColor\"
+        class=\"icon\"><g fill-rule=\"evenodd\"><path d=\"M31,31 L29,31 C29,17.767
+        18.233,7 5,7 L5,5 C19.336,5 31,16.663 31,31\"/><path d=\"M23 31L21 31C21 22.178
+        13.822 15 5 15L5 13C14.925 13 23 21.075 23 31M9 25C7.897 25 7 25.897 7 27
+        7 28.103 7.897 29 9 29 10.103 29 11 28.103 11 27 11 25.897 10.103 25 9 25M9
+        31C6.794 31 5 29.206 5 27 5 24.794 6.794 23 9 23 11.206 23 13 24.794 13 27
+        13 29.206 11.206 31 9 31\"/></g></svg></a><a aria-label=\"fz-juelich Youtube\"
+        href=\"https://www.youtube.com/user/forscheninjuelich/featured \" target=\"_blank\"
+        rel=\"noreferrer\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -61
+        512 512\" style=\"height:24px;width:auto;fill:currentColor\" class=\"icon\"><path
+        d=\"m437 0h-362c-41.351562 0-75 33.648438-75 75v240c0 41.351562 33.648438
+        75 75 75h362c41.351562 0 75-33.648438 75-75v-240c0-41.351562-33.648438-75-75-75zm-256
+        298.417969v-203.90625l180.496094 100.269531zm0 0\"/><path d=\"m211 145.488281v101.105469l89.503906-51.375zm0
+        0\"/></svg></a><a aria-label=\"fz-juelich Twitter\" href=\"https://twitter.com/fz_juelich
+        \" target=\"_blank\" rel=\"noreferrer\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 -47 512.002 512\" style=\"height:24px;width:auto;fill:currentColor\"
+        class=\"icon\"><path d=\"m191.011719 419.042969c-22.140625 0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938
+        32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313
+        6.265625.957031c-5.941406-5.988281-10.632812-12.066406-14.269531-17.59375-12.933594-19.644531-19.78125-43.648437-18.324219-64.21875l1.4375-20.246093
+        12.121094 4.695312c-5.113281-9.65625-8.808594-19.96875-10.980469-30.777343-5.292968-26.359376-.863281-54.363282
+        12.476563-78.851563l10.558593-19.382813 14.121094 16.960938c44.660156 53.648438
+        101.226563 85.472656 168.363282 94.789062-2.742188-18.902343-.6875-37.144531
+        6.113281-53.496093 7.917969-19.039063 22.003906-35.183594 40.722656-46.691407
+        20.789063-12.777343 46-18.96875 70.988281-17.433593 26.511719 1.628906 50.582032
+        11.5625 69.699219 28.746093 9.335937-2.425781 16.214844-5.015624 25.511719-8.515624
+        5.59375-2.105469 11.9375-4.496094 19.875-7.230469l29.25-10.078125-19.074219
+        54.476562c1.257813-.105468 2.554687-.195312 3.910156-.253906l31.234375-1.414062-18.460937
+        25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282
+        2.242188-3.339844 5.03125-28.679688 38.867188-6.34375 8.472656-9.511718 19.507812-8.921875
+        31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312
+        32.625-31.09375 60.617187-56.164062 83.199219-31.023438 27.9375-70.582031
+        47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375
+        7.203125zm0 0\"/></svg></a><a aria-label=\"fz-juelich Facebook\" href=\"https://www.facebook.com/Forschungszentrum.Juelich\"
+        target=\"_blank\" rel=\"noreferrer\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 512 512\" style=\"height:24px;width:auto;fill:currentColor\"
+        class=\"icon\"><path d=\"m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0
+        41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90
+        90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0
+        0\"/></svg></a><a href=\"https://blogs.fz-juelich.de/\"><img src=\"/static/media/Juelich_Blogs.d1ecb7bc.png\"
+        style=\"height:24px\" alt=\"J\xFClich Blogs\"/></a></div></div></div></div><div
+        class=\"doormat\"><div class=\"portal-footer\"><div class=\"ui container\"><div
+        class=\"ui stackable three column grid\"><div class=\"column left\"><div class=\"icon-wrapper
+        top logo\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 155.91
+        45.301\" style=\"height:50px;width:auto;fill:currentColor\" class=\"icon fzj
+        logo\"><path fill=\"#324149\" d=\"M0 0H155.91V45.301H0z\"/><path d=\"m94.289
+        36.93h-0.64001a0.23 0.23 0 0 0-0.23 0.24v2.81c0 0.83001-0.42001 1.28-1.06
+        1.28-0.64001 0-1-0.45-1-1.28v-2.81a0.25 0.25 0 0 0-0.25001-0.24h-0.63a0.24
+        0.24 0 0 0-0.24 0.24v2.68c0 1.45 0.59 2.35 1.81 2.35a1.51 1.51 0 0 0 1.38-0.66001v0.32a0.23
+        0.23 0 0 0 0.23 0.24h0.64001a0.24 0.24 0 0 0 0.24-0.24v-4.69a0.24 0.24 0 0
+        0-0.25-0.24zm-8.0001-0.11a1.58 1.58 0 0 0-1.43 0.70001v-2.41a0.25 0.25 0 0
+        0-0.25-0.25h-0.63001a0.24 0.24 0 0 0-0.24 0.25v6.7501a0.23 0.23 0 0 0 0.24
+        0.24h0.67001a0.24 0.24 0 0 0 0.25-0.24v-2.8c0-0.83001 0.45001-1.29 1.1-1.29
+        0.65001 0 1.09 0.46 1.09 1.29v2.8a0.24 0.24 0 0 0 0.24001 0.24h0.63a0.24 0.24
+        0 0 0 0.25-0.24v-2.68c-0.01-1.41-0.62-2.36-1.89-2.36zm1.71-28.84h-2.49a0.93001
+        0.93001 0 0 0-0.93001 0.93001v11.88c0 3.09-1.5 4.41-3.63 4.41s-3.57-1.32-3.57-4.41v-11.88a0.93001
+        0.93001 0 0 0-0.93-0.93001h-2.49a0.93001 0.93001 0 0 0-0.93001 0.93001v11.88c0
+        5.2501 3.18 8.4901 7.9201 8.4901s8.0001-3.24 8.0001-8.4901v-11.88a0.93001
+        0.93001 0 0 0-0.92001-0.93001zm-17.46 29h-0.13001a1.57 1.57 0 0 0-1.38 0.77001v-0.53a0.23
+        0.23 0 0 0-0.23-0.24h-0.58001a0.24 0.24 0 0 0-0.24 0.24v4.69a0.23 0.23 0 0
+        0 0.24 0.24h0.62001a0.25 0.25 0 0 0 0.25-0.24v-2.39c0-1 0.44001-1.49 1.31-1.49h0.14001a0.24
+        0.24 0 0 0 0.25-0.23v-0.63001a0.25 0.25 0 0 0-0.22-0.24zm9.4101 0.84001a1.07
+        1.07 0 0 1 1.08 0.92001 0.17 0.17 0 0 0 0.17 0.15h0.72001a0.15 0.15 0 0 0
+        0.15-0.17 0.32 0.32 0 0 0 0-0.13 2.11 2.11 0 0 0-2.1-1.72 2.19 2.19 0 0 0-2.2
+        2.36v0.67001a2.18 2.18 0 0 0 2.2 2.35 2.07 2.07 0 0 0 2.1-1.66 1.28 1.28 0
+        0 0 0-0.17 0.16 0.16 0 0 0-0.17-0.16h-0.72001a0.15 0.15 0 0 0-0.16 0.14 1
+        1 0 0 1-1.07 0.91001c-0.64001 0-1.11-0.45-1.11-1.28v-0.92001c0.03-0.88001
+        0.5-1.34 1.14-1.34zm-6.6301 0.52c0-0.43 0.39001-0.57 0.84001-0.57a0.88001
+        0.88001 0 0 1 1 0.64001c0 0.11 0.07 0.16 0.19 0.16h0.65001a0.17 0.17 0 0 0
+        0.17-0.18 0.44 0.44 0 0 0 0-0.13 1.81 1.81 0 0 0-1.93-1.39c-1 0-2 0.45-2 1.52
+        0 2.1 2.94 1.23 2.94 2.31 0 0.48-0.36 0.66001-1 0.66001a1 1 0 0 1-1.06-0.69001c0-0.1-0.07-0.17-0.18-0.17h-0.64001a0.19
+        0.19 0 0 0-0.19 0.17 0.31 0.31 0 0 0 0 0.14 1.89 1.89 0 0 0 2 1.44c1.07 0
+        2-0.4 2-1.57 0.17-2.12-2.76-1.26-2.76-2.39zm4.66-32.14a2.16 2.16 0 1 0-2.16-2.16
+        2 2 0 0 0 2.19 2.11zm6.3001 0a2.16 2.16 0 1 0-2.16-2.16 2 2 0 0 0 2.19 2.11zm-15.88
+        2.76a0.93001 0.93001 0 0 0-0.93001-0.93001h-2.49a0.93001 0.93001 0 0 0-0.93001
+        0.93001v13.51a2.54 2.54 0 1 1-5.07 0v-0.27a0.93001 0.93001 0 0 0-0.93001-0.93001h-2.4a0.93001
+        0.93001 0 0 0-0.93001 0.93001v0.21a6.8401 6.8401 0 1 0 13.68 0zm-52.131 10.34
+        7.3801-19.17a22.7 22.7 0 0 0-22.61 12.2 0.50001 0.50001 0 0 1 0 0.13l-0.32
+        0.83001c-2.24 5.7901 1.18 10.08 4.5 11.36a8.5501 8.5501 0 0 0 11.05-5.3501zm47.76
+        17.52a2.2 2.2 0 0 0-2.22 2.36v0.67001a2.23 2.23 0 1 0 4.46 0v-0.67001a2.2
+        2.2 0 0 0-2.24-2.36zm1.12 3.16c0 0.83001-0.46 1.28-1.12 1.28s-1.1-0.45-1.1-1.28v-0.92001c0-0.83001
+        0.47-1.29 1.1-1.29s1.12 0.46 1.12 1.29zm-35.5-15.71c-4.4 11.5-15 15.81-24.71
+        14.15a22.67 22.67 0 1 0 31.77-32.33zm31 10.59h-4a0.24 0.24 0 0 0-0.23 0.25v6.7501a0.23
+        0.23 0 0 0 0.23 0.24h0.63001a0.24 0.24 0 0 0 0.25-0.24v-2.65h2.5a0.24 0.24
+        0 0 0 0.24-0.24v-0.55001a0.25 0.25 0 0 0-0.24-0.25h-2.5v-2.27h3.12a0.25 0.25
+        0 0 0 0.25-0.24v-0.55a0.25 0.25 0 0 0-0.25-0.25zm85.451 2.07h-0.63a0.24 0.24
+        0 0 0-0.24001 0.24v2.81c0 0.83001-0.42 1.28-1.06 1.28-0.64 0-1-0.45-1-1.28v-2.81a0.25
+        0.25 0 0 0-0.25-0.24h-0.63001a0.24 0.24 0 0 0-0.24 0.24v2.68c0 1.45 0.59001
+        2.35 1.81 2.35a1.51 1.51 0 0 0 1.38-0.66001v0.32a0.23 0.23 0 0 0 0.24001 0.24h0.63a0.24
+        0.24 0 0 0 0.24-0.24v-4.69a0.24 0.24 0 0 0-0.28-0.24zm-10.59-15.45h-3.09c-0.6
+        0-0.72 0.48-0.78001 0.93001a3.13 3.13 0 0 1-3.42 2.79c-2.19 0-4-1.62-4-4.71v-4c0-3.09
+        1.77-4.77 4-4.77a3.27 3.27 0 0 1 3.43 2.92c0.09 0.60001 0.42 0.81001 0.75
+        0.81001h3.06a0.63001 0.63001 0 0 0 0.66001-0.75001 7.5501 7.5501 0 0 0-7.9001-7.0601c-4.8
+        0-8.3101 3.54-8.3101 8.7901v4c0 5.2501 3.51 8.7901 8.3101 8.7901a7.7101 7.7101
+        0 0 0 8.0001-7.0801 0.68001 0.68001 0 0 0-0.71001-0.66001zm4.6 15.45h-0.14a1.54
+        1.54 0 0 0-1.37 0.77001v-0.53a0.24 0.24 0 0 0-0.24001-0.24h-0.58a0.24 0.24
+        0 0 0-0.24001 0.24v4.69a0.23 0.23 0 0 0 0.24001 0.24h0.62a0.25 0.25 0 0 0
+        0.25001-0.24v-2.34c0-1 0.44-1.49 1.31-1.49h0.15a0.23 0.23 0 0 0 0.24-0.23v-0.63001a0.24
+        0.24 0 0 0-0.24-0.24zm-4.69 0h-1.05v-1.1a0.24 0.24 0 0 0-0.24-0.25h-0.61001a0.24
+        0.24 0 0 0-0.23 0.25v0.45c0 0.53-0.21 0.65001-0.72001 0.65001a0.24 0.24 0
+        0 0-0.24 0.24v0.47a0.24 0.24 0 0 0 0.24 0.24h0.71001v2.56c0 1.07 0.36001 1.66
+        1.6 1.66h0.54a0.24 0.24 0 0 0 0.24001-0.24v-0.53a0.23 0.23 0 0 0-0.24001-0.23h-0.36c-0.62001
+        0-0.69001-0.22-0.69001-0.81001v-2.38h1.05a0.24 0.24 0 0 0 0.23001-0.27v-0.5a0.24
+        0.24 0 0 0-0.23001-0.21zm18.62-0.11a1.81 1.81 0 0 0-1.61 0.84001 1.64 1.64
+        0 0 0-1.52-0.84001 1.47 1.47 0 0 0-1.34 0.70001v-0.35a0.25 0.25 0 0 0-0.25001-0.24h-0.67a0.24
+        0.24 0 0 0-0.24 0.24v4.69a0.23 0.23 0 0 0 0.24 0.24h0.63a0.25 0.25 0 0 0 0.25001-0.24v-2.64c0-0.83001
+        0.16-1.45 1-1.45s1 0.51 1 1.45v2.64a0.24 0.24 0 0 0 0.24 0.24h0.64001a0.24
+        0.24 0 0 0 0.24-0.24v-2.64c0-0.89001 0.21-1.45 1.05-1.45s1 0.56 1 1.45v2.64a0.23
+        0.23 0 0 0 0.24 0.24h0.71001a0.25 0.25 0 0 0 0.25-0.24v-2.53c-0.04-1.49-0.34-2.51-1.86-2.51zm-25
+        0a1.57 1.57 0 0 0-1.42 0.71001v-0.36a0.24 0.24 0 0 0-0.24-0.24h-0.64a0.23
+        0.23 0 0 0-0.23001 0.24v4.69a0.23 0.23 0 0 0 0.23001 0.24h0.64a0.24 0.24 0
+        0 0 0.24-0.24v-2.8c0-0.83001 0.46001-1.29 1.1-1.29 0.64 0 1.1 0.46 1.1 1.29v2.8a0.23
+        0.23 0 0 0 0.24 0.24h0.59a0.24 0.24 0 0 0 0.24001-0.24v-2.68c0.02-1.41-0.60001-2.36-1.87-2.36zm26-28.84h-2.49a0.93001
+        0.93001 0 0 0-0.93001 0.93001v7.5001h-7.1701v-7.5001a0.93001 0.93001 0 0 0-0.93-0.93001h-2.49a0.93001
+        0.93001 0 0 0-0.93001 0.93001v19.14a0.93001 0.93001 0 0 0 0.93001 0.93001h2.49a0.93001
+        0.93001 0 0 0 0.93-0.93001v-7.5601h7.1101v7.5601a0.93001 0.93001 0 0 0 0.93001
+        0.93001h2.49a0.93001 0.93001 0 0 0 0.93001-0.93001v-19.14a0.93001 0.93001
+        0 0 0-0.93001-0.93001zm-55.821 28.84a1.57 1.57 0 0 0-1.42 0.71001v-0.36a0.24
+        0.24 0 0 0-0.24-0.24h-0.63001a0.24 0.24 0 0 0-0.24 0.24v4.69a0.23 0.23 0 0
+        0 0.24 0.24h0.63001a0.24 0.24 0 0 0 0.24-0.24v-2.8c0-0.83001 0.46001-1.29
+        1.1-1.29 0.64001 0 1.1 0.46 1.1 1.29v2.8a0.23 0.23 0 0 0 0.24001 0.24h0.63a0.25
+        0.25 0 0 0 0.25001-0.24v-2.68c0-1.41-0.62001-2.36-1.9-2.36zm6.6601 4.28h-1.34c-0.35
+        0-0.5-0.11-0.5-0.37a0.36 0.36 0 0 1 0.41-0.37h1a1.73 1.73 0 0 0 2-1.76v-2.12a0.24
+        0.24 0 0 0-0.24-0.24h-0.56001a0.24 0.24 0 0 0-0.24 0.24v0.67001a1.87 1.87
+        0 0 0-1.06-0.33h-0.26a1.77 1.77 0 0 0-2 1.78 1.4 1.4 0 0 0 0.66 1.26 0.83001
+        0.83001 0 0 0-0.7 0.85001 0.82001 0.82001 0 0 0 0.47 0.79001 1.26 1.26 0 0
+        0-0.70001 1.19 1.61 1.61 0 0 0 1.83 1.58h1.2a1.6 1.6 0 1 0 0-3.17zm-0.75-3.41h0.28a0.91001
+        0.91001 0 1 1 0 1.81h-0.28a0.87001 0.87001 0 0 1-1-0.90001 0.88001 0.88001
+        0 0 1 1-0.91001zm0.54 5.7201h-0.82001c-0.7 0-0.95001-0.28-0.95001-0.72001
+        0-0.44 0.25001-0.75001 0.95001-0.75001h0.80001c0.71001 0 1 0.29 1 0.75001
+        0 0.46-0.27 0.72001-1 0.72001zm4.6-5.1201c0-0.43 0.39-0.57001 0.84001-0.57001a0.89001
+        0.89001 0 0 1 1 0.64001c0 0.11 0.07 0.16 0.18 0.16h0.66001a0.17 0.17 0 0 0
+        0.17-0.18 0.44 0.44 0 0 0 0-0.13 1.81 1.81 0 0 0-1.93-1.39c-1 0-2 0.45-2 1.52
+        0 2.1 2.94 1.23 2.94 2.31 0 0.48-0.36001 0.66001-0.95001 0.66001a1 1 0 0 1-1.06-0.69001c0-0.1-0.07-0.17-0.18001-0.17h-0.65a0.18
+        0.18 0 0 0-0.18 0.17 0.31 0.31 0 0 0 0 0.14 1.88 1.88 0 0 0 2.05 1.44c1.07
+        0 2-0.4 2-1.57 0.04-2.07-2.89-1.21-2.89-2.34zm-3.11-10.24v-2.22a0.93001 0.93001
+        0 0 0-0.93001-0.93001h-8.0001v-16a0.93001 0.93001 0 0 0-0.93001-0.93001h-2.49a0.93001
+        0.93001 0 0 0-0.93001 0.93001v19.15a0.93001 0.93001 0 0 0 0.93001 0.93001h11.4a0.93001
+        0.93001 0 0 0 0.95001-0.93001zm8.2501 0v-19.14a0.93001 0.93001 0 0 0-0.93001-0.93001h-2.49a0.93001
+        0.93001 0 0 0-0.93001 0.93001v19.14a0.93001 0.93001 0 0 0 0.93001 0.93001h2.49a0.93001
+        0.93001 0 0 0 0.93001-0.93001zm3 8.8801h-3.41a0.25 0.25 0 0 0-0.25001 0.24v0.47a0.24
+        0.24 0 0 0 0.25001 0.24h2.35l-2.41 3.08a0.56001 0.56001 0 0 0-0.19001 0.46v0.42a0.24
+        0.24 0 0 0 0.25001 0.24h3.41a0.23 0.23 0 0 0 0.24-0.24v-0.47a0.24 0.24 0 0
+        0-0.24-0.25h-2.39l2.48-3.07a0.53001 0.53001 0 0 0 0.15-0.41v-0.5a0.24 0.24
+        0 0 0-0.2-0.21zm4-0.11a2.21 2.21 0 0 0-2.24 2.36v0.67001a2.21 2.21 0 0 0 2.25
+        2.35 2.12 2.12 0 0 0 2-1.37 0.64001 0.64001 0 0 0 0-0.17 0.17 0.17 0 0 0-0.17-0.18h-0.67001a0.3
+        0.3 0 0 0-0.24 0.15 1 1 0 0 1-1 0.63001 1.14 1.14 0 0 1-1.13-1.23v-0.14h3.07a0.25
+        0.25 0 0 0 0.37-0.25v-0.48a2.2 2.2 0 0 0-2.19-2.34zm1.12 2.28h-2.24v-0.12a1.12
+        1.12 0 1 1 2.24 0z\" fill=\"#fff\"/></svg></div><div class=\"text\"><p class=\"footer-header\"></p><p></p></div></div><div
+        class=\"column center\"><div class=\"icon-wrapper top location\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 17 24\" style=\"height:68px;width:auto;fill:#97B9E2\" class=\"icon\"><path
+        d=\"M8.12192523,0 C12.4669252,0 14.4629252,2.263 15.2669252,3.613 C16.4579252,5.612
+        16.5619252,8.13 15.5339252,10.028 C10.3699252,19.571 8.70992523,22.701 8.69592523,22.726
+        L8.09292523,23.865 L7.53492523,22.703 C7.53328668,22.6995783 7.52968557,22.6921479
+        7.52365327,22.6798936 L7.47851562,22.5894368 C7.21607402,22.0682143 5.90975656,19.5330723
+        0.710925231,10.029 C-0.321074769,8.143 -0.223074769,5.631 0.962925231,3.631
+        C1.76692523,2.275 3.76692523,0 8.12192523,0 Z M8.12192523,1.3 C5.37092523,1.3
+        3.22592523,2.363 2.08092523,4.294 C1.12492523,5.907 1.03492523,7.914 1.85092523,9.405
+        C5.72192523,16.48 7.42192523,19.668 8.13192523,21.022 C8.86692523,19.647 10.7399252,16.155
+        14.3919252,9.409 C15.2049252,7.905 15.1099252,5.891 14.1489252,4.278 C13.0059252,2.358
+        10.8649252,1.3 8.12192523,1.3 Z M8.12192523,4.4726 C9.82792523,4.4726 11.2159252,5.8606
+        11.2159252,7.5656 C11.2159252,9.2716 9.82792523,10.6586 8.12192523,10.6586
+        C6.41692523,10.6586 5.02892523,9.2716 5.02892523,7.5656 C5.02892523,5.8606
+        6.41692523,4.4726 8.12192523,4.4726 Z M8.12192523,5.7726 C7.13392523,5.7726
+        6.32992523,6.5776 6.32992523,7.5656 C6.32992523,8.5546 7.13392523,9.3586 8.12192523,9.3586
+        C9.11092523,9.3586 9.91492523,8.5546 9.91492523,7.5656 C9.91492523,6.5776
+        9.11092523,5.7726 8.12192523,5.7726 Z\" fill=\"#005589\" fill-rule=\"evenodd\"/></svg></div><div
+        class=\"details\"><p class=\"fzj\">Forschungszentrum J\xFClich GmbH</p><span>Wilhelm-Johnen-Stra\xDFe</span><span
+        class=\"postcode\">52428 J\xFClich</span><div class=\"phone\"><div class=\"icon-wrapper
+        phone\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 21 20\" style=\"height:20px;width:auto;fill:currentColor\"
+        class=\"icon\"><path d=\"M796.403,604.735 C796.69,605.742 797.946,609.37 801.896,612.829
+        C805.845,616.286 809.498,617.334 810.533,617.575 C811.049,617.117 812.33,615.971
+        813.867,614.549 L809.9,612.174 L807.952,613.688 L807.603,613.544 C807.501,613.502
+        805.07,612.494 803.51,611.136 C801.94,609.769 800.713,607.435 800.662,607.336
+        L800.485,606.997 L801.845,604.932 L799.166,601.163 C797.861,602.818 796.814,604.192
+        796.403,604.735 L796.403,604.735 Z M810.921,618.968 L810.618,618.92 C810.431,618.89
+        805.988,618.139 801.041,613.807 C796.068,609.453 795.097,604.914 795.058,604.723
+        L795,604.436 L795.175,604.202 C795.191,604.182 796.727,602.139 798.684,599.676
+        L799.221,599 L803.42,604.903 L801.997,607.065 C802.377,607.727 803.303,609.233
+        804.364,610.155 C805.442,611.093 807.058,611.877 807.757,612.193 L809.804,610.602
+        L816.019,614.323 L815.387,614.912 C813.086,617.056 811.17,618.749 811.15,618.765
+        L810.921,618.968 Z\" transform=\"translate(-795 -599)\"/></svg></div><span>02461
+        61-0</span></div><div class=\"fax\"><div class=\"icon-wrapper fax\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 46 46\" style=\"height:20px;width:auto;fill:currentColor\" class=\"icon\"><path
+        d=\"M35.4583633 35.3240967C34.9292734 35.3240967 34.5 34.8760654 34.5 34.3240654
+        34.5 33.7720654 34.9292734 33.3240342 35.4583633 33.3240342L41.2083633 33.3240342C42.7934766
+        33.3240342 44.0833633 31.9780654 44.0833633 30.3240342L44.0833633 16.3240654C44.0833633
+        14.6700342 42.7934766 13.3240654 41.2083633 13.3240654L4.79172656 13.3240654C3.20652344
+        13.3240654 1.91672656 14.6700342 1.91672656 16.3240654L1.91672656 30.3240342C1.91672656
+        31.9780654 3.20652344 33.3240342 4.79172656 33.3240342L9.58845679 33.3240342C10.1173669
+        33.3240342 10.5467302 33.7720654 10.5467302 34.3240654 10.5467302 34.8760654
+        10.1173669 35.3240967 9.58845679 35.3240967L4.79172656 35.3240967C2.14861328
+        35.3240967 0 33.0800029 0 30.3240342L0 16.3240654C0 13.5680967 2.14861328
+        11.3240967 4.79172656 11.3240967L41.2083633 11.3240967C43.8513867 11.3240967
+        46 13.5680967 46 16.3240654L46 30.3240342C46 33.0800029 43.8513867 35.3240967
+        41.2083633 35.3240967L35.4583633 35.3240967zM16.0000268 40.3240967C15.4480292
+        40.3240967 15 39.8760794 15 39.3240967 15 38.7721139 15.4480292 38.3240967
+        16.0000268 38.3240967L27.9999732 38.3240967C28.5520645 38.3240967 29 38.7721139
+        29 39.3240967 29 39.8760794 28.5520645 40.3240967 27.9999732 40.3240967L16.0000268
+        40.3240967z\"/><path d=\"M16.0000268 36.3240967C15.4480292 36.3240967 15 35.8761522
+        15 35.3240498 15 34.7720412 15.4480292 34.3240967 16.0000268 34.3240967L27.9999732
+        34.3240967C28.5520645 34.3240967 29 34.7720412 29 35.3240498 29 35.8761522
+        28.5520645 36.3240967 27.9999732 36.3240967L16.0000268 36.3240967zM15.9999375
+        32.3240967C15.4479375 32.3240967 15 31.8761522 15 31.3241436 15 30.7720412
+        15.4479375 30.3240967 15.9999375 30.3240967L19.9999688 30.3240967C20.5519688
+        30.3240967 21 30.7720412 21 31.3241436 21 31.8761522 20.5519688 32.3240967
+        19.9999688 32.3240967L15.9999375 32.3240967zM34.0714544 12.3954942L34.0714544
+        4.96693517C34.0714544 3.43104558 32.7735531 2.18121466 31.1785908 2.18121466L13.8214092
+        2.18121466C12.2264469 2.18121466 10.9285456 3.43104558 10.9285456 4.96693517L10.9285456
+        12.3954942C10.9285456 12.9080667 10.4965145 13.3240967 9.964318 13.3240967
+        9.4319407 13.3240967 9 12.9080667 9 12.3954942L9 4.96693517C9 2.40781562 11.1619635.32409668
+        13.8214092.32409668L31.1785908.32409668C33.8381269.32409668 36 2.40781562
+        36 4.96693517L36 12.3954942C36 12.9080667 35.5680593 13.3240967 35.0357724
+        13.3240967 34.5033951 13.3240967 34.0714544 12.9080667 34.0714544 12.3954942z\"/><path
+        d=\"M10.9285456,26.233155 L10.9285456,40.5513165 C10.9285456,42.1301623 12.2264469,43.4149488
+        13.8214092,43.4149488 L31.1785908,43.4149488 C32.7735531,43.4149488 34.0714544,42.1301623
+        34.0714544,40.5513165 L34.0714544,26.233155 L10.9285456,26.233155 Z M31.1785908,45.3240967
+        L13.8214092,45.3240967 C11.1619635,45.3240967 9,43.1820102 9,40.5513165 L9,25.2786706
+        C9,24.7516728 9.4319407,24.3240967 9.9642276,24.3240967 L35.0357724,24.3240967
+        C35.5680593,24.3240967 36,24.7516728 36,25.2786706 L36,40.5513165 C36,43.1820102
+        33.8381269,45.3240967 31.1785908,45.3240967 L31.1785908,45.3240967 Z\"/></svg></div><span>02461
+        61-8100</span></div><div class=\"route\"><div class=\"icon-wrapper roadmap\"><svg
+        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\" style=\"height:16px;width:auto;fill:currentColor\"
+        class=\"icon\"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com
+        License - https://fontawesome.com/license (Commercial License) Copyright 2022
+        Fonticons, Inc.--><path d=\"M384 476.1L192 421.2V35.93L384 90.79V476.1zM416
+        88.37L543.1 37.53C558.9 31.23 576 42.84 576 59.82V394.6C576 404.4 570 413.2
+        560.9 416.9L416 474.8V88.37zM15.09 95.13L160 37.17V423.6L32.91 474.5C17.15
+        480.8 0 469.2 0 452.2V117.4C0 107.6 5.975 98.78 15.09 95.13V95.13z\"/></svg></div><a
+        alt=\"Anfahrt\" href=\"/de/anfahrt\">Anfahrt</a></div></div></div><div class=\"column
+        right\"><div class=\"icon-wrapper top news\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+        viewBox=\"0 0 640 512\" style=\"height:63px;width:auto;fill:#97B9E2\" class=\"icon\"><!--!
+        Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License -
+        https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons,
+        Inc.--><path d=\"M191.9 448.6c-9.766 0-19.48-2.969-27.78-8.891L32 340.2V480c0
+        17.62 14.38 32 32 32h256c17.62 0 32-14.38 32-32v-139.8L220.2 439.5C211.7 445.6
+        201.8 448.6 191.9 448.6zM192 192c0-35.25 28.75-64 64-64h224V32c0-17.62-14.38-32-32-32H128C110.4
+        0 96 14.38 96 32v192h96V192zM320 256H64C46.38 256 32 270.4 32 288v12.18l151
+        113.8c5.25 3.719 12.7 3.734 18.27-.25L352 300.2V288C352 270.4 337.6 256 320
+        256zM576 160H256C238.4 160 224 174.4 224 192v32h96c33.25 0 60.63 25.38 63.75
+        57.88L384 416h192c17.62 0 32-14.38 32-32V192C608 174.4 593.6 160 576 160zM544
+        288h-64V224h64V288z\"/></svg></div><p class=\"juelich-news\">J\xFClich News</p><p
+        class=\"subheader\">Das monatliche Update aus dem Forschungszentrum</p></div></div></div></div></div><div
+        class=\"footer-bottom\"><div class=\"ui vertical padded center aligned segment\"><div
+        class=\"ui container\"><span class=\"copyright\">\xA9 Forschungszentrum J\xFClich</span><div
+        class=\"left\"><ul class=\"links\"><li class=\"item\"><a href=\"/de/impressum\">Impressum</a></li><li
+        class=\"item bordered\"><a href=\"/de/datenschutz\">Data Protection</a></li><li
+        class=\"item\"><a href=\"/de/erklaerung-zur-barrierefreiheit\">Barrierefreiheit</a></li></ul></div><div
+        class=\"helmholtz-logo\"><a href=\"https://www.helmholtz.de/\" class=\"helmholtz\"
+        aria-label=\"Helmholtz-Logo\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+        0 737.38 100\" style=\"height:32px;width:auto;fill:currentColor\" class=\"icon\"><path
+        d=\"M53.45,0H72.64V100H53.45V59.67H19.18V100H0V0H19.18V40.47H53.45Zm50.13,0a3.25,3.25,0,0,0-2.26,1l-6.2,6.2a2.81,2.81,0,0,0-1,2.25V90.55a2.82,2.82,0,0,0,1,2.26l6.2,6.2a2.82,2.82,0,0,0,2.26,1h53.6V80.82H113.31V59.67H151.4V40.47H113.31V19.18h43.87V0Zm82.47,100h44.6V80.82H195.78V0H176.6V90.55a2.76,2.76,0,0,0,1,2.26l6.2,6.2a2.82,2.82,0,0,0,2.26,1ZM374,40.47V0H354.82V100H374V59.67h34.27V100h19.19V0H408.27V40.47Zm127.61,31a3.61,3.61,0,0,1-1,2.26l-6.06,6.06a3.33,3.33,0,0,1-2.4,1H475a3,3,0,0,1-2.26-1l-6.06-6.06a3,3,0,0,1-1-2.26V28.63a2.82,2.82,0,0,1,1-2.26l6.06-6.2a3.61,3.61,0,0,1,2.26-1h17.21a4,4,0,0,1,2.4,1l6.06,6.2a3.3,3.3,0,0,1,1,2.26Zm4.51-66.72A16.4,16.4,0,0,0,494.84,0H472.42A16.13,16.13,0,0,0,461,4.79l-9.88,9.88A16,16,0,0,0,446.46,26V74a16,16,0,0,0,4.65,11.29l9.88,10A15.76,15.76,0,0,0,472.42,100h22.42a16,16,0,0,0,11.28-4.65l10-10A16,16,0,0,0,520.79,74V26a16,16,0,0,0-4.65-11.28l-10-9.88ZM548.82,100h45.4V80.82H558.55V0H539.37V90.55a2.78,2.78,0,0,0,1,2.26l6.21,6.2a2.82,2.82,0,0,0,2.26,1Zm67-80.82V100H635V19.18h26.51V0H589.32V19.18ZM730.19,1a3.3,3.3,0,0,0-2.27-1h-56V19.18h39.64L670.1,84.77v5.78a3.33,3.33,0,0,0,1,2.26l6.21,6.2a2.82,2.82,0,0,0,2.26,1h57.26V80.82H695.34l42-66.44V9.44a3.34,3.34,0,0,0-1-2.25L730.19,1ZM314.31,0,287.63,46.21,260.94,0H242.59V100h19.18V38.15L279,68a3.2,3.2,0,0,0,2.77,1.6H293.5a3.19,3.19,0,0,0,2.77-1.6l17.08-29.57V100h19.18V0Z\"
+        fill=\"#fff\" data-name=\"Logo White\"/></svg></a></div></div></div></div></footer><div
+        role=\"complementary\"><a aria-label=\"Scrolle nach oben\" id=\"progress\"
+        class=\"progress-wrapper\" href=\"#main\"><svg class=\"scroll-to-top\" viewBox=\"0
+        0 36 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path id=\"triangle\"
+        fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24.707 19.293L23.293 20.707L18
+        15.414L12.707 20.707L11.293 19.293L18 12.586L24.707 19.293Z\"></path></svg></a></div><div
+        class=\"Toastify\"></div></div><div id=\"sidebar\"></div><script charSet=\"UTF-8\">window.__data={\"router\":{\"location\":{\"pathname\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\",\"search\":\"\",\"hash\":\"\",\"state\":undefined,\"key\":\"xv8io8\",\"query\":{}},\"action\":\"POP\"},\"intl\":{\"defaultLocale\":\"en\",\"locale\":\"de\",\"messages\":{\"\\u003Cp\\u003EAdd
+        some HTML here\\u003C\\u002Fp\\u003E\":\"\\u003Cp\\u003EHTML hier einf\xFCgen\\u003C\\u002Fp\\u003E\",\"Accessibility\":\"Barrierefreiheit\",\"Account
+        Registration Completed\":\"Die Registrierung Ihres Zugangs wurde erfolgreich
+        abgeschlossen.\",\"Account activation completed\":\"Passwort gesetzt.\",\"Action\":\"Aktion\",\"Actions\":\"Aktionen\",\"Activate
+        and deactivate\":\"Aktiviern und Deaktivieren\",\"Add\":\"Hinzuf\xFCgen\",\"Add
+        (object list)\":\"\",\"Add Addons\":\"Add-on hinzuf\xFCgen\",\"Add Content\":\"Inhalte
+        hinzuf\xFCgen\",\"Add Translation\u2026\":\"\xDCbersetzung hinzuf\xFCgen\u2026\",\"Add
+        User\":\"Benutzer hinzuf\xFCgen\",\"Add a description\u2026\":\"\",\"Add block\":\"Block
+        hinzuf\xFCgen\",\"Add block\u2026\":\"Block hinzuf\xFCgen\",\"Add criteria\":\"Kriterien
+        hinzuf\xFCgen\",\"Add date\":\"Datum hinzuf\xFCgen\",\"Add field\":\"Feld
+        Hinzuf\xFCgen\",\"Add fieldset\":\"Fieldset hinzuf\xFCgen\",\"Add group\":\"Gruppe
+        hinzuf\xFCgen\",\"Add new content type\":\"Neuen Inhaltstypen hinzuf\xFCgen\",\"Add
+        new group\":\"Neue Gruppe hinzuf\xFCgen\",\"Add new user\":\"Neuen Benutzer
+        hinzuf\xFCgen\",\"Add to Groups\":\"Zu Gruppe hinzuf\xFCgen\",\"Add vocabulary
+        term\":\"F\xFCge neuen Term hinzu\",\"Add {type}\":\"{type} hinzuf\xFCgen\",\"Add-ons
+        Settings\":\"Einstellungen Add-ons\",\"Additional date\":\"Zus\xE4tzliches
+        Datum\",\"Alignment\":\"Ausrichtung\",\"All\":\"Alle\",\"Alphabetically\":\"alphabetisch\",\"Alt
+        text\":\"Alternativer Text\",\"Alt text hint\":\"\",\"Alt text hint link text\":\"\",\"Apply
+        working copy\":\"Arbeitskopie anwenden\",\"Are you sure you want to delete
+        this field?\":\"Sind Sie sicher, dass Sie dieses Feld l\xF6schen m\xF6chten?\",\"Are
+        you sure you want to delete this fieldset including all fields?\":\"Sind Sie
+        sicher, dass Sie dieses Fieldset l\xF6schen m\xF6chten?\",\"Ascending\":\"Aufsteigend\",\"Available\":\"Verf\xFCgbar\",\"Back\":\"Zur\xFCck\",\"Base\":\"Basis\",\"Base
+        search query\":\"Basis Suchfilter\",\"Block\":\"Block\",\"Both email address
+        and password are case sensitive, check that caps lock is not enabled.\":\"Sowohl
+        E-Mail Adresse als auch Passwort unterscheiden zwischen Gro\xDF- und Kleinschreibung,
+        stellen Sie sicher dass die Hochstelltaste nicht aktiviert ist.\",\"Breadcrumbs\":\"Brotkrumen\",\"Browse\":\"Durchsuchen\",\"Browse
+        the site, drop an image, or type an URL\":\"Seite durchsuchen, Bild ablegen
+        oder URL eingeben\",\"By default, permissions from the container of this item
+        are inherited. If you disable this, only the explicitly defined sharing permissions
+        will be valid. In the overview, the symbol {inherited} indicates an inherited
+        value. Similarly, the symbol {global} indicates a global role, which is managed
+        by the site administrator.\":\"Standardm\xE4\xDFig werden die Berechtigungen
+        von einem Ordner auf die in ihm befindlichen Artikel vererbt. Wenn Sie dies
+        deaktivieren, sind nur die explizit definierten Zugriffsberechtigungen g\xFCltig.
+        In der \xDCbersicht zeigt das Symbol ${image_confirm_icon} einen ererbten
+        Wert an. Das Symbol ${image_link_icon} zeigt eine globale Funktion an, die
+        vom Administrator verwaltet wird.\",\"Cache Name\":\"Cache Name\",\"Can not
+        edit Layout for \\u003Cstrong\\u003E{type}\\u003C\\u002Fstrong\\u003E content-type
+        as it doesn't have support for \\u003Cstrong\\u003EVolto Blocks\\u003C\\u002Fstrong\\u003E
+        enabled\":\"Layout f\xFCr \\u003Cstrong\\u003E{type}\\u003C\\u002Fstrong\\u003E
+        kann nicht ver\xE4ndert werden, da das \\u003Cstrong\\u003EVolto Blocks\\u003C\\u002Fstrong\\u003E-Behavior
+        nicht f\xFCr diesen Inhaltstyp aktiviert ist\",\"Can not edit Layout for \\u003Cstrong\\u003E{type}\\u003C\\u002Fstrong\\u003E
+        content-type as the \\u003Cstrong\\u003EBlocks behavior\\u003C\\u002Fstrong\\u003E
+        is enabled and \\u003Cstrong\\u003Eread-only\\u003C\\u002Fstrong\\u003E\":\"Layout
+        f\xFCr \\u003Cstrong\\u003E{type}\\u003C\\u002Fstrong\\u003E kann nicht ver\xE4ndert
+        werden, da das \\u003Cstrong\\u003EVolto Blocks\\u003C\\u002Fstrong\\u003E-Behavior
+        auf nur-lesend gesetzt ist\",\"Cancel\":\"Abbrechen\",\"Cell\":\"Zelle\",\"Center\":\"\",\"Change
+        Note\":\"\xC4nderungsnotiz\",\"Change Password\":\"Passwort \xE4ndern\",\"Change
+        State\":\"Arbeitsablauf-Status \xE4ndern\",\"Change workflow state recursively\":\"Arbeitlauf-Status
+        f\xFCr alle Unterobjekte ebenfalls \xE4ndern\",\"Changes applied.\":\"\xC4nderungen
+        durchgef\xFChrt.\",\"Changes saved\":\"\xC4nderungen gespeichert\",\"Changes
+        saved.\":\"\xC4nderungen gespeichert.\",\"Checkbox\":\"Checkbox\",\"Choices\":\"Auswahlfeld\",\"Choose
+        Image\":\"Bild ausw\xE4hlen\",\"Choose Target\":\"Ziel ausw\xE4hlen\",\"Choose
+        a file\":\"Datei ausw\xE4hlen\",\"Clear\":\"L\xF6schen\",\"Clear filters\":\"Filter
+        entfernen\",\"Click to download full sized image\":\"Klicken um das Bild in
+        der vollen Gr\xF6\xDFe runterzuladen\",\"Close\":\"Schlie\xDFen\",\"Close
+        menu\":\"Men\xFC schlie\xDFen\",\"Code\":\"Code\",\"Collapse item\":\"Element
+        einklappen\",\"Collection\":\"Kollektion\",\"Comment\":\"Kommentar\",\"Commenter\":\"Kommentarautor\",\"Comments\":\"Kommentare\",\"Compare\":\"Vergleichen\",\"Confirm
+        password\":\"Passwort best\xE4tigen\",\"Connection refused\":\"Verbindung
+        abgelehnt\",\"Contact\":\"Kontakt\",\"Contact form\":\"Kontaktformular\",\"Contained
+        items\":\"Enthaltene Elemente\",\"Content type created\":\"Inhaltstyp erstellt\",\"Content
+        type deleted\":\"Inhaltstyp gel\xF6scht\",\"Contents\":\"Inhalte\",\"Controls\":\"Einstellungen\",\"Copy\":\"Kopieren\",\"Copy
+        blocks\":\"Bl\xF6cke kopieren\",\"Copyright\":\"Urheberrecht\",\"Copyright
+        statement or other rights information on this item.\":\"Informationen \xFCber
+        die Urheber- und Nutzungsrechte an diesem Artikel.\",\"Create working copy\":\"Arbeitskopie
+        erstellen\",\"Created by {creator} on {date}\":\"Erstellt von {creator} am
+        {date}\",\"Created on\":\"Erstellt am\",\"Creator\":\"Ersteller\",\"Creators\":\"Ersteller\",\"Criteria\":\"Kriterium\",\"Current
+        filters applied\":\"Ausgew\xE4hlte Filter\",\"Current password\":\"Aktuelles
+        Passwort\",\"Cut\":\"Ausschneiden\",\"Cut blocks\":\"Bl\xF6cke ausschneiden\",\"Daily\":\"T\xE4glich\",\"Database
+        Information\":\"Datenbankinformationen\",\"Database Location\":\"Speicheort
+        Datenbank\",\"Database Size\":\"Gr\xF6\xDFe Datenbank\",\"Database main\":\"Datenbank\",\"Date\":\"Datum\",\"Date
+        (newest first)\":\"Datum (neustes zuerst)\",\"Default\":\"Standard\",\"Delete\":\"L\xF6schen\",\"Delete
+        Group\":\"Gruppe l\xF6schen\",\"Delete Type\":\"Inhaltstype l\xF6schen\",\"Delete
+        User\":\"Benutzer l\xF6schen\",\"Delete blocks\":\"Bl\xF6cke l\xF6schen\",\"Delete
+        col\":\"Spalte l\xF6schen\",\"Delete row\":\"Zeile l\xF6schen\",\"Depth\":\"Tiefe\",\"Descending\":\"Absteigend\",\"Description\":\"Beschreibung\",\"Diff\":\"Unterschied\",\"Difference
+        between revision {one} and {two} of {title}\":\"Unterschied zwischen Version
+        {one} and {two} von {title}\",\"Distributed under the {license}.\":\"Lizensiert
+        unter der {license}.\",\"Divide each row into separate cells\":\"Jede Zeile
+        in einzelne Zellen teilen\",\"Do you really want to delete the following items?\":\"M\xF6chten
+        Sie den Artikel wirklich l\xF6schen?\",\"Do you really want to delete the
+        group {groupname}?\":\"M\xF6chten Sie die Gruppe {groupname} wirklich l\xF6schen?\",\"Do
+        you really want to delete the type {typename}?\":\"M\xF6chten Sie den Inhaltstyp
+        {typename} wirklich l\xF6schen?\",\"Do you really want to delete the user
+        {username}?\":\"M\xF6chten Sie den Nutzer {username} wirklich l\xF6schen?\",\"Do
+        you really want to delete this item?\":\"M\xF6chten Sie den Artikel wirklich
+        l\xF6schen?\",\"Document\":\"Seite\",\"Download Event\":\"In eigenem Kalender
+        speichern (ICS)\",\"Drag and drop files from your computer onto this area
+        or click the \u201CBrowse\u201D button.\":\"Ziehen Sie Dateien von Ihrem Computer
+        auf diesen Bereich oder dr\xFCcken Sie den \u201CDurchsuchen\u201D-Knopf.\",\"Drop
+        file here to replace the existing file\":\"Datei hier ablegen um die bestehende
+        Datei zu ersetzen\",\"Drop file here to upload a new file\":\"Datei hier ablegen
+        um eine neue Datei hochzuladen\",\"Drop files here ...\":\"Datei hier ablegen
+        um die bestehende Datei zu ersetzen\",\"E-mail\":\"E-Mail\",\"E-mail addresses
+        do not match.\":\"E-Mail-Adressen stimmen nicht \xFCberein.\",\"Edit\":\"Bearbeiten\",\"Edit
+        comment\":\"Kommentar bearbeiten\",\"Edit field\":\"Feld bearbeiten\",\"Edit
+        fieldset\":\"Fieldset bearbeiten\",\"Edit recurrence\":\"Wiederkehrende Einstellungen
+        bearbeiten\",\"Edit values\":\"Werte bearbeiten\",\"Edit {title}\":\"{title}
+        bearbeiten\",\"Email\":\"E-Mail\",\"Email sent\":\"E-Mail versendet\",\"Embed
+        code error, please follow the instructions and try again.\":\"Fehler beim
+        Einbinden des Google Maps Codes. Bitte lesen Sie die Anweisungen und stellen
+        Sie sicher dass Sie den korrekten Code verwenden.\",\"Embeded Google Maps\":\"Eingebettete
+        Google Maps Karte\",\"Empty object list\":\"Leere Liste von Elementen\",\"Enable
+        editable Blocks\":\"Aktiviere bearbeitbare Blocks\",\"End Date\":\"Enddatum\",\"Enter
+        URL or select an item\":\"URL eingeben oder Objekt ausw\xE4hlen\",\"Enter
+        a username above to search or click 'Show All'\":\"Benutzername oben eingeben
+        oder auf 'Alle anzeigen' klicken\",\"Enter an email address. This will be
+        your login name. We respect your privacy, and will not give the address away
+        to any third parties or expose it anywhere.\":\"Tragen Sie Ihre E-Mail-Adresse
+        ein, mit der Sie sich k\xFCnftig anmelden m\xFCssen. Wir respektieren den
+        Datenschutz und werden die E-Mail-Adresse nicht an Dritte weitergeben und
+        auch nirgends anzeigen.\",\"Enter full name, e.g. John Smith.\":\"Tragen Sie
+        bitte Ihren vollen Namen ein.\",\"Enter map Embed Code\":\"Karten-Einbettungscode
+        eingeben\",\"Enter your current password.\":\"Geben Sie Ihr aktuelles Passwort
+        ein.\",\"Enter your email for verification.\":\"\",\"Enter your new password.
+        Minimum 5 characters.\":\"Geben Sie ihr neues Passwort ein. Mindestens 5 Zeichen.\",\"Enter
+        your username for verification.\":\"\",\"Error\":\"Fehler\",\"Exclude from
+        navigation\":\"Von der Navigation ausschlie\xDFen\",\"Exclude this occurence\":\"Dieses
+        Datum ausschlie\xDFen\",\"Excluded from navigation\":\"Von Navigation ausgeschlossen\",\"Expand
+        sidebar\":\"Sidebar vergr\xF6\xDFern\",\"Expiration Date\":\"Ablaufdatum\",\"Expiration
+        date\":\"Ablaufdatum\",\"Expired\":\"Abgelaufen\",\"External URL\":\"Externe
+        URL\",\"Facet\":\"Facette\",\"Facet widget\":\"Facetten-Widget\",\"Facets\":\"Facetten\",\"Facets
+        on left side\":\"Facetten links\",\"Facets on right side\":\"Facetten rechts\",\"Facets
+        on top\":\"Facetten oben\",\"Field\":\"Feld\",\"File\":\"Datei\",\"File size\":\"Dateigr\xF6\xDFe\",\"Filename\":\"Dateiname\",\"Filter\u2026\":\"Filter\u2026\",\"First\":\"Erster
+        Tag des Monats\",\"Fixed width table cells\":\"Zellen mit fester Breite\",\"Fold\":\"Einklappen\",\"Folder\":\"Ordner\",\"Forbidden\":\"Verboten\",\"Fourth\":\"Vierter\",\"From\":\"E-Mail\",\"Full\":\"\",\"Full
+        Name\":\"Vor- und Nachname\",\"Fullname\":\"Name\",\"GNU GPL license\":\"GNU-GPL-Lizenz\",\"Global
+        role\":\"Globale Rolle\",\"Google Maps Embedded Block\":\"Google Maps Block\",\"Group\":\"Gruppe\",\"Group
+        created\":\"Gruppe erstellt\",\"Group roles updated\":\"Gruppenrollen aktualisiert\",\"Groupname\":\"Gruppenname\",\"Groups\":\"Gruppen\",\"Groups
+        are logical collections of users, such as departments and business units.
+        Groups are not directly related to permissions on a global level, you normally
+        use Roles for that - and let certain Groups have a particular role. The symbol{plone_svg}indicates
+        a role inherited from membership in another group.\":\"Gruppen sind Kollektionen
+        von Nutzern, wie z.B. Abteilungen oder Organisationseinheiten. Berechtigungen
+        werden normalerweise nicht global an Gruppen vergeben, sondern eher an Rollen,
+        und dann haben Gruppen eine bestimmte Rolle. Das Symbol {plone_svg} zeigt
+        an, dass eine Rolle von einer anderen Gruppe geerbt wird.\",\"Header cell\":\"Kopfzeile\",\"Headline\":\"\xDCberschrift\",\"Hidden
+        facets will still filter the results if proper parameters are passed in URLs\":\"Verteckte
+        Facetten k\xF6nnen die Ergebnisse weiterhin filtern, wenn die entsprechenden
+        Parameter in der URL angeh\xE4ngt werden\",\"Hide Replies\":\"Antworten ausblenden\",\"Hide
+        facet?\":\"Facette verstecken\",\"History\":\"Historie\",\"History Version
+        Number\":\"Historie Versionsnummer\",\"History of {title}\":\"Historie von
+        {title}\",\"Home\":\"Startseite\",\"Home page\":\"Homepage\",\"ID\":\"ID\",\"If
+        selected, this item will not appear in the navigation tree\":\"Bestimmt, ob
+        der Artikel nicht in der Navigation auftauchen soll.\",\"If this date is in
+        the future, the content will not show up in listings and searches until this
+        date.\":\"Falls das Datum in der Zukunft liegt wird der Inhalt in Auflistungen
+        und bei der Suche nicht auftauchen, bis zu dem Datum.\",\"If you are certain
+        this user has abandoned the object, you may unlock the object. You will then
+        be able to edit it.\":\"Wenn Sie sicher sind dass das Objekt nicht mehr aktiv
+        von einem anderen Nutzer verwendet wird, k\xF6nnen Sie die Sperrung aufheben.
+        Danach k\xF6nnen Sie das Objekt bearbeiten.\",\"If you are certain you have
+        the correct web address but are encountering an error, please contact the
+        {site_admin}.\":\"Wenn Sie sicher sind, dass Sie die richtige Adresse eingegeben
+        haben, kontaktieren Sie bitte den {site_admin}.\",\"Image\":\"Bild\",\"Image
+        gallery\":\"Bildergalerie\",\"Include this occurence\":\"Datum einbeziehen\",\"Info\":\"Information\",\"Inherit
+        permissions from higher levels\":\"Berechtigungen von \xFCbergeordneten Ordnern
+        \xFCbernehmen\",\"Inherited value\":\"Geerbter Wert\",\"Insert col after\":\"Spalte
+        dahinter einf\xFCgen\",\"Insert col before\":\"Spalte davor einf\xFCgen\",\"Insert
+        row after\":\"Zeile dahinter einf\xFCgen\",\"Insert row before\":\"Zeile davor
+        einf\xFCgen\",\"Install\":\"Installieren\",\"Installed\":\"Installiert\",\"Installed
+        version\":\"Installierte Version\",\"Interval Daily\":\"T\xE4glich\",\"Interval
+        Monthly\":\"Monatlich\",\"Interval Weekly\":\"W\xF6chentlich\",\"Interval
+        Yearly\":\"J\xE4hrliches Intervall\",\"Item batch size\":\"Batchgr\xF6\xDFe
+        der Elemente\",\"Item succesfully moved.\":\"Objekt wurde erfolgreich verschoben.\",\"Item(s)
+        copied.\":\"Objekt(e) kopiert.\",\"Item(s) cut.\":\"Objekt(e) ausgeschnitten.\",\"Item(s)
+        has been updated.\":\"Objekt(e) wurde(n) aktualisiert\",\"Item(s) pasted.\":\"Artikel
+        eingef\xFCgt.\",\"Item(s) state has been updated.\":\"Der Status der Objekte
+        wurde aktualisiert.\",\"Items\":\"Elemente\",\"Items must be unique.\":\"Auswahl
+        muss eindeutig sein.\",\"Label\":\"Label\",\"Language\":\"Sprache\",\"Language
+        independent field.\":\"\",\"Last\":\"Letzter\",\"Last comment date\":\"Letztes
+        Kommentierdatum\",\"Last modified\":\"Letzte \xC4nderung\",\"Latest version\":\"Letzte
+        Version\",\"Layout\":\"Layout\",\"Lead Image\":\"Lead-Bild\",\"Left\":\"\",\"Link\":\"Link\",\"Link
+        more\":\"'Mehr' Link\",\"Link title\":\"Linktitel\",\"Link to\":\"Verlinkung
+        zu\",\"Link translation for\":\"\xDCbersetzung verbinden\",\"Listing\":\"Auflistung\",\"Load
+        more\":\"Mehr laden\",\"Loading\":\"l\xE4dt\",\"Location\":\"Ort\",\"Log In\":\"Anmelden\",\"Log
+        in\":\"Anmelden\",\"Login\":\"Einloggen\",\"Login Failed\":\"Login fehlgeschlagen\",\"Login
+        Name\":\"Benutzername\",\"Logout\":\"Ausloggen\",\"Made by {creator} on {date}.
+        This is not a working copy anymore, but the main content.\":\"Erstellt von
+        {creator} am {date}. Diese Seite ist keine Arbeitskopie mehr sondern die Live-Seite.\",\"Make
+        the table compact\":\"Tabelle komprimieren\",\"Manage Translations\":\"\xDCbersetzungen
+        verwalten\",\"Manage translations for {title}\":\"\xDCbersetzungen f\xFCr
+        {} verwalten\",\"Map\":\"Karte\",\"Maps URL\":\"Karten URL\",\"Maximum length
+        is {len}.\":\"Maximale L\xE4nge ist {len}.\",\"Maximum value is {len}.\":\"Maximaler
+        Wert ist {len}\",\"Message\":\"Nachricht\",\"Minimum length is {len}.\":\"Minimale
+        L\xE4nge ist {len}\",\"Minimum value is {len}.\":\"Minimaler Wert ist {len}\",\"Moderate
+        Comments\":\"Kommentare moderieren\",\"Moderate comments\":\"Kommentare moderieren\",\"Monday
+        and Friday\":\"Montag und Freitag\",\"Month day\":\"Tag des Monats\",\"Monthly\":\"Monatlich\",\"More\":\"Mehr\",\"Move
+        to bottom of folder\":\"Ans Ende verschieben\",\"Move to top of folder\":\"An
+        den Anfang verschieben\",\"Multiple choices?\":\"Mehrfachauswahl\",\"My email
+        is\":\"\",\"My username is\":\"Mein Benutzername ist\",\"Name\":\"Name\",\"Navigate
+        back\":\"Zur\xFCck navigieren\",\"Navigation\":\"Navigation\",\"New password\":\"Neues
+        Passwort\",\"News Item\":\"Nachricht\",\"No\":\"Nein\",\"No addons found\":\"Keine
+        Add-ons installiert.\",\"No image selected\":\"Kein Bild ausgew\xE4hlt\",\"No
+        image set in Lead Image content field\":\"Im Feld 'Lead-Bild' wurde kein Bild
+        gesetzt.\",\"No image set in image content field\":\"Im Feld 'Bild' wurde
+        kein Bild gesetzt\",\"No items found in this container.\":\"Keine Elemente
+        gefunden\",\"No items selected\":\"Keine Elemente ausgew\xE4hlt\",\"No map
+        selected\":\"Keine Karte ausgew\xE4hlt\",\"No occurences set\":\"Kein Datum
+        gesetzt\",\"No options\":\"Keine Optionen\",\"No results found\":\"Keine Ergebnisse
+        gefunden\",\"No results found.\":\"Keine Ergebnisse gefunden.\",\"No selection\":\"Keine
+        Auswahl\",\"No uninstall profile\":\"Kein Deinstallationsprofil\",\"No value\":\"Kein
+        Wert\",\"No video selected\":\"Kein Video ausgew\xE4hlt\",\"No workflow\":\"Kein
+        Workflow\",\"None\":\"Nicht vorhanden\",\"Note that roles set here apply directly
+        to a user. The symbol{plone_svg}indicates a role inherited from membership
+        in a group.\":\"Rollen gelten f\xFCr diesen Nutzer. Das Zeichen {plone_svg}
+        zeigt an dass eine Rolle von einer Gruppenzugeh\xF6rigkeit geerbt wird.\",\"Number
+        of active objects\":\"Anzahl aktive Objekte\",\"Object Size\":\"Gr\xF6sse\",\"Occurences\":\"Vorkommen\",\"Ok\":\"OK\",\"Only
+        lowercase letters (a-z) without accents, numbers (0-9), and the two characters
+        \\\"-\\\" and \\\"_\\\" are allowed.\":\"Nur Kleinbuchstaben (a-z) ohne Umlaute
+        oder Sonderzeichen, Zahlen (0-9) und die beiden Zeichen \\\"-\\\" und \\\"_\\\"
+        sind erlaubt.\",\"Open in a new tab\":\"In neuem Tab \xF6ffnen\",\"Open menu\":\"Men\xFC
+        \xF6ffnen\",\"Open object browser\":\"Objektsucher \xF6ffnen\",\"Origin\":\"Quelle\",\"Page\":\"Seite\",\"Parent
+        fieldset\":\"Eltern-Fieldset\",\"Password\":\"Passwort\",\"Password reset\":\"Passwort
+        zur\xFCcksetzen\",\"Passwords do not match.\":\"Die Passw\xF6rter stimmen
+        nicht \xFCberein.\",\"Paste\":\"Einf\xFCgen\",\"Paste blocks\":\"Bl\xF6cke
+        einf\xFCgen\",\"Permissions have been updated successfully\":\"Berechtigungen
+        wurden erfolgreich aktualisiert\",\"Permissions updated\":\"Berechtigungen
+        aktualisiert\",\"Personal Information\":\"Pers\xF6nliche Informationen\",\"Personal
+        Preferences\":\"Meine Einstellungen\",\"Personal tools\":\"Pers\xF6nliche
+        Einstellungen\",\"Persons responsible for creating the content of this item.
+        Please enter a list of user names, one per line. The principal creator should
+        come first.\":\"Eine Liste von Personen, die an der Erstellung dieses Artikels
+        beteiligt waren. Bitte geben Sie einen Benutzernamen pro Zeile ein. Der Hauptverantwortliche
+        sollte zuerst genannt werden.\",\"Please enter a valid URL by deleting the
+        block and adding a new video block.\":\"Geben Sie eine g\xFCltige URL \",\"Please
+        enter the Embed Code provided by Google Maps -\\u003E Share -\\u003E Embed
+        map. It should contain the \\u003Ciframe\\u003E code on it.\":\"Bitte geben
+        sie den Einbettungscode von Google Maps ein. Klicken Sie auf 'Teilen' und
+        dann 'Karte einbetten'. Der Code sollte ein '\\u003Ciframe\\u003E'-Element
+        enthalten.\",\"Please fill out the form below to set your password.\":\"Bitte
+        f\xFCllen Sie das unten stehende Formular aus, um Ihr Passwort neu zu setzen.\",\"Plone
+        Foundation\":\"Plone Foundation\",\"Plone Site\":\"Website\",\"Plone{reg}
+        Open Source CMS\\u002FWCM\":\"Plone{reg} Open Source Content Management System\",\"Portrait\":\"Portrait\",\"Possible
+        values\":\"M\xF6gliche Werte\",\"Powered by Plone & Python\":\"Powered by
+        Plone & Python\",\"Preferences\":\"Einstellungen\",\"Prettify your code\":\"Quellcode
+        aufr\xE4umen\",\"Preview\":\"Vorschau\",\"Preview Image URL\":\"URL Vorschaubild\",\"Profile\":\"Profil\",\"Properties\":\"Eigenschaften\",\"Publication
+        date\":\"Freigabedatum\",\"Publishing Date\":\"Freigabedatum\",\"Query\":\"Anfrage\",\"Re-enter
+        the password. Make sure the passwords are identical.\":\"Geben Sie das gleiche
+        Passwort erneut ein.\",\"Read More\u2026\":\"Mehr\u2026\",\"Rearrange items
+        by\u2026\":\"Elemente sortieren nach\u2026\",\"Recurrence ends\":\"Ende des
+        wiederkehrenden Vorkommens\",\"Recurrence ends after\":\"Wiederkehrendes Vorkommen
+        endet nach\",\"Recurrence ends on\":\"Wiederkehrendes Vorkommen endet am\",\"Redo\":\"\",\"Reduce
+        complexity\":\"Komplexit\xE4t vereinfachen\",\"Register\":\"Registrieren\",\"Registration
+        form\":\"Registrierungsformular\",\"Relevance\":\"relevanz\",\"Remove item\":\"Element
+        entfernen\",\"Remove recurrence\":\"Wiederkehrende Einstellung entfernen\",\"Remove
+        term\":\"Entferne Term\",\"Remove working copy\":\"Arbeitskopie l\xF6schen\",\"Rename\":\"Umbenennen\",\"Rename
+        Items Loading Message\":\"Umbenennen-Modal l\xE4dt\",\"Rename items\":\"Artikel
+        umbenennen\",\"Repeat\":\"Wiederholen\",\"Repeat every\":\"Wiederhole jeden\",\"Repeat
+        on\":\"Wiederhole am\",\"Replace existing file\":\"Bestehende Datei ersetzen\",\"Reply\":\"Antworten\",\"Required\":\"Ben\xF6tigt\",\"Required
+        input is missing.\":\"Notwendige Eingabe fehlt.\",\"Reset term title\":\"Setze
+        Titel zur\xFCck\",\"Results limit\":\"Anzahl Ergebnisse\",\"Results preview\":\"Ergebnisvorschau\",\"Results
+        template\":\"Template Suchergebnisliste\",\"Reversed order\":\"Umgekehrte
+        Reihenfolge\",\"Revert to this revision\":\"Die aktuelle Version durch diese
+        ersetzen\",\"Review state\":\"Status\",\"Richtext\":\"Richtext\",\"Right\":\"\",\"Rights\":\"Rechte\",\"Roles\":\"Rollen\",\"Root\":\"Wurzel\",\"Save\":\"Speichern\",\"Save
+        recurrence\":\"Wiederkehrende Einstellung speichern\",\"Schema\":\"Schema\",\"Schema
+        updates\":\"Aktualisierungen Schema\",\"Search\":\"Suche\",\"Search SVG\":\"Suchen\",\"Search
+        Site\":\"Seite durchsuchen\",\"Search block\":\"Such-Block\",\"Search button
+        label\":\"Label Such-Button\",\"Search content\":\"Inhalte suchen\",\"Search
+        for user or group\":\"Nach Benutzer oder Gruppe suchen\",\"Search group\u2026\":\"Nach
+        Gruppe suchen\u2026\",\"Search input label\":\"Label Suchfeld\",\"Search results\":\"Ergebnisse\",\"Search
+        results for {term}\":\"Suchergebnisse f\xFCr {term}\",\"Search users\u2026\":\"Nach
+        Nutzern suchen\u2026\",\"Searched for\":\"Suche nach\",\"Second\":\"Zweiter\",\"Section
+        title\":\"Abschnittstitel\",\"Select\":\"Ausw\xE4hlen\",\"Select a date to
+        add to recurrence\":\"W\xE4hlen Sie ein Datum um ein wiederkehrendes Datum
+        einzustellen\",\"Select columns to show\":\"Anzuzeigende Spalten w\xE4hlen\",\"Select
+        the transition to be used for modifying the items state.\":\"Arbeitsablauf-Status
+        f\xFCr Seite w\xE4hlen.\",\"Selected dates\":\"Ausgew\xE4hlte Daten\",\"Selected
+        items\":\"Ausgew\xE4hlte Objekte\",\"Selected items - x of y\":\"Ausgew\xE4hlte
+        Objekte - x von y\",\"Selection\":\"Auswahl\",\"Select\u2026\":\"ausw\xE4hlen\",\"Send\":\"Absenden\",\"Set
+        my password\":\"Passwort neu setzen\",\"Set your password\":\"Setzen Sie Ihr
+        Passwort\",\"Settings\":\"Einstellungen\",\"Sharing\":\"Freigabe\",\"Sharing
+        for {title}\":\"Freigabe f\xFCr\",\"Short Name\":\"Kurzname\",\"Short name\":\"Kurzname\",\"Show\":\"Zeige\",\"Show
+        All\":\"Alle anzeigen\",\"Show Replies\":\"Antworten anzeigen\",\"Show item\":\"Elemente
+        anzeigen\",\"Show search button?\":\"Such-Button anzeigen?\",\"Show search
+        input?\":\"Such-Eingabe anzeigen?\",\"Show sorting?\":\"Sortieroption anzeigen?\",\"Shrink
+        sidebar\":\"Sidebar verkleinern\",\"Shrink toolbar\":\"Toolbar verkleinern\",\"Sign
+        in to start session\":\"Loggen Sie sich ein\",\"Site\":\"Website\",\"Site
+        Administration\":\"Website-Administrator\",\"Site Map\":\"\xDCbersicht\",\"Site
+        Setup\":\"Seiteneinstellungen\",\"Sitemap\":\"Sitemap\",\"Size\":\"Gr\xF6\xDFe\",\"Size:
+        {size}\":\"Gr\xF6sse: {size}\",\"Sorry, something went wrong with your request\":\"Entschuldigung,
+        ein Fehler ist beim Ausf\xFChren Ihrer Anfrage aufgetreten \",\"Sort By:\":\"Sortieren
+        nach:\",\"Sort on\":\"Sortieren nach\",\"Sort on label\":\"Label f\xFCr Sortieren\",\"Sort
+        on options\":\"Sortieroptionen\",\"Source\":\"Quelle\",\"Specify a youtube
+        video or playlist url\":\"Geben Sie ein YouTube-Video oder eine YouTube-Playlist
+        URL ein\",\"Split\":\"Aufsplitten\",\"Start Date\":\"Anfangsdatum\",\"Start
+        of the recurrence\":\"Anfangsdatum des wiederkehrenden Termins\",\"Start password
+        reset\":\"E-Mail anfordern\",\"State\":\"Status\",\"Stop compare\":\"Vergleichsansicht
+        verlassen\",\"String\":\"Text\",\"Stripe alternate rows with color\":\"Zeilen
+        im Wechsel einf\xE4rben\",\"Subject\":\"Betreff\",\"Success\":\"Erfolgreich\",\"Summary\":\"Zusammenfassung\",\"Switch
+        to\":\"Wechseln zu\",\"Table\":\"Tabelle\",\"Table of Contents\":\"Inhaltsverzeichnis\",\"Tags\":\"\",\"Tags
+        to add\":\"Hinzuzuf\xFCgende Tags\",\"Tags to remove\":\"Zu entfernende Tags\",\"Target
+        memory size per cache in bytes\":\"Ziel-Speichergr\xF6\xDFe pro Cache in Bytes\",\"Target
+        number of objects in memory per cache\":\"Ziel-Anzahl von Objekten im Speicher
+        pro Cache\",\"Text\":\"Text\",\"Thank you.\":\"Vielen Dank.\",\"The Database
+        Manager allow you to view database status information\":\"Der Datenbank-Manager
+        zeigt Ihnen Status-Informationen zu der Datenbank\",\"The URL for your external
+        home page, if you have one.\":\"Die URL Ihrer externen Homepage, sollten Sie
+        eine besitzen.\",\"The backend is not responding, please check if you have
+        started Plone, check your project's configuration object apiPath (or if you
+        are using the internal proxy, devProxyToApiPath) or the RAZZLE_API_PATH Volto's
+        environment variable.\":\"Das Backend beantwortet die Anfrage nicht, pr\xFCfen
+        Sie bitte ob Sie Plone gestartet haben. Pr\xFCfen Sie den apiPath Parameter
+        Ihrer Projekt-Konfiguration oder die RAZZLE_API_PATH Umgebungsvariable.\",\"The
+        backend is responding, but the CORS headers are not configured properly and
+        the browser has denied the access to the backend resources.\":\"Das Backend
+        antwortet, allerdings sind ihre CORS HTTP Header nicht korrekt konfiguriert.\",\"The
+        backend server of your website is not answering, we apologize for the inconvenience.
+        Please try to re-load the page and try again. If the problem persists please
+        contact the site administrators.\":\"Der Server antwortet nicht, wir entschuldigen
+        uns f\xFCr die Unanehmlichkeiten. Bitte versuchen Sie die Seite neu zu laden.
+        Falls das Problem weiterhin besteht kontaktieren Sie bitte den Seitenbetreiber.\",\"The
+        button presence disables the live search, the query is issued when you press
+        ENTER\":\"Der Button deaktiviert die Live-Suche, die Suchanfrage wird abgeschickt
+        wenn die ENTER-Taste gedr\xFCckt wird\",\"The item could not be deleted.\":\"Das
+        Objekt kann nicht gel\xF6scht werden.\",\"The link address is:\":\"\",\"The
+        registration process has been successful. Please check your e-mail inbox for
+        information on how activate your account.\":\"Bitte pr\xFCfen Sie Ihr E-Mail
+        Postfach. Sie sollten eine E-Mail erhalten haben mit Anweisungen, wie Sie
+        Ihren Zugang aktivieren k\xF6nnen.\",\"The user portrait\\u002Favatar\":\"Benutzer
+        Portrait\\u002FAvatar\",\"The working copy was discarded\":\"Die Arbeitskopie
+        wurde verworfen\",\"The {plonecms} is {copyright} 2000-{current_year} by the
+        {plonefoundation} and friends.\":\"{plonecms} {copyright} 2000-{current_year}
+        {plonefoundation} und Freunde.\",\"There is a configuration problem on the
+        backend\":\"Konfigurationsproblem im Backend\",\"There were some errors\":\"Es
+        gab einige Fehler\",\"There were some errors.\":\"Es sind Fehler aufgetreten.\",\"Third\":\"Dritter\",\"This
+        has an ongoing working copy in {title}\":\"Diese Seite hat eine Arbeitskopie
+        unter {title}\",\"This is a reserved name and can't be used\":\"Dies ist ein
+        reservierter Name und kann nicht verwendet werden\",\"This is a working copy
+        of {title}\":\"Das ist eine Arbeitskopie von {title}\",\"This item was locked
+        by {creator} on {date}\":\"Dieses Objekt wurde gesperrt von {creator}, am
+        {date}.\",\"This name will be displayed in the URL.\":\"Dieser Name wird in
+        der Adressleiste des Browsers angezeigt.\",\"This page does not seem to exist\u2026\":\"Die
+        Seite existiert leider nicht\u2026\",\"Time\":\"Zeit\",\"Title\":\"Titel\",\"Total
+        active and non-active objects\":\"Anzahl aktive und nicht-aktive Objekte\",\"Total
+        comments\":\"Anzahl Komentare\",\"Total number of objects in each cache\":\"Anzahl
+        aller Objekte im Cache\",\"Total number of objects in memory from all caches\":\"Anzahl
+        aller Objekte im Speicher von allen Caches\",\"Total number of objects in
+        the database\":\"Anzahl aller Objekte in der Datenbank\",\"Translate to {lang}\":\"Auf
+        {lang} \xFCbersetzen\",\"Translation linked\":\"\xDCbersetzung verbunden\",\"Translation
+        linking removed\":\"Verbindung zu \xDCbersetzung gel\xF6st\",\"Type\":\"Typ\",\"Type
+        a Video (YouTube, Vimeo or mp4) URL\":\"Geben Sie eine Video-URL (YouTube,
+        Video oder MP4) ein\",\"Type text...\":\"Text eingeben...\",\"Type text\u2026\":\"Text
+        eingeben\",\"Type the title\u2026\":\"\",\"UID\":\"UID\",\"Unauthorized\":\"Nicht
+        autorisiert\",\"Undo\":\"\",\"Unfold\":\"Ausklappen\",\"Unified\":\"Vereinigt\",\"Uninstall\":\"Deinstallieren\",\"Unknown
+        Block\":\"Unbekannter Block\",\"Unlink translation for\":\"Verkn\xFCpfung
+        der \xDCbersetzung aufheben\",\"Unlock\":\"Entsprerren\",\"Update\":\"Update\",\"Update
+        installed addons\":\"Installierte Erweiterungen aktualisieren\",\"Update installed
+        addons:\":\"Installierte Erweiterungen:\",\"Updates available\":\"Verf\xFCgbare
+        Erweiterungen\",\"Upload\":\"Hochladen\",\"Upload a lead image in the 'Lead
+        Image' content field.\":\"Laden Sie ein Lead-Bild im Feld 'Lead-Bild' hoch.\",\"Upload
+        a new image\":\"Neues Bild hochladen\",\"Upload files\":\"Datei hochladen\",\"Uploading
+        files\":\"Dateien hochladen\",\"Uploading image\":\"\",\"Used for programmatic
+        access to the fieldset.\":\"Wird f\xFCr den programmatischen Zugriff auf das
+        Fieldset verwendet.\",\"User\":\"Benutzer\",\"User created\":\"Benutzer erstellt\",\"User
+        name\":\"Benutzername\",\"User roles updated\":\"Nutzerrollen aktualisiert\",\"Username\":\"Benutzername\",\"Users\":\"Nutzer\",\"Users
+        and Groups\":\"Nutzer und Gruppen\",\"Variation\":\"Variante\",\"Version Overview\":\"Versions\xFCbersicht\",\"Video\":\"Video\",\"Video
+        URL\":\"Video URL\",\"View\":\"Anzeigen\",\"View changes\":\"\xC4nderungen
+        anzeigen\",\"View this revision\":\"Diese revision ansehen\",\"View working
+        copy\":\"Arbeitskopie ansehen\",\"Viewmode\":\"Ansicht\",\"Vocabulary term\":\"Term\",\"Vocabulary
+        term title\":\"Termtitel\",\"Vocabulary terms\":\"Terme\",\"Warning Regarding
+        debug mode\":\"Debug-Modus Warnung\",\"We apologize for the inconvenience,
+        but the backend of the site you are accessing is not available right now.
+        Please, try again later.\":\"Entschuldigen Sie die Unanehmlichkeiten aber
+        das Backend der Seite antwortet zur Zeit nicht.\",\"We apologize for the inconvenience,
+        but the page you were trying to access is not at this address. You can use
+        the links below to help you find what you are looking for.\":\"Entschuldigung,
+        aber die Webseite die Sie versucht haben zu erreichen ist hier nicht verf\xFCgbar.
+        Bitte benutzen Sie die aufgef\xFChrten Verweise um zu finden was Sie gesucht
+        haben.\",\"We apologize for the inconvenience, but you don't have permissions
+        on this resource.\":\"Entschuldigen Sie die Unanehmlichkeiten, aber Sie besitzen
+        nicht die erforderlichen Rechte um diese Seite anzuzeigen.\",\"We will use
+        this address if you need to recover your password\":\"Wir verwenden diese
+        E-Mail Adresse wenn wir Ihr Passwort wiederherstellen m\xFCssen\",\"Weeek
+        day of month\":\"Wochentag im Monat\",\"Weekday\":\"Wochentag\",\"Weekly\":\"w\xF6chentlich\",\"What\":\"Was\",\"When\":\"Wann\",\"When
+        this date is reached, the content will nolonger be visible in listings and
+        searches.\":\"Wenn dieses Datum erreicht wird, wird der Inhalt nicht l\xE4nger
+        in Auflistungen und in der Suche auftauchen.\",\"Who\":\"Wer\",\"Workflow
+        Change Loading Message\":\"Statuswechsel wird geladen\",\"Workflow updated.\":\"Arbeitsablauf
+        aktualisiert.\",\"Yearly\":\"j\xE4hrlich\",\"Yes\":\"Ja\",\"You are trying
+        to access a protected resource, please {login} first.\":\"Sie versuchen eine
+        gesch\xFCtzte Seite aufzurufen, bitte zuerst {login}.\",\"You are using an
+        outdated browser\":\"Sie verwenden einen veralteten Browser\",\"You can add
+        a comment by filling out the form below. Plain text formatting.\":\"Sie k\xF6nnen
+        einen Kommentar abgeben wenn Sie das untenstehende Formular ausf\xFCllen.
+        Plain-Text-Formatierung.\",\"You can control who can view and edit your item
+        using the list below.\":\"Sie k\xF6nnen mit der folgenden Liste bestimmen,
+        wer Ihren Artikel sehen und bearbeiten kann.\",\"You can view the difference
+        of the revisions below.\":\"Sie k\xF6nnen die Unterschiede der verschiedenen
+        Versionen unten sehen.\",\"You can view the history of your item below.\":\"Sie
+        k\xF6nnen die Historie des Inhalts unten einsehen.\",\"You can't paste this
+        content here\":\"Sie k\xF6nnen diese(s) Objekt(e) hier nicht einf\xFCgen\",\"Your
+        email is required for reset your password.\":\"\",\"Your location - either
+        city and country - or in a company setting, where your office is located.\":\"Ihr
+        Standort - entweder eine Stadt und ein Land - oder im Rahmen einer Firma,
+        wo Ihr B\xFCro ist.\",\"Your password has been set successfully. You may now
+        {link} with your new password.\":\"Ihr Passwort wurde erfolgreich vergeben.
+        Sie k\xF6nnen sich jetzt mit Ihrem neuen Passwort {link}.\",\"Your preferred
+        language\":\"Ihre bevorzugte Sprache\",\"Your usernaame is required for reset
+        your password.\":\"\",\"box_forgot_password_option\":\"Passwort vergessen?\",\"common\":\"Special\",\"compare_to\":\"Vergleichen
+        mit\",\"delete\":\"\",\"deprecated_browser_notice_message\":\"Sie verwenden
+        einen veralteten Browser. Wir empfehlen den Einsatz eines modernen Browsers
+        wie Firefox, Chrome, Safari oder Windows Edge Chromium.\",\"description\":\"Beschreibung\",\"description_lost_password\":\"Aus
+        Sicherheitsgr\xFCnden speichern wir Ihr Passwort verschl\xFCsselt und k\xF6nnen
+        es Ihnen daher nicht per E-Mail schicken. Um ein neues Passwort zu erhalten,
+        tragen Sie unten bitte Ihren Benutzernamen ein. Wir werden Ihnen daraufhin
+        eine E-Mail schicken, in der das weitere Vorgehen beschrieben ist.\",\"description_sent_password\":\"Der
+        Link, um das Passwort neu zu setzen, wurde Ihnen zugesendet. Die E-Mail sollte
+        in K\xFCrze in Ihrem Postfach ankommen. Wenn Sie die Nachricht erhalten haben,
+        klicken Sie auf den Link in der E-Mail, um zu der Webseite zu gelangen, wo
+        Sie das Passwort neu setzen k\xF6nnen.\",\"draft\":\"Entwurf\",\"email\":\"Email\",\"event_alldates\":\"Alle
+        Termine\",\"event_attendees\":\"Teilnehmer\",\"event_contactname\":\"Kontaktname\",\"event_contactphone\":\"Kontakttelefon\",\"event_website\":\"Webseite\",\"event_what\":\"Was\",\"event_when\":\"Datum\",\"event_where\":\"Ort\",\"heading_sent_password\":\"Best\xE4tigung
+        f\xFCr das Zur\xFCcksetzen des Passwortes wurde gesendet!\",\"hero\":\"Hero\",\"html\":\"HTML\",\"image\":\"Bild\",\"integer\":\"Ganzzahl\",\"intranet\":\"Intranet\",\"label_my_email_is\":\"\",\"label_my_username_is\":\"El
+        meu nom d'usuari \xE9s\",\"leadimage\":\"Lead-Bild\",\"listing\":\"Listing\",\"loading\":\"\",\"log
+        in\":\"Einloggen\",\"maps\":\"Karten\",\"maxLength\":\"Maximale L\xE4nge\",\"maximum\":\"Maximum\",\"media\":\"Medien\",\"minLength\":\"Minimale
+        L\xE4nge\",\"minimum\":\"Minimum\",\"mostUsed\":\"H\xE4ufig genutzt\",\"no\":\"\",\"no
+        workflow state\":\"Kein Status gesetzt\",\"number\":\"Zahl\",\"of the month\":\"im
+        Monat\",\"or try a different page.\":\"versuchen Sie eine andere Seite.\",\"others\":\"andere\",\"private\":\"Privat\",\"published\":\"Ver\xF6ffentlicht\",\"querystring-widget-select\":\"Select
+        Auswahlfeld\",\"results found\":\"Stellenangebote gefunden\",\"return to the
+        site root\":\"Zur Startseite zur\xFCckkehren\",\"rrule_and\":\"Regel UND\",\"rrule_approximate\":\"REGEL
+        Ann\xE4herung\",\"rrule_at\":\"Regel AT\",\"rrule_dateFormat\":\"Regel Datumsformat\",\"rrule_day\":\"Regel
+        Tag\",\"rrule_days\":\"Regel Tage\",\"rrule_every\":\"Regel Jeden\",\"rrule_for\":\"Regel
+        f\xFCr\",\"rrule_hour\":\"Regel Stunde\",\"rrule_hours\":\"Regel Stunden\",\"rrule_in\":\"Regel
+        in\",\"rrule_last\":\"Regel letztes\",\"rrule_minutes\":\"Regel Minuten\",\"rrule_month\":\"Regel
+        Monat\",\"rrule_months\":\"Regel Monate\",\"rrule_nd\":\"Regel ND\",\"rrule_on\":\"Regel
+        on\",\"rrule_on the\":\"Regel on the\",\"rrule_or\":\"Regel oder\",\"rrule_rd\":\"Regel
+        rd\",\"rrule_st\":\"Regel st\",\"rrule_th\":\"Regel th\",\"rrule_the\":\"Regel
+        the\",\"rrule_time\":\"Regel Zeit\",\"rrule_times\":\"Regel Zeiten\",\"rrule_until\":\"Regel
+        bis\",\"rrule_week\":\"Regel Woche\",\"rrule_weekday\":\"Regel Wochentag\",\"rrule_weekdays\":\"Regel
+        Wochentage\",\"rrule_weeks\":\"Regel Wochen\",\"rrule_year\":\"Regel Jahr\",\"rrule_years\":\"Regel
+        Jahre\",\"skiplink-footer\":\"Footer \xFCberspringen\",\"skiplink-main-content\":\"Hauptinhalt
+        \xFCberspringen\",\"skiplink-navigation\":\"Navigation \xFCberspringen\",\"sort\":\"sortieren\",\"table\":\"Tabelle\",\"text\":\"Text\",\"title\":\"Titel\",\"toc\":\"Inhaltsverzeichnis\",\"url\":\"URL\",\"user
+        avatar\":\"Nutzer Avatar\",\"video\":\"Video\",\"visit_external_website\":\"Externe
+        Webseite besuchen\",\"yes\":\"\",\"{count, plural, one {Upload {count} file}
+        other {Upload {count} files}}\":\"Lade {count, plural, one {# Datei} other
+        {# Dateien}} hoch\",\"{count} selected\":\"{count} ausgew\xE4hlt\",\"{id}
+        Content Type\":\"{id} Inhaltstyp\",\"{id} Schema\":\"{id} Schema\",\"{title}
+        copied.\":\"{title} kopiert.\",\"{title} cut.\":\"{title} ausgeschnitten.\",\"{title}
+        has been deleted.\":\"{title} wurde gel\xF6scht.\",\"Form\":\"Formular\",\"form\":\"Formular\",\"formSubmitted\":\"Formular
+        erfolgreich eingereicht\",\"form_attachment_send_email_info_text\":\"Angeheftete
+        Datei wird ohne zu speichern per E-mail versended. \",\"form_clear_data\":\"Daten
+        l\xF6schen\",\"form_confirmClearData\":\"Gespeicherte Elemente wirklich l\xF6schen?\",\"form_default_from\":\"Standart
+        Absender\",\"form_default_subject\":\"Betreff\",\"form_default_submit_label\":\"Senden\",\"form_edit_exportCsv\":\"Daten
+        exportieren\",\"form_edit_warning\":\"Achtung!\",\"form_edit_warning_from\":\"Geben
+        Sie ein Feld vom Typ \\\"Absender-E-Mail\\\" ein. Wenn es nicht vorhanden
+        ist oder vom Benutzer nicht ausgef\xFCllt wurde, wird die Absenderadresse
+        aus der Seitenleiste \xFCbernommen.\",\"form_empty_values_validation\":\"F\xFCllen
+        Sie bitte die erforderlichen Felder aus\",\"form_field_description\":\"Beschreibung\",\"form_field_input_values\":\"M\xF6gliche
+        Werte\",\"form_field_label\":\"Bezeichung\",\"form_field_required\":\"Erforderlich\",\"form_field_type\":\"Feld
+        Typ\",\"form_field_type_attachment\":\"Anhang\",\"form_field_type_attachment_info_text\":\"Anh\xE4nge
+        k\xF6nnen per E-Mail verschickt werden, werden aber nicht gespeichert.\",\"form_field_type_checkbox\":\"Auswahlfeld\",\"form_field_type_date\":\"Datum\",\"form_field_type_from\":\"E-Mail\",\"form_field_type_multiple_choice\":\"Mehrfachauswahl\",\"form_field_type_select\":\"Liste\",\"form_field_type_single_choice\":\"Einfache
+        Auswahl\",\"form_field_type_static_text\":\"Statischer Text\",\"form_field_type_text\":\"Text\",\"form_field_type_textarea\":\"Textfeld\",\"form_formDataCount\":\"{formDataCount}
+        Element(e) gespeichert\",\"form_reset\":\"L\xF6schen\",\"form_save_persistent_data\":\"Kompilierte
+        Daten speichern\",\"form_select_a_value\":\"W\xE4hlen Sie einen Wert\",\"form_send_email\":\"E-Mail
+        an Empf\xE4nger senden\",\"form_submit_label\":\"Beschriftung der Schaltfl\xE4che
+        Senden\",\"form_submit_success\":\"Gesendet!\",\"form_to\":\"Empf\xE4nger\",\"form_useAsBCC\":\"\",\"form_useAsBCC_description\":\"\",\"form_useAsReplyTo\":\"undefiniert\",\"form_useAsReplyTo_description\":\"undefiniert\",\"invisible_hcaptcha\":\"Unsichtbares
+        Captcha\",\"invisible_hcaptcha_desc\":\"Siehe https:\\u002F\\u002Fdocs.hcaptcha.com\\u002Ffaq#do-i-need-to-display-anything-on-the-page-when-using-hcaptcha-in-invisible-mode\",\"Documents\":\"Datei\",\"Images\":\"Bilder\",\"scroll
+        to top\":\"Scrolle nach oben\",\"Adjust privacy settings\":\"Datenschutzeinstellungen
+        anpassen\",\"Agree to all cookies\":\"Allen Cookies zustimmen\",\"Customize
+        Privacy Settings\":\"Datenschutzeinstellungen anpassen\",\"Privacy Notice\":\"Datenschutzhinweis\",\"Privacy
+        Policy\":\"Datenschutzerkl\xE4rung\",\"Technically required\":\"Technisch
+        notwendig\",\"To give you the best possible user experience, we use cookies
+        on our website. Cookies required for the operation of the site are set automatically.
+        You can also allow other cookies. You can {agree_all_cookies} or {adjust_privacy_settings}.\":\"Um
+        Ihnen die bestm\xF6gliche Nutzererfahrung zu erm\xF6glichen, verwenden wir
+        auf unserer Webseite Cookies. F\xFCr den Betrieb der Seite notwendige Cookies
+        werden automatisch gesetzt. Dar\xFCber hinaus k\xF6nnen Sie weitere Cookies
+        zulassen. Sie k\xF6nnen {agree_all_cookies} oder die {adjust_privacy_settings}.\",\"Tracking\":\"Tracking\",\"You
+        can find more information on the used cookies and how you can subsequently
+        revoke your consent in our\":\"Weitere Informationen zu den verwendeten Cookies
+        und wie Sie Ihre Einwilligung sp\xE4ter jederzeit wiederrufen k\xF6nnen finden
+        Sie in unserer\",\"You can not view this content at this moment because you
+        have selected to disable {module} cookies in the privacy settings.\":\"Sie
+        k\xF6nnen diesen Inhalt derzeit nicht anzeigen, da Sie {module}-Cookies in
+        den Datenschutzeinstellungen deaktiviert haben.\",\"adjust the privacy settings\":\"Datenschutzeinstellungen
+        anpassen\",\"agree to all cookies\":\"allen Cookies zustimmen\",\" Inner Alignment\":\"\",\"Button
+        Block\":\"Knopf Block\",\"Button text\":\"\",\"Wide\":\"\",\"Image override\":\"Bild
+        \xFCberschreiben\",\"Please choose an existing content as source for this
+        element\":\"Bitte w\xE4hlen sie einen existierenden Inhalt als Quelle f\xFCr
+        dieses Element aus\",\"Teaser\":\"\",\"column\":\"Spalte\",\"columns\":\"Spalten\",\"head_title\":\"Kopftitel\",\"Add
+        item\":\"Element hinzuf\xFCgen\",\"Aktuelles\":\"\",\"Align Button\":\"\",\"Background
+        color\":\"Hintergrundfarbe\",\"Browse or type URL\":\"Durchsuchen oder URL
+        eintippen\",\"Button Link\":\"\",\"Button Title\":\"\",\"ButtonBlock\":\"\",\"Carousel\":\"Karoussel\",\"Drop
+        a file, click for upload or browse the site\":\"Datei ablegen, zum Hochladen
+        klicken oder die Seite durchsuchen\",\"Grid\":\"Grid\",\"Grid Element\":\"Grid
+        Element {index}\",\"Grid Image\":\"Grid Bild {index}\",\"Hide description\":\"Beschreibung
+        ausblenden\",\"Highlight\":\"\",\"Images Grid\":\"Bilder Grid\",\"Item\":\"Element\",\"Items
+        to show\":\"Angezeigte Elemente\",\"Listing Grid\":\"Listing Grid {index}\",\"ListingGrid\":\"\",\"Options\":\"Optionen\",\"Source
+        image\":\"Bild-Quelle\",\"Teaser Grid\":\"\",\"Teaser Hero\":\"\",\"Text block
+        with background color\":\"Text-Block mit Hintergrundfarbe\",\"Text with background
+        color\":\"Text mit Hintergrund\",\"Use full width colored background\":\"Volle
+        Breite f\xFCr Hintergrundfarbe verwenden\",\"Use large width\":\"\",\"images\":\"Bilder\",\"moreInfo\":\"Weitere
+        Informationen\",\"Accordion\":\"Akkordeon\",\"Accordion Title size\":\"Akkordeon
+        Schriftgr\xF6\xDFe Titel\",\"Allow multiple panels open at a time\":\"Erlaube
+        mehrere Panele zur gleichen Zeit ge\xF6ffnet zu haben\",\"Collapsed by default\":\"Eingeklappt
+        ist der Standard\",\"Friendly name\":\"Kurzname\",\"Non exclusive\":\"Nicht
+        ausschlie\xDFend\",\"Style\":\"Aussehen\",\"Title Icon on the right\":\"Titel-Icon
+        auf der rechten Seite anzeigen\",\"Title size\":\"Schriftgr\xF6\xDFe Titel\",\"Add
+        link\":\"Link hinzuf\xFCgen\",\"All Styles Applied\":\"Alle Formatierungen
+        angewendet\",\"An error has occurred while editing \\\"{name}\\\" field. We
+        have been notified and we are looking into it. Please save your work and retry.
+        If the issue persists please contact the site administrator.\":\"\",\"An error
+        has occurred while rendering \\\"{name}\\\" field. We have been notified and
+        we are looking into it. If the issue persists please contact the site administrator.\":\"\",\"Delete
+        table\":\"\",\"Edit element\":\"Element bearbeiten\",\"Edit link\":\"Link
+        bearbeiten\",\"Font Style\":\"Schriftart\",\"No Style\":\"Keine Formatierung\",\"Paragraph
+        Style\":\"Abschnittsformatierung\",\"Remove element\":\"Element entfernen\",\"Remove
+        link\":\"Link entferenen\",\"Table color inverted\":\"Tabellenfarbe invertiert\",\"\\u002Fen\\u002Fcareers\\u002Fapplication-information\":\"https:\\u002F\\u002Fgo.fzj.de\\u002FInformationenBewerbung\",\"\\u002Fen\\u002Fcareers\\u002Fapplication-information\\u002Ffaq\":\"https:\\u002F\\u002Fgo.fzj.de\\u002FFAQRecruiting\",\"AZListBlock\":\"\",\"About
+        me\":\"Warum und woran ich forsche\",\"Add Link\":\"Link hinzuf\xFCgen\",\"Add
+        Person\":\"Person hinzuf\xFCgen\",\"Add logo\":\"Logo hinzuf\xFCgen\",\"Address\":\"Adresse\",\"AltmetricBlock\":\"\",\"Apply\":\"Bewerben\",\"Apply
+        now\":\"Jetzt bewerben\",\"Areas of expertise\":\"Kompetenzbereiche\",\"Awards\":\"Auszeichnungen\",\"Badge\":\"\",\"Barrierefreiheit\":\"Barrierefreiheit\",\"Blog
+        Title\":\"Blogtitel\",\"Building\":\"Geb\xE4ude\",\"Button Text\":\"Text Button\",\"Cards\":\"Cards\",\"Career
+        level\":\"Karrierelevel\",\"Close search\":\"Suche schlie\xDFen\",\"Close
+        window\":\"Fenster schliessen\",\"Contact & Visitor information\":\"Kontakt
+        & Besucherinfos\",\"Content that links to or references {title}\":\"Inhalte
+        die zu {title} verlinken oder referenzieren\",\"Datenschutz\":\"Datenschutz\",\"December\":\"Dezember\",\"Delete
+        selected items?\":\"Ausgew\xE4hlte Elemente l\xF6schen?\",\"Delete this item?\":\"Dieses
+        Element l\xF6schen?\",\"Directions\":\"Anfahrt\",\"Director\":\"Leitung\",\"Discipline\":\"Fachrichtung\",\"Duration\":\"Laufzeit\",\"Effzet
+        Link\":\"Effzet Link\",\"Embedded Page\":\"Eingebettete Seite\",\"Event\":\"Termin\",\"Events\":\"Termine\",\"External
+        Link\":\"Externer Link\",\"Facebook Link\":\"Facebook Link\",\"February\":\"Februar\",\"Field
+        of work\":\"Arbeitsbereich\",\"Files\\u002FDownloads\":\"Dateien\\u002FDownloads\",\"Find
+        more information here\":\"Mehr Informationen hier\",\"Font color\":\"Textfarbe\",\"Frontpage\":\"Startseite\",\"Funded
+        by\":\"Gef\xF6rdert durch\",\"Funding\":\"F\xF6rderung\",\"Go to contact\":\"Zu
+        den\",\"Go to institutes\":\"Zu den\",\"Go to search\":\"Zur\",\"Grid Listing
+        (2 Columns)\":\"Grid Auflistung (2 Spalten)\",\"Grid Listing (3 Columns)\":\"Grid
+        Auflistung (3 Spalten)\",\"Grid Listing (4 Columns)\":\"Grid Auflistung (4
+        Spalten)\",\"HeadlineBlock\":\"\xDCberschrift Block\",\"Headtitle\":\"Kopftitel\",\"Height\":\"H\xF6he\",\"Hide
+        Members\":\"Personen verbergen\",\"Icon\":\"Icon\",\"Icon Link\":\"Icon Link\",\"Image
+        Url\":\"Bild URL\",\"Image slider\":\"Bilderslider\",\"Impressum\":\"Impressum\",\"In
+        cooperation with\":\"In Kooperation mit\",\"Instagram Link\":\"Instagram Link\",\"Institut\":\"Institut\",\"Institut
+        Slider\":\"Institutsslider\",\"Institute\":\"Institut\",\"Institute issuing
+        the offer\":\"Ausschreibender Bereich\",\"Institutes involved\":\"Beteiligte
+        Institute\",\"Internal Link\":\"Interner Link\",\"IntroductionBlock\":\"Vorstellung
+        Block\",\"It is advised to use a svg graphic.\":\"Es sollte eine svg Grafik
+        verwendet werden\",\"January\":\"Januar\",\"Job ID\":\"Kennziffer\",\"Job
+        title\":\"Jobtitel\",\"Joboffer\":\"Stellenangebot\",\"July\":\"Juli\",\"June\":\"Juni\",\"Keyword
+        search\":\"Stichwortsuche\",\"Large\":\"Gro\xDF\",\"Last Modified:\":\"Letzte
+        \xC4nderung:\",\"Legal Notice\":\"Impressum\",\"Link URL\":\"Link URL\",\"Link
+        copied to clipboard\":\"Ankerlink in Zwischenablage kopiert\",\"LinkedIn Link\":\"LinkedIn
+        Link\",\"Linking this item with hyperlink in text\":\"Dieses Element mit einem
+        Hyperlink im Text verlinken\",\"Links and references\":\"Verlinkungen und
+        Referenzierungen\",\"Logo image\":\"\",\"Manage_content\":\"Inhalte verwalten...\",\"Mandatory\":\"Pflichtfeld\",\"March\":\"M\xE4rz\",\"May\":\"Mai\",\"Medium\":\"Mittel\",\"Member\":\"Person\",\"Members\":\"Mitglieder\",\"Members
+        Block\":\"Personen Forschungsgruppe Block\",\"Message to\":\"Nachricht an\",\"More
+        Jobs\":\"Mehr Jobs\",\"My E-Mail address\":\"Meine E-Mail Adresse\",\"My message\":\"Meine
+        Nachricht\",\"Narrow\":\"Schmal\",\"News\":\"Meldungen\",\"News with image\":\"Meldung
+        mit Bild\",\"Newsletter Link\":\"Newsletter Link\",\"No links to this item
+        found.\":\"Keine Verlinkungen f\xFCr dieses Element gefunden.\",\"Note\":\"Hinweis\",\"October\":\"Oktober\",\"Open
+        a Mailto Link to the Members Email Address\":\"\xD6ffnet einen Mailto Link
+        zur Email Adresse des Mitglieds\",\"Overview\":\"\xDCbersicht\",\"Overview
+        of relations of all content items\":\"\xDCbersicht \xFCber Verkn\xFCpfungen
+        f\xFCr alle Inhaltselemente\",\"Parallax Block\":\"\",\"Part of\":\"Teil des\",\"Partners\":\"Partner\",\"Person\":\"Person\",\"Persons\":\"Personen\",\"Persons
+        Grid\":\"Personen Grid\",\"Persons Grid without image\":\"Personen Grid ohne
+        Bild\",\"Persons List\":\"Personen\",\"Persons without Image\":\"Personen
+        ohne Bild\",\"Persons without Institutes\":\"Personen ohne Institut\",\"Persons
+        without Instituts\\u002FImages\":\"Personen ohne Institut\\u002FBild\",\"Place
+        of work\":\"Arbeitsort\",\"Please choose an Icon\":\"Bitte Icon ausw\xE4hlen\",\"Please
+        choose an icon as source for this element\":\"\",\"Please enter\":\"Bitte
+        eingeben\",\"Please enter a message\":\"Bitte geben Sie eine Nachricht ein\",\"Please
+        feel free to contact us via our\":\"Kontaktieren Sie uns gerne \xFCber unser\",\"Please
+        note that for technical reasons we cannot accept applications by e-mail.\":\"Bitte
+        beachten Sie, dass aus technischen Gr\xFCnden keine Bewerbungen per E-Mail
+        angenommen werden k\xF6nnen.\",\"Please use the search function or alternative
+        entry points to reach the desired information.\":\"Nutzen Sie bitte die Suchfunktion
+        oder alternative Einstiegspunkte, um zur gew\xFCnschten Information zu gelangen.\",\"Projects\":\"Projekte\",\"Publication
+        Date\":\"Erscheinungsdatum\",\"Publications\":\"Publikationen\",\"Questions
+        about the offer\":\"Fragen zur Ausschreibung?\",\"Referencing this item as
+        related item\":\"Dieses Element als verwandtes Element referenzieren\",\"Referencing
+        this item with {relationship}\":\"Dieses Element mit {relationship} referenzieren\",\"Register
+        Now\":\"Jetzt anmelden\",\"Register for Event\":\"Zum Termin anmelden\",\"Required
+        input is missing\":\"Bitte geben Sie eine g\xFCltige E-Mail Adresse ein\",\"Research
+        Group\":\"Forschungsgruppe\",\"Research Group Introduction\":\"Vorstellung
+        Forschungsgruppe\",\"Research Topics\":\"Forschungsthemen\",\"ResearchGroupLeader\":\"Forschungsgruppe
+        Leiter\",\"ResearchTopics\":\"Forschungsgruppe Themen\",\"Reset Filter\":\"Filter
+        zur\xFCcksetzen\",\"RestrictedContent\":\"Eingeschr\xE4nkter Inhalt\",\"Room\":\"Raum\",\"Search...\":\"Suche...\",\"Seperator\":\"Trenner\",\"Show
+        All Members\":\"Alle Personen anzeigen\",\"Show all search results...\":\"Alle
+        Suchergebnisse anzeigen...\",\"Slider\":\"Slider\",\"Small\":\"Klein\",\"Social
+        Media\":\"Social Media\",\"Sorting\":\"Sortieren\",\"Source (English)\":\"Quelle
+        (Englisch)\",\"Submit\":\"Abschicken\",\"Tab Block\":\"Tab Block\",\"Team\":\"Team\",\"Teaser
+        Icon\":\"Teaser Icon\",\"Teaser Tab\":\"Anrei\xDFer Tab\",\"Teaser Transparent
+        Grid\":\"Teaser Grid (Transparent)\",\"Termine Link\":\"Termine Link\",\"Thank
+        you\":\"Vielen Dank\",\"The monthly update from Forschungszentrum J\xFClich\":\"Das
+        monatliche Update aus dem Forschungszentrum\",\"The page you were looking
+        for is unfortunately not available (anymore).\":\"Die von Ihnen aufgerufene
+        Seite ist leider nicht (mehr) verf\xFCgbar. Das kann viele Gr\xFCnde haben.
+        M\xF6glicherweise ist die Seite nicht l\xE4nger aktuell oder an eine andere
+        Stelle verschoben worden.\",\"This block does not have any configuration options.\":\"Dieser
+        Block hat keine Konfigurationsoptionen.\",\"Title (English)\":\"Titel (Englisch)\",\"To
+        add new Tabs please add elements in the right toolbar\":\"Bitte f\xFCgen Sie
+        Elemente in der rechten Toolbar hinzu damit neue Tabs angezeigt werden\",\"Token\":\"Token\",\"Twitter
+        Link\":\"Twitter Link\",\"Unit\":\"\",\"Vita\":\"Vita\",\"We look forward
+        to receiving your application by\":\"Wir freuen uns auf Ihre Bewerbung bis
+        zum\",\"We look forward to receiving your application. The job will be advertised
+        until the position has been successfully filled. You should therefore submit
+        your application as soon as possible.\":\"Wir freuen uns auf Ihre Bewerbung.
+        Die Position ist bis zur erfolgreichen Besetzung ausgeschrieben. Bitte bewerben
+        Sie sich daher m\xF6glichst zeitnah.\",\"Webmail\":\"\",\"Width\":\"Breite\",\"Wiki\":\"\",\"You
+        can also find answers to frequently asked questions in our\":\"Zudem finden
+        Sie Antworten auf h\xE4ufig gestellte Fragen bei unseren\",\"You can find
+        helpful information on the application and selection process\":\"Hilfreiche
+        Informationen zum Bewerbungs- und Auswahlprozess finden Sie\",\"You can find
+        us here\":\"Sie k\xF6nnen uns hier finden\",\"Your message has been successfully
+        submitted\":\"Ihre Nachricht wurde erfolgreich versendet\",\"Youtube Url\":\"YouTube
+        URL\",\"about\":\"\xDCber\",\"addArticletoCart1\":\"Artikel\",\"addArticletoCart2\":\"in
+        den Warenkorb legen\",\"addressLine1\":\"Stra\xDFe\",\"addressLine2\":\"Adresszeile
+        2\",\"amountColumn\":\"Menge\",\"application portal\":\"Online-Bewerbungsportal\",\"back\":\"zur\xFCck\",\"badgeDetails\":\"\",\"badgePopover\":\"\",\"badgeType\":\"\",\"checkout\":\"Bestellen\",\"city\":\"Wohnort\",\"company\":\"Firma\",\"condensed\":\"\",\"contact\":\"Kontakt\",\"contact
+        form\":\"Kontaktformular\",\"contentOfCart\":\"inhalt des Warenkorbs\",\"continueShopping\":\"Weitere
+        Artikel hinzuf\xFCgen\",\"country\":\"Land\",\"dateFormat\":\"\",\"descriptionColumn\":\"Beschreibung\",\"downloadColumn\":\"Download\",\"emptyOrder\":\"leere
+        Bestellung\",\"end\":\"Ende\",\"errorHasOccurred\":\"es ist ein Fehler aufgetreten\",\"external
+        id\":\"Kennziffer\",\"fillOutYourData\":\"Lieferadresse:\",\"firstName\":\"Vorname\",\"gender\":\"Geschlecht\",\"headline\":\"\xDCberschrift\",\"here\":\"hier\",\"hideNoMentions\":\"\",\"idType\":\"\",\"idValue\":\"\",\"institutes\":\"Instituten\",\"lastName\":\"Name\",\"location\":\"Veranstaltungsort\",\"mr\":\"Hr.\",\"ms\":\"Fr.\",\"neutral\":\"\",\"notAvailableForOrder\":\"Kein
+        Versand m\xF6glich\",\"offer\":\"Ausschreibung\",\"on our\":\"\xFCber unser\",\"order\":\"Bestellung\",\"orderInstructionsColumn\":\"Versandhinweise\",\"previewColumn\":\"Ansicht\",\"print\":\"Seite
+        drucken\",\"publicationPdf\":\"Ver\xF6ffentlichung im PDF format\",\"research
+        topics\":\"Forschungsthemen\",\"results\":\"Ergebnisse\",\"rfFormTitle\":\"Eingeschr\xE4nkter
+        Inhalt\",\"rfInvalidToken\":\"Ung\xFCltiger Token\",\"rfInvalidTokenContent\":\"Dieser
+        Token ist f\xFCr diesen Inhalt nicht g\xFCltig\",\"rfProvideToken\":\"Bitte
+        geben Sie einen Token an\",\"rfTokenPlaceholder\":\"Token\",\"rfTokenSubmit\":\"Token
+        \xFCbertragen\",\"rfValidToken\":\"G\xFCltiger Token\",\"rfValidTokenContent\":\"Sie
+        k\xF6nnen den eingeschr\xE4nkten Inhalt nun herunterladen\",\"searchGlobalized\":\"Alle
+        Webauftritte\",\"searchLocalized\":\"Nur dieser Webauftritt\",\"searchLocalizedLabel\":\"Suchergebnisse
+        anzeigen f\xFCr:\",\"see overview\":\"Zur \xDCbersicht\",\"slateTable\":\"Tabelle\",\"start\":\"Anfang\",\"summaryOfOrder\":\"Bestellungsdetails:\",\"tenderRssEmpty\":\"Im
+        Moment liegen keine Ausschreibungen vor.\",\"tenderRssFailure\":\"Fehler beim
+        RSS-Feed.\",\"tenderRssInactive\":\"Dieser RSS-Feed ist nicht aktiviert.\",\"thankYou\":\"Danke
+        f\xFCr Ihre Bestellung. Ein Email wird \xFCbersandt.\",\"to the top\":\"nach
+        oben\",\"valdateEmail\":\"Best\xE4tigte Email Adresse ben\xF6tigt\",\"validateMandatory\":\"Pflichtfeld\",\"visit\":\"\",\"zipCode\":\"PLZ\"},\"formats\":undefined},\"reduxAsyncConnect\":{\"loaded\":true,\"loadState\":{\"breadcrumbs\":{\"loading\":false,\"loaded\":true,\"error\":null},\"content\":{\"loading\":false,\"loaded\":true,\"error\":null},\"navigation\":{\"loading\":false,\"loaded\":true,\"error\":null},\"workflow\":{\"loading\":false,\"loaded\":true,\"error\":null}},\"breadcrumbs\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@breadcrumbs\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\",\"title\":\"\xDCber
+        uns\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\",\"title\":\"Meteorologie\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\",\"title\":\"Aktuelle
+        Wetterdaten\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\",\"title\":\"Aktuelle
+        Messwerte\"}],\"root\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\"},\"workflow\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@workflow\",\"history\":[],\"state\":{\"id\":\"published\",\"title\":\"Ver\xF6ffentlicht\"},\"transitions\":[]},\"navigation\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@navigation\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\",\"description\":\"\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\",\"description\":\"\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Ffremdfirmenbetreuung\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Fremdfirmenbetreuung\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Fgenehmigungsverfahren\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Genehmigungsverfahren\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Fbetriebsueberwachung\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Betriebs\xFCberwachung\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Fmaterialueberwachung\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Material\xFCberwachung\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Genehmigungen\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fumgebungsueberwachung-s-u\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Umgebungs\xFCberwachung\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\",\"description\":\"\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fapha-beta-analytik\",\"description\":\"Apha-Beta-Analytik
+        (S-BA)\",\"items\":[],\"review_state\":\"published\",\"title\":\"Apha-Beta-Analytik\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fstrahlenschutz-einsatzdienste\",\"description\":\"Strahlenschutz-Einsatzdienste
+        (S-BE)\",\"items\":[],\"review_state\":\"published\",\"title\":\"Strahlenschutz-Einsatzdienste\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fansprechpartner\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Ansprechpartner\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Famtlich-anerkannte-inkorporationsmessstelle\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Amtlich
+        anerkannte Inkorporationsmessstelle\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fpersonendosimetrie\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Personendosimetrie\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Betrieblicher
+        Strahlenschutz\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\",\"description\":\"Internetseiten
+        des Fachbereichs Messtechnik S-M\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fmessgeraete-s-mg\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Messger\xE4te\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fmessanlagen-s-ma\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Messanlagen\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fphysikalische-dosimetrie-s-md\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Physikalische
+        Dosimetrie\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fmechanik-s-mm\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Mechanik\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fkontakt\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Ansprechpartner\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Messtechnik\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetriebslabor-s-l-1\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Betriebslabor\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fwerkfeuerwehr-s-f-1\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Feuerwehr\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Fachbereiche\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fleistungen\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Leistungen\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fkarriere\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Karriere\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\",\"description\":\"\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fansprechpartner\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Ansprechpartner\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fanfahrt\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Anfahrt\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\",\"description\":\"Wetterstation
+        des Forschungszentrums J\xFClich mit aktuellen Messwerten\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\",\"description\":\"Aktuelle
+        Wetterdaten \",\"items\":[],\"review_state\":\"published\",\"title\":\"Aktuelle
+        Wetterdaten\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Fwetterstation\",\"description\":\"Wetterstation\",\"items\":[],\"review_state\":\"published\",\"title\":\"Wetterstation\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Fklimastation\",\"description\":\"Klimastation\",\"items\":[],\"review_state\":\"published\",\"title\":\"Klimastation\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Ferdbebenmessstelle\",\"description\":\"Erdbebenmessstelle\",\"items\":[],\"review_state\":\"published\",\"title\":\"Erdbebenmessstelle\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Meteorologie\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Forganigramm\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Organigramm\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\",\"description\":\"Beauftragte
+        Personen\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fgefahrgut\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Gefahrgut\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fimmissionsschutz\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Immissionsschutz\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fabfallbeauftragter-im-forschungszentrum-juelich\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Abfallbeauftragter
+        im Forschungszentrum J\xFClich\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fgewaesserschutz-im-forschungszentrum-juelich\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Gew\xE4sserschutz
+        im Forschungszentrum J\xFClich\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fbrandschutzbeauftragter\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Brandschutzbeauftragter\",\"use_view_action_in_listings\":false},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fleitende-sicherheitsfachkraft-im-forschungszentrum-juelich\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"Leitende
+        Sicherheitsfachkraft im Forschungszentrum J\xFClich\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Beauftragte
+        Personen im Forschungszentrum J\xFClich\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"\xDCber
+        uns\"},{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fprojekte\",\"description\":\"\",\"items\":[{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fprojekte\\u002Fprojekt-a\",\"description\":\"\",\"items\":[],\"review_state\":\"published\",\"title\":\"International
+        Knowledge and Information Centre (IKIC)\",\"use_view_action_in_listings\":false}],\"review_state\":\"published\",\"title\":\"Projekte\"}]},\"content\":{\"@components\":{\"actions\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@actions\"},\"aliases\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@aliases\"},\"breadcrumbs\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@breadcrumbs\"},\"contextnavigation\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@contextnavigation\"},\"fzjsettings\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@fzjsettings\",\"additional_body_class\":null,\"footer\":{\"items\":[]},\"footer_logo_link\":\"\",\"main_font\":\"default\",\"nav_active_color\":\"\",\"nav_font_color\":\"\",\"pre_footer\":{\"items\":[]}},\"navigation\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@navigation\"},\"navroot\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@navroot\"},\"nearest_institut\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@nearest-institut\",\"institut\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\",\"footer_address\":null,\"footer_button_link\":null,\"footer_contact_mail\":null,\"footer_contact_phone\":null,\"footer_header\":null,\"footer_leader\":null,\"footer_text\":null,\"is_geschaeftsbereich_or_stabstelle\":true,\"name\":\"Sicherheit
+        und Strahlenschutz\",\"sticky_menu\":{\"items\":[{\"@id\":\"9824a7ee-9cf0-4b32-a55e-a192c873f522\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fanfahrt\",\"Description\":\"\",\"Title\":\"Anfahrt\",\"hasPreviewImage\":false,\"title\":\"Anfahrt\"}],\"icon\":\"anfahrt\",\"title\":\"Anfahrt\"},{\"@id\":\"3262924b-4fd4-4bbe-915a-4a156c42fda2\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fansprechpartner\",\"Description\":\"\",\"Title\":\"Ansprechpartner\",\"hasPreviewImage\":false,\"title\":\"Ansprechpartner\"}],\"icon\":\"ansprechpartner\",\"title\":\"Ansprechpartner\"},{\"@id\":\"cf6ed0b2-ffad-4d63-bbd0-7ef696971862\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fprojekte\",\"Description\":\"\",\"Title\":\"Projekte\",\"hasPreviewImage\":false,\"title\":\"Projekte\"}]}]}},\"institutsbereich\":{},\"lrf\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\",\"footer_header\":\"Wandel
+        gestalten\",\"footer_text\":\"Wandel gestalten: Das ist unser Antrieb im Forschungszentrum
+        J\xFClich. Als Mitglied der Helmholtz-Gemeinschaft erforschen wir mit mehr
+        als 7.000 Besch\xE4ftigten Optionen f\xFCr die digitalisierte Gesellschaft,
+        ein klimaschonendes Energiesystem und Ressourcen sch\xFCtzendes Wirtschaften.
+        Natur-, Lebens- und Technikwissenschaften in den Bereichen Information, Energie
+        und Bio\xF6konomie verbinden wir mit besonderer Expertise im H\xF6chstleistungsrechnen
+        und setzen einzigartige wissenschaftliche Infrastrukturen ein.\",\"name\":\"Forschungszentrum
+        J\xFClich\",\"portal_footer_contact_mail\":null,\"portal_footer_directions\":null,\"portal_footer_newsletter\":\"https:\\u002F\\u002Fsubscribe.newsletter2go.com\\u002F?n2g=bii7v54z-lxditis7-i5i&_ga=2.53847019.276275740.1649231797-286728647.1648640835\"},\"subsite\":{}},\"translations\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@translations\",\"items\":[],\"root\":{\"de\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\",\"en\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fen\\u002Fs\"}},\"types\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@types\"},\"workflow\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@workflow\"}},\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\",\"@type\":\"EmbeddedPage\",\"UID\":\"dc6a31334e52450d9b90c99e52346c61\",\"allow_discussion\":false,\"changeNote\":\"\",\"contributors\":[],\"created\":\"2022-03-29T14:06:21+00:00\",\"creators\":[\"p.ney\"],\"description\":\"\",\"disable_right_portlet\":null,\"effective\":\"2022-05-11T23:00:00\",\"exclude_from_nav\":false,\"expires\":null,\"id\":\"wetterdaten\",\"is_folderish\":false,\"language\":{\"title\":\"Deutsch\",\"token\":\"de\"},\"layout\":\"view\",\"lock\":{},\"modified\":\"2024-02-07T10:50:48+00:00\",\"nav_title\":\"Aktuelle
+        Messwerte\",\"next_item\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Ferlaeuterungen-zu-den-messungen\",\"@type\":\"Document\",\"description\":\"\",\"title\":\"Erl\xE4uterungen
+        zu den Messungen\",\"type_title\":\"Seite\"},\"parent\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\",\"@type\":\"Document\",\"description\":\"Aktuelle
+        Wetterdaten \",\"image_field\":null,\"image_scales\":null,\"review_state\":\"published\",\"title\":\"Aktuelle
+        Wetterdaten\",\"type_title\":\"Seite\"},\"previous_item\":{},\"relatedItems\":[],\"review_state\":\"published\",\"rights\":\"\",\"searchwords\":[],\"show_navigation_portlet\":true,\"showinsearch\":true,\"subjects\":[\"Wetter\",\"Messwerte\",\"Messungen\"],\"text\":{\"content-type\":\"text\\u002Fhtml\",\"data\":\"\\u003Cdiv
+        style=\\\"width: 560px;\\\"\\u003E\\n\\n  \\u003Ch4\\u003E\\u003Cu\\u003E
+        \\n    Aktuelle Messwerte vom 16.04.2024 12:00 Uhr MEZ\\u003C\\u002Fu\\u003E
+        \\n  \\u003C\\u002Fh4\\u003E\\n\\n  \\u003Ctable border=\\\"2\\\" width=\\\"400\\\"
+        bgcolor=\\\"#f0f0f0\\\" cellpadding=\\\"4\\\"\\u003E\\n    \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \     \\u003Ctd align=\\\"left\\\"\\u003E\\n        Luftdruck (92&#160;m &#252;.N.H.N.)
+        \\n      \\u003C\\u002Ftd\\u003E\\n      \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \       991.7&#160;hPa\\n      \\u003C\\u002Ftd\\u003E\\n    \\u003C\\u002Ftr\\u003E\\n
+        \   \\u003Ctr valign=\\\"top\\\"\\u003E\\n      \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \       Lufttemperatur \\n      \\u003C\\u002Ftd\\u003E\\n      \\u003Ctd
+        align=\\\"right\\\"\\u003E\\n        10.2&#160;&#176;C\\n      \\u003C\\u002Ftd\\u003E\\n
+        \   \\u003C\\u002Ftr\\u003E\\n    \\u003Ctr valign=\\\"top\\\"\\u003E\\n      \\u003Ctd
+        align=\\\"left\\\"\\u003E\\n        relative Feuchte \\n      \\u003C\\u002Ftd\\u003E\\n
+        \     \\u003Ctd align=\\\"right\\\"\\u003E\\n        82&#160;%\\n      \\u003C\\u002Ftd\\u003E\\n
+        \   \\u003C\\u002Ftr\\u003E\\n    \\u003Ctr valign=\\\"top\\\"\\u003E\\n      \\u003Ctd
+        align=\\\"left\\\"\\u003E\\n        Windst&#228;rke \\n      \\u003C\\u002Ftd\\u003E\\n
+        \     \\u003Ctd align=\\\"right\\\"\\u003E\\n        8.0&#160;m\\u002Fs\\n
+        \     \\u003C\\u002Ftd\\u003E\\n    \\u003C\\u002Ftr\\u003E\\n    \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n      \\u003Ctd align=\\\"left\\\"\\u003E\\n        Windrichtung
+        \\n      \\u003C\\u002Ftd\\u003E\\n      \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \       265&#160;Grad\\n      \\u003C\\u002Ftd\\u003E\\n    \\u003C\\u002Ftr\\u003E\\n
+        \ \\u003C\\u002Ftable\\u003E\\n\\n  \\u003Cp align=\\\"justify\\\"\\u003E\\n
+        \   \\u003Cbr\\u003E\\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fleer.gif\\\"
+        height=\\\"12\\\" width=\\\"0\\\" alt=\\\"Leerraum2\\\"\\u003E \\n\\n    \\u003C\\u002Fp\\u003E\\u003Ch4\\u003E
+        \\u003Cu\\u003E Wetterentwicklung w&#228;hrend der vergangenen 24 Stunden\\u003C\\u002Fu\\u003E
+        \\u003C\\u002Fh4\\u003E\\n\\n    \\u003Ctable border=\\\"2\\\" width=\\\"400\\\"
+        bgcolor=\\\"#f0f0f0\\\" cellpadding=\\\"4\\\"\\u003E\\n      \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \       \\u003Ctd align=\\\"center\\\"\\u003E\\n          Messgr&#246;&#223;e
+        \\n        \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         Die X-Achsen geben die Zeit (Stunden) in MEZ an.\\n        \\u003C\\u002Ftd\\u003E\\n
+        \     \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \       \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n          \\u003Cbr\\u003ELuftdruck\\u003Cbr\\u003E
+        [hPa] \\n        \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fpp.png\\\"
+        alt=\\\"Verlauf des Luftdrucks\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003ETemperatur\\u003Cbr\\u003E [&#176;&#160;C] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Ftt.png\\\"
+        alt=\\\"Verlauf der Temperatur\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003Erel. Feuchte\\u003Cbr\\u003E [%] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Frf.png\\\"
+        alt=\\\"Verlauf der rel. Feuchte\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003EWindgeschwin-\\u003Cbr\\u003Edigkeit [m\\u002Fs]
+        \\n        \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fff.png\\\"
+        alt=\\\"Verlauf der Windgeschwindigkeit\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003Emax. Wind-\\u003Cbr\\u003Espitze [m\\u002Fs] \\n
+        \       \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fmb.png\\\"
+        alt=\\\"Verlauf der Spitzenwindgeschwindigkeit\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003EWindrichtung\\u003Cbr\\u003E [Grad] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fdd.png\\\"
+        alt=\\\"Verlauf der Windrichtung\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003ENiederschlags-\\u003Cbr\\u003E summe [mm] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Frr.png\\\"
+        alt=\\\"Niederschlagssumme\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003ESonnenschein-\\u003Cbr\\u003E dauer [%] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fsd.png\\\"
+        alt=\\\"Sonnenscheindauer\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E \\n
+        \       \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n    \\u003C\\u002Ftable\\u003E\\n\\n
+        \   \\u003Cp align=\\\"justify\\\"\\u003E\\n      \\u003Cbr\\u003E\\u003Cimg
+        src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fleer.gif\\\"
+        height=\\\"12\\\" width=\\\"0\\\" alt=\\\"Leerraum2\\\"\\u003E \\n\\n      \\u003C\\u002Fp\\u003E\\u003Ch4\\u003E
+        \\u003Cu\\u003EKlimawerte\\u003C\\u002Fu\\u003E\\u003C\\u002Fh4\\u003E\\n\\n
+        \     \\u003Ctable border=\\\"2\\\" width=\\\"400\\\" bgcolor=\\\"#f0f0f0\\\"
+        cellpadding=\\\"4\\\"\\u003E\\n        \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \         \\u003Ctd align=\\\"left\\\" width=\\\"60%\\\"\\u003E\\n            Tiefste&#160;Temperatur
+        \\n            (gestern&#160;7:00&#160;-&#160;heute&#160;7:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           3.1&#160;&#176;C\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"
+        width=\\\"47%\\\"\\u003E\\n            H&#246;chste&#160;Temperatur\\u003Cbr\\u003E
+        \\n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           13.7&#160;&#176;C\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"
+        width=\\\"47%\\\"\\u003E\\n            Windst&#228;rkemaximum\\u003Cbr\\u003E
+        \\n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           22.5&#160;m\\u002Fs\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"
+        width=\\\"47%\\\"\\u003E\\n            24-std.&#160;Niederschlagssumme\\u003Cbr\\u003E
+        \\n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           8.4&#160;mm\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \           Sonnenscheindauer (gestern) \\n          \\u003C\\u002Ftd\\u003E\\n
+        \         \\u003Ctd align=\\\"right\\\"\\u003E\\n            4.6&#160;h\\n
+        \         \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n      \\u003C\\u002Ftable\\u003E\\n\\n
+        \     \\u003Cp align=\\\"justify\\\"\\u003E\\n        \\u003Cbr\\u003E\\u003Cimg
+        src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fleer.gif\\\"
+        height=\\\"12\\\" width=\\\"0\\\" alt=\\\"Leerraum2\\\"\\u003E \\n\\n        \\u003C\\u002Fp\\u003E\\u003Ch4\\u003E
+        \\u003Cu\\u003EAstronomische Daten f&#252;r J&#252;lich vom 16.04.2024\\u003C\\u002Fu\\u003E
+        \\u003C\\u002Fh4\\u003E\\n\\n        \\u003Ctable border=\\\"2\\\" width=\\\"400\\\"
+        bgcolor=\\\"#f0f0f0\\\" cellpadding=\\\"4\\\"\\u003E\\n          \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n            \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \             Sonnenaufgang \\n            \\u003C\\u002Ftd\\u003E\\n            \\u003Ctd
+        align=\\\"right\\\"\\u003E\\n              5:37 MEZ\\n            \\u003C\\u002Ftd\\u003E\\n
+        \         \\u003C\\u002Ftr\\u003E\\n          \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \           \\u003Ctd align=\\\"left\\\"\\u003E\\n              Sonnenuntergang
+        \\n            \\u003C\\u002Ftd\\u003E\\n            \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \             19:33 MEZ\\n            \\u003C\\u002Ftd\\u003E\\n          \\u003C\\u002Ftr\\u003E\\n
+        \         \\u003Ctr valign=\\\"top\\\"\\u003E\\n            \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \             max. Sonnenh&#246;he heute \\n            \\u003C\\u002Ftd\\u003E\\n
+        \           \\u003Ctd align=\\\"right\\\"\\u003E\\n              49.2 Grad\\n
+        \           \\u003C\\u002Ftd\\u003E\\n          \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003C\\u002Ftable\\u003E\\n\\n\\u003C\\u002Fdiv\\u003E\\n\",\"encoding\":\"utf-8\"},\"title\":\"Wetterdaten
+        von J\xFClich\",\"type_title\":\"Eingebettete Seite\",\"url\":\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fmetdat1de.html\",\"version\":\"current\",\"versioning_enabled\":true,\"working_copy\":null,\"working_copy_of\":null}},\"actions\":{\"error\":null,\"actions\":{\"object\":[],\"object_buttons\":[],\"site_actions\":[],\"user\":[],\"document_actions\":[],\"portal_tabs\":[]},\"loaded\":false,\"loading\":true},\"addons\":{\"error\":null,\"installedAddons\":[],\"availableAddons\":[],\"upgradableAddons\":[],\"loaded\":false,\"loading\":false},\"apierror\":{\"error\":null,\"statusCode\":null,\"connectionRefused\":false,\"message\":null},\"breadcrumbs\":{\"error\":null,\"root\":\"\\u002Fde\\u002Fgs\",\"items\":[{\"title\":\"\xDCber
+        uns\",\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\"},{\"title\":\"Meteorologie\",\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\"},{\"title\":\"Aktuelle
+        Wetterdaten\",\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\"},{\"title\":\"Aktuelle
+        Messwerte\",\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\"}],\"loaded\":true,\"loading\":false},\"browserdetect\":null,\"comments\":{\"add\":{\"loaded\":false,\"loading\":false,\"error\":null},\"delete\":{\"loaded\":false,\"loading\":false,\"error\":null},\"update\":{\"loaded\":false,\"loading\":false,\"error\":null},\"list\":{\"loaded\":false,\"loading\":false,\"error\":null},\"items\":[],\"items_total\":null,\"next\":null},\"content\":{\"create\":{\"loaded\":false,\"loading\":false,\"error\":null},\"delete\":{\"loaded\":false,\"loading\":false,\"error\":null},\"get\":{\"loading\":true,\"loaded\":false,\"error\":null},\"order\":{\"loaded\":false,\"loading\":false,\"error\":null},\"update\":{\"loaded\":false,\"loading\":false,\"error\":null},\"updatecolumns\":{\"loaded\":false,\"loading\":false,\"error\":null},\"lock\":{\"loaded\":false,\"loading\":false,\"error\":null},\"unlock\":{\"loaded\":false,\"loading\":false,\"error\":null},\"data\":{\"@components\":{\"actions\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@actions\"},\"aliases\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@aliases\"},\"breadcrumbs\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@breadcrumbs\"},\"contextnavigation\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@contextnavigation\"},\"fzjsettings\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@fzjsettings\",\"additional_body_class\":null,\"footer\":{\"items\":[]},\"footer_logo_link\":\"\",\"main_font\":\"default\",\"nav_active_color\":\"\",\"nav_font_color\":\"\",\"pre_footer\":{\"items\":[]}},\"navigation\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@navigation\"},\"navroot\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@navroot\"},\"nearest_institut\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@nearest-institut\",\"institut\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\",\"footer_address\":null,\"footer_button_link\":null,\"footer_contact_mail\":null,\"footer_contact_phone\":null,\"footer_header\":null,\"footer_leader\":null,\"footer_text\":null,\"is_geschaeftsbereich_or_stabstelle\":true,\"name\":\"Sicherheit
+        und Strahlenschutz\",\"sticky_menu\":{\"items\":[{\"@id\":\"9824a7ee-9cf0-4b32-a55e-a192c873f522\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fanfahrt\",\"Description\":\"\",\"Title\":\"Anfahrt\",\"hasPreviewImage\":false,\"title\":\"Anfahrt\"}],\"icon\":\"anfahrt\",\"title\":\"Anfahrt\"},{\"@id\":\"3262924b-4fd4-4bbe-915a-4a156c42fda2\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fansprechpartner\",\"Description\":\"\",\"Title\":\"Ansprechpartner\",\"hasPreviewImage\":false,\"title\":\"Ansprechpartner\"}],\"icon\":\"ansprechpartner\",\"title\":\"Ansprechpartner\"},{\"@id\":\"cf6ed0b2-ffad-4d63-bbd0-7ef696971862\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fprojekte\",\"Description\":\"\",\"Title\":\"Projekte\",\"hasPreviewImage\":false,\"title\":\"Projekte\"}]}]}},\"institutsbereich\":{},\"lrf\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\",\"footer_header\":\"Wandel
+        gestalten\",\"footer_text\":\"Wandel gestalten: Das ist unser Antrieb im Forschungszentrum
+        J\xFClich. Als Mitglied der Helmholtz-Gemeinschaft erforschen wir mit mehr
+        als 7.000 Besch\xE4ftigten Optionen f\xFCr die digitalisierte Gesellschaft,
+        ein klimaschonendes Energiesystem und Ressourcen sch\xFCtzendes Wirtschaften.
+        Natur-, Lebens- und Technikwissenschaften in den Bereichen Information, Energie
+        und Bio\xF6konomie verbinden wir mit besonderer Expertise im H\xF6chstleistungsrechnen
+        und setzen einzigartige wissenschaftliche Infrastrukturen ein.\",\"name\":\"Forschungszentrum
+        J\xFClich\",\"portal_footer_contact_mail\":null,\"portal_footer_directions\":null,\"portal_footer_newsletter\":\"https:\\u002F\\u002Fsubscribe.newsletter2go.com\\u002F?n2g=bii7v54z-lxditis7-i5i&_ga=2.53847019.276275740.1649231797-286728647.1648640835\"},\"subsite\":{}},\"translations\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@translations\",\"items\":[],\"root\":{\"de\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\",\"en\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fen\\u002Fs\"}},\"types\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@types\"},\"workflow\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\\u002F@workflow\"}},\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Fwetterdaten\",\"@type\":\"EmbeddedPage\",\"UID\":\"dc6a31334e52450d9b90c99e52346c61\",\"allow_discussion\":false,\"changeNote\":\"\",\"contributors\":[],\"created\":\"2022-03-29T14:06:21+00:00\",\"creators\":[\"p.ney\"],\"description\":\"\",\"disable_right_portlet\":null,\"effective\":\"2022-05-11T23:00:00\",\"exclude_from_nav\":false,\"expires\":null,\"id\":\"wetterdaten\",\"is_folderish\":false,\"language\":{\"title\":\"Deutsch\",\"token\":\"de\"},\"layout\":\"view\",\"lock\":{},\"modified\":\"2024-02-07T10:50:48+00:00\",\"nav_title\":\"Aktuelle
+        Messwerte\",\"next_item\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\\u002Ferlaeuterungen-zu-den-messungen\",\"@type\":\"Document\",\"description\":\"\",\"title\":\"Erl\xE4uterungen
+        zu den Messungen\",\"type_title\":\"Seite\"},\"parent\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\",\"@type\":\"Document\",\"description\":\"Aktuelle
+        Wetterdaten \",\"image_field\":null,\"image_scales\":null,\"review_state\":\"published\",\"title\":\"Aktuelle
+        Wetterdaten\",\"type_title\":\"Seite\"},\"previous_item\":{},\"relatedItems\":[],\"review_state\":\"published\",\"rights\":\"\",\"searchwords\":[],\"show_navigation_portlet\":true,\"showinsearch\":true,\"subjects\":[\"Wetter\",\"Messwerte\",\"Messungen\"],\"text\":{\"content-type\":\"text\\u002Fhtml\",\"data\":\"\\u003Cdiv
+        style=\\\"width: 560px;\\\"\\u003E\\n\\n  \\u003Ch4\\u003E\\u003Cu\\u003E
+        \\n    Aktuelle Messwerte vom 16.04.2024 12:00 Uhr MEZ\\u003C\\u002Fu\\u003E
+        \\n  \\u003C\\u002Fh4\\u003E\\n\\n  \\u003Ctable border=\\\"2\\\" width=\\\"400\\\"
+        bgcolor=\\\"#f0f0f0\\\" cellpadding=\\\"4\\\"\\u003E\\n    \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \     \\u003Ctd align=\\\"left\\\"\\u003E\\n        Luftdruck (92&#160;m &#252;.N.H.N.)
+        \\n      \\u003C\\u002Ftd\\u003E\\n      \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \       991.7&#160;hPa\\n      \\u003C\\u002Ftd\\u003E\\n    \\u003C\\u002Ftr\\u003E\\n
+        \   \\u003Ctr valign=\\\"top\\\"\\u003E\\n      \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \       Lufttemperatur \\n      \\u003C\\u002Ftd\\u003E\\n      \\u003Ctd
+        align=\\\"right\\\"\\u003E\\n        10.2&#160;&#176;C\\n      \\u003C\\u002Ftd\\u003E\\n
+        \   \\u003C\\u002Ftr\\u003E\\n    \\u003Ctr valign=\\\"top\\\"\\u003E\\n      \\u003Ctd
+        align=\\\"left\\\"\\u003E\\n        relative Feuchte \\n      \\u003C\\u002Ftd\\u003E\\n
+        \     \\u003Ctd align=\\\"right\\\"\\u003E\\n        82&#160;%\\n      \\u003C\\u002Ftd\\u003E\\n
+        \   \\u003C\\u002Ftr\\u003E\\n    \\u003Ctr valign=\\\"top\\\"\\u003E\\n      \\u003Ctd
+        align=\\\"left\\\"\\u003E\\n        Windst&#228;rke \\n      \\u003C\\u002Ftd\\u003E\\n
+        \     \\u003Ctd align=\\\"right\\\"\\u003E\\n        8.0&#160;m\\u002Fs\\n
+        \     \\u003C\\u002Ftd\\u003E\\n    \\u003C\\u002Ftr\\u003E\\n    \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n      \\u003Ctd align=\\\"left\\\"\\u003E\\n        Windrichtung
+        \\n      \\u003C\\u002Ftd\\u003E\\n      \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \       265&#160;Grad\\n      \\u003C\\u002Ftd\\u003E\\n    \\u003C\\u002Ftr\\u003E\\n
+        \ \\u003C\\u002Ftable\\u003E\\n\\n  \\u003Cp align=\\\"justify\\\"\\u003E\\n
+        \   \\u003Cbr\\u003E\\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fleer.gif\\\"
+        height=\\\"12\\\" width=\\\"0\\\" alt=\\\"Leerraum2\\\"\\u003E \\n\\n    \\u003C\\u002Fp\\u003E\\u003Ch4\\u003E
+        \\u003Cu\\u003E Wetterentwicklung w&#228;hrend der vergangenen 24 Stunden\\u003C\\u002Fu\\u003E
+        \\u003C\\u002Fh4\\u003E\\n\\n    \\u003Ctable border=\\\"2\\\" width=\\\"400\\\"
+        bgcolor=\\\"#f0f0f0\\\" cellpadding=\\\"4\\\"\\u003E\\n      \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \       \\u003Ctd align=\\\"center\\\"\\u003E\\n          Messgr&#246;&#223;e
+        \\n        \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         Die X-Achsen geben die Zeit (Stunden) in MEZ an.\\n        \\u003C\\u002Ftd\\u003E\\n
+        \     \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \       \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n          \\u003Cbr\\u003ELuftdruck\\u003Cbr\\u003E
+        [hPa] \\n        \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fpp.png\\\"
+        alt=\\\"Verlauf des Luftdrucks\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003ETemperatur\\u003Cbr\\u003E [&#176;&#160;C] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Ftt.png\\\"
+        alt=\\\"Verlauf der Temperatur\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003Erel. Feuchte\\u003Cbr\\u003E [%] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Frf.png\\\"
+        alt=\\\"Verlauf der rel. Feuchte\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003EWindgeschwin-\\u003Cbr\\u003Edigkeit [m\\u002Fs]
+        \\n        \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fff.png\\\"
+        alt=\\\"Verlauf der Windgeschwindigkeit\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003Emax. Wind-\\u003Cbr\\u003Espitze [m\\u002Fs] \\n
+        \       \\u003C\\u002Ftd\\u003E\\n        \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \         \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fmb.png\\\"
+        alt=\\\"Verlauf der Spitzenwindgeschwindigkeit\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003EWindrichtung\\u003Cbr\\u003E [Grad] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fdd.png\\\"
+        alt=\\\"Verlauf der Windrichtung\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003ENiederschlags-\\u003Cbr\\u003E summe [mm] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Frr.png\\\"
+        alt=\\\"Niederschlagssumme\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E
+        \\n        \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n      \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n        \\u003Ctd align=\\\"center\\\" width=\\\"33%\\\"\\u003E\\n
+        \         \\u003Cbr\\u003ESonnenschein-\\u003Cbr\\u003E dauer [%] \\n        \\u003C\\u002Ftd\\u003E\\n
+        \       \\u003Ctd align=\\\"left\\\"\\u003E\\n          \\u003Cimg src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fsd.png\\\"
+        alt=\\\"Sonnenscheindauer\\\" width=\\\"400\\\" height=\\\"72\\\"\\u003E \\n
+        \       \\u003C\\u002Ftd\\u003E\\n      \\u003C\\u002Ftr\\u003E\\n    \\u003C\\u002Ftable\\u003E\\n\\n
+        \   \\u003Cp align=\\\"justify\\\"\\u003E\\n      \\u003Cbr\\u003E\\u003Cimg
+        src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fleer.gif\\\"
+        height=\\\"12\\\" width=\\\"0\\\" alt=\\\"Leerraum2\\\"\\u003E \\n\\n      \\u003C\\u002Fp\\u003E\\u003Ch4\\u003E
+        \\u003Cu\\u003EKlimawerte\\u003C\\u002Fu\\u003E\\u003C\\u002Fh4\\u003E\\n\\n
+        \     \\u003Ctable border=\\\"2\\\" width=\\\"400\\\" bgcolor=\\\"#f0f0f0\\\"
+        cellpadding=\\\"4\\\"\\u003E\\n        \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \         \\u003Ctd align=\\\"left\\\" width=\\\"60%\\\"\\u003E\\n            Tiefste&#160;Temperatur
+        \\n            (gestern&#160;7:00&#160;-&#160;heute&#160;7:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           3.1&#160;&#176;C\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"
+        width=\\\"47%\\\"\\u003E\\n            H&#246;chste&#160;Temperatur\\u003Cbr\\u003E
+        \\n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           13.7&#160;&#176;C\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"
+        width=\\\"47%\\\"\\u003E\\n            Windst&#228;rkemaximum\\u003Cbr\\u003E
+        \\n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           22.5&#160;m\\u002Fs\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"
+        width=\\\"47%\\\"\\u003E\\n            24-std.&#160;Niederschlagssumme\\u003Cbr\\u003E
+        \\n            (gestern&#160;0:00&#160;-&#160;heute&#160;0:00&#160;MEZ) \\n
+        \         \\u003C\\u002Ftd\\u003E\\n          \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \           8.4&#160;mm\\n          \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003Ctr valign=\\\"top\\\"\\u003E\\n          \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \           Sonnenscheindauer (gestern) \\n          \\u003C\\u002Ftd\\u003E\\n
+        \         \\u003Ctd align=\\\"right\\\"\\u003E\\n            4.6&#160;h\\n
+        \         \\u003C\\u002Ftd\\u003E\\n        \\u003C\\u002Ftr\\u003E\\n      \\u003C\\u002Ftable\\u003E\\n\\n
+        \     \\u003Cp align=\\\"justify\\\"\\u003E\\n        \\u003Cbr\\u003E\\u003Cimg
+        src=\\\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fbild\\u002Fleer.gif\\\"
+        height=\\\"12\\\" width=\\\"0\\\" alt=\\\"Leerraum2\\\"\\u003E \\n\\n        \\u003C\\u002Fp\\u003E\\u003Ch4\\u003E
+        \\u003Cu\\u003EAstronomische Daten f&#252;r J&#252;lich vom 16.04.2024\\u003C\\u002Fu\\u003E
+        \\u003C\\u002Fh4\\u003E\\n\\n        \\u003Ctable border=\\\"2\\\" width=\\\"400\\\"
+        bgcolor=\\\"#f0f0f0\\\" cellpadding=\\\"4\\\"\\u003E\\n          \\u003Ctr
+        valign=\\\"top\\\"\\u003E\\n            \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \             Sonnenaufgang \\n            \\u003C\\u002Ftd\\u003E\\n            \\u003Ctd
+        align=\\\"right\\\"\\u003E\\n              5:37 MEZ\\n            \\u003C\\u002Ftd\\u003E\\n
+        \         \\u003C\\u002Ftr\\u003E\\n          \\u003Ctr valign=\\\"top\\\"\\u003E\\n
+        \           \\u003Ctd align=\\\"left\\\"\\u003E\\n              Sonnenuntergang
+        \\n            \\u003C\\u002Ftd\\u003E\\n            \\u003Ctd align=\\\"right\\\"\\u003E\\n
+        \             19:33 MEZ\\n            \\u003C\\u002Ftd\\u003E\\n          \\u003C\\u002Ftr\\u003E\\n
+        \         \\u003Ctr valign=\\\"top\\\"\\u003E\\n            \\u003Ctd align=\\\"left\\\"\\u003E\\n
+        \             max. Sonnenh&#246;he heute \\n            \\u003C\\u002Ftd\\u003E\\n
+        \           \\u003Ctd align=\\\"right\\\"\\u003E\\n              49.2 Grad\\n
+        \           \\u003C\\u002Ftd\\u003E\\n          \\u003C\\u002Ftr\\u003E\\n
+        \       \\u003C\\u002Ftable\\u003E\\n\\n\\u003C\\u002Fdiv\\u003E\\n\",\"encoding\":\"utf-8\"},\"title\":\"Wetterdaten
+        von J\xFClich\",\"type_title\":\"Eingebettete Seite\",\"url\":\"https:\\u002F\\u002Fapps.fz-juelich.de\\u002Fwetterturm\\u002Fws402\\u002Fmetdat1de.html\",\"version\":\"current\",\"versioning_enabled\":true,\"working_copy\":null,\"working_copy_of\":null,\"items\":undefined},\"subrequests\":{}},\"controlpanels\":{\"get\":{\"loaded\":false,\"loading\":false,\"error\":null},\"list\":{\"loaded\":false,\"loading\":false,\"error\":null},\"update\":{\"loaded\":false,\"loading\":false,\"error\":null},\"post\":{\"loaded\":false,\"loading\":false,\"error\":null},\"delete\":{\"loaded\":false,\"loading\":false,\"error\":null},\"controlpanel\":null,\"controlpanels\":[],\"systeminformation\":null,\"databaseinformation\":null},\"clipboard\":{\"action\":null,\"source\":null,\"request\":{\"loaded\":false,\"loading\":false,\"error\":null}},\"diff\":{\"error\":null,\"data\":[],\"loaded\":false,\"loading\":false},\"emailNotification\":{\"error\":null,\"loaded\":false,\"loading\":false},\"emailSend\":{\"error\":null,\"loaded\":false,\"loading\":false},\"form\":{},\"groups\":{\"create\":{\"loaded\":false,\"loading\":false,\"error\":null},\"delete\":{\"loaded\":false,\"loading\":false,\"error\":null},\"get\":{\"loaded\":false,\"loading\":false,\"error\":null},\"list\":{\"loaded\":false,\"loading\":false,\"error\":null},\"update\":{\"loaded\":false,\"loading\":false,\"error\":null},\"groups\":[],\"group\":{}},\"history\":{\"entries\":[],\"get\":{\"error\":null,\"loaded\":false,\"loading\":false},\"revert\":{\"error\":null,\"loaded\":false,\"loading\":false}},\"messages\":{\"messages\":[]},\"navigation\":{\"error\":null,\"items\":[{\"title\":\"Fachbereiche\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\",\"items\":[{\"title\":\"Genehmigungen\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\",\"items\":[{\"title\":\"Fremdfirmenbetreuung\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Ffremdfirmenbetreuung\",\"items\":[]},{\"title\":\"Genehmigungsverfahren\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Fgenehmigungsverfahren\",\"items\":[]},{\"title\":\"Betriebs\xFCberwachung\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Fbetriebsueberwachung\",\"items\":[]},{\"title\":\"Material\xFCberwachung\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fgenehmigungen-s-g\\u002Fmaterialueberwachung\",\"items\":[]}]},{\"title\":\"Umgebungs\xFCberwachung\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fumgebungsueberwachung-s-u\",\"items\":[]},{\"title\":\"Betrieblicher
+        Strahlenschutz\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\",\"items\":[{\"title\":\"Apha-Beta-Analytik\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fapha-beta-analytik\",\"items\":[]},{\"title\":\"Strahlenschutz-Einsatzdienste\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fstrahlenschutz-einsatzdienste\",\"items\":[]},{\"title\":\"Ansprechpartner\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fansprechpartner\",\"items\":[]},{\"title\":\"Amtlich
+        anerkannte Inkorporationsmessstelle\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Famtlich-anerkannte-inkorporationsmessstelle\",\"items\":[]},{\"title\":\"Personendosimetrie\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetrieblicher-strahlenschutz-s-b\\u002Fpersonendosimetrie\",\"items\":[]}]},{\"title\":\"Messtechnik\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\",\"items\":[{\"title\":\"Messger\xE4te\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fmessgeraete-s-mg\",\"items\":[]},{\"title\":\"Messanlagen\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fmessanlagen-s-ma\",\"items\":[]},{\"title\":\"Physikalische
+        Dosimetrie\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fphysikalische-dosimetrie-s-md\",\"items\":[]},{\"title\":\"Mechanik\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fmechanik-s-mm\",\"items\":[]},{\"title\":\"Ansprechpartner\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fmesstechnik\\u002Fkontakt\",\"items\":[]}]},{\"title\":\"Betriebslabor\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fbetriebslabor-s-l-1\",\"items\":[]},{\"title\":\"Feuerwehr\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Ffachbereiche\\u002Fwerkfeuerwehr-s-f-1\",\"items\":[]}]},{\"title\":\"Leistungen\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fleistungen\",\"items\":[]},{\"title\":\"Karriere\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fkarriere\",\"items\":[]},{\"title\":\"\xDCber
+        uns\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\",\"items\":[{\"title\":\"Ansprechpartner\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fansprechpartner\",\"items\":[]},{\"title\":\"Anfahrt\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fanfahrt\",\"items\":[]},{\"title\":\"Meteorologie\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\",\"items\":[{\"title\":\"Aktuelle
+        Wetterdaten\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Faktuelle-wetterdaten\",\"items\":[]},{\"title\":\"Wetterstation\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Fwetterstation\",\"items\":[]},{\"title\":\"Klimastation\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Fklimastation\",\"items\":[]},{\"title\":\"Erdbebenmessstelle\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fmeteo\\u002Ferdbebenmessstelle\",\"items\":[]}]},{\"title\":\"Organigramm\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Forganigramm\",\"items\":[]},{\"title\":\"Beauftragte
+        Personen im Forschungszentrum J\xFClich\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\",\"items\":[{\"title\":\"Gefahrgut\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fgefahrgut\",\"items\":[]},{\"title\":\"Immissionsschutz\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fimmissionsschutz\",\"items\":[]},{\"title\":\"Abfallbeauftragter
+        im Forschungszentrum J\xFClich\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fabfallbeauftragter-im-forschungszentrum-juelich\",\"items\":[]},{\"title\":\"Gew\xE4sserschutz
+        im Forschungszentrum J\xFClich\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fgewaesserschutz-im-forschungszentrum-juelich\",\"items\":[]},{\"title\":\"Brandschutzbeauftragter\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fbrandschutzbeauftragter\",\"items\":[]},{\"title\":\"Leitende
+        Sicherheitsfachkraft im Forschungszentrum J\xFClich\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fbeauftragte-personen-im-forschungszentrum-juelich-2\\u002Fleitende-sicherheitsfachkraft-im-forschungszentrum-juelich\",\"items\":[]}]}]},{\"title\":\"Projekte\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fprojekte\",\"items\":[{\"title\":\"International
+        Knowledge and Information Centre (IKIC)\",\"nav_title\":undefined,\"url\":\"\\u002Fde\\u002Fgs\\u002Fprojekte\\u002Fprojekt-a\",\"items\":[]}]}],\"loaded\":true,\"loading\":false},\"querystring\":{\"error\":null,\"indexes\":{},\"sortable_indexes\":{},\"loaded\":false,\"loading\":false},\"querystringsearch\":{\"error\":null,\"items\":[],\"total\":0,\"loaded\":false,\"loading\":false,\"batching\":{},\"subrequests\":{}},\"roles\":{\"error\":null,\"roles\":[],\"loaded\":false,\"loading\":false},\"schema\":{\"error\":null,\"loaded\":false,\"loading\":false,\"schema\":null,\"post\":{\"loaded\":false,\"loading\":false,\"error\":null},\"update\":{\"loaded\":false,\"loading\":false,\"error\":null},\"put\":{\"loaded\":false,\"loading\":false,\"error\":null}},\"search\":{\"error\":null,\"items\":[],\"total\":0,\"loaded\":false,\"loading\":false,\"batching\":{},\"subrequests\":{}},\"sharing\":{\"update\":{\"loaded\":false,\"loading\":false,\"error\":null},\"get\":{\"loaded\":false,\"loading\":false,\"error\":null},\"data\":{\"available_roles\":[],\"entries\":[],\"inherit\":null}},\"sidebar\":{\"tab\":0},\"types\":{\"error\":null,\"loaded\":false,\"loading\":false,\"types\":[]},\"users\":{\"user\":{},\"users\":[],\"create\":{\"error\":null,\"loaded\":false,\"loading\":false},\"get\":{\"error\":null,\"loaded\":false,\"loading\":false},\"list\":{\"error\":null,\"loaded\":false,\"loading\":false},\"delete\":{\"error\":null,\"loaded\":false,\"loading\":false},\"update\":{\"error\":null,\"loaded\":false,\"loading\":false},\"update_password\":{\"error\":null,\"loaded\":false,\"loading\":false},\"password\":{\"error\":null,\"loaded\":false,\"loading\":false},\"initial\":{\"error\":null,\"loaded\":false,\"loading\":false},\"reset\":{\"error\":null,\"loaded\":false,\"loading\":false}},\"authRole\":{\"authenticatedRole\":null},\"userSession\":{\"token\":undefined,\"login\":{\"loaded\":false,\"loading\":false,\"error\":null}},\"vocabularies\":{},\"workflow\":{\"get\":{\"loading\":false,\"loaded\":true,\"error\":null},\"transition\":{\"loaded\":false,\"loading\":false,\"error\":null},\"history\":[],\"transitions\":[],\"multiple\":[]},\"toolbar\":{\"expanded\":false},\"blocksClipboard\":{},\"lazyLibraries\":{},\"contextNavigation\":{},\"workingCopy\":{\"info\":{},\"apply\":{\"loaded\":false,\"loading\":false,\"error\":null},\"create\":{\"loaded\":false,\"loading\":false,\"error\":null},\"remove\":{\"loaded\":false,\"loading\":false,\"error\":null}},\"nearestinstitut\":{\"error\":null,\"institut\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\\u002Fgs\",\"footer_address\":null,\"footer_button_link\":null,\"footer_contact_mail\":null,\"footer_contact_phone\":null,\"footer_header\":null,\"footer_leader\":null,\"footer_text\":null,\"is_geschaeftsbereich_or_stabstelle\":true,\"name\":\"Sicherheit
+        und Strahlenschutz\",\"sticky_menu\":{\"items\":[{\"@id\":\"9824a7ee-9cf0-4b32-a55e-a192c873f522\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fanfahrt\",\"Description\":\"\",\"Title\":\"Anfahrt\",\"hasPreviewImage\":false,\"title\":\"Anfahrt\"}],\"icon\":\"anfahrt\",\"title\":\"Anfahrt\"},{\"@id\":\"3262924b-4fd4-4bbe-915a-4a156c42fda2\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fueber-uns\\u002Fansprechpartner\",\"Description\":\"\",\"Title\":\"Ansprechpartner\",\"hasPreviewImage\":false,\"title\":\"Ansprechpartner\"}],\"icon\":\"ansprechpartner\",\"title\":\"Ansprechpartner\"},{\"@id\":\"cf6ed0b2-ffad-4d63-bbd0-7ef696971862\",\"href\":[{\"@id\":\"\\u002Fde\\u002Fgs\\u002Fprojekte\",\"Description\":\"\",\"Title\":\"Projekte\",\"hasPreviewImage\":false,\"title\":\"Projekte\"}]}]}},\"institutsbereich\":{},\"subsite\":{},\"lrf\":{\"@id\":\"https:\\u002F\\u002Fwww.fz-juelich.de\\u002Fde\",\"footer_header\":\"Wandel
+        gestalten\",\"footer_text\":\"Wandel gestalten: Das ist unser Antrieb im Forschungszentrum
+        J\xFClich. Als Mitglied der Helmholtz-Gemeinschaft erforschen wir mit mehr
+        als 7.000 Besch\xE4ftigten Optionen f\xFCr die digitalisierte Gesellschaft,
+        ein klimaschonendes Energiesystem und Ressourcen sch\xFCtzendes Wirtschaften.
+        Natur-, Lebens- und Technikwissenschaften in den Bereichen Information, Energie
+        und Bio\xF6konomie verbinden wir mit besonderer Expertise im H\xF6chstleistungsrechnen
+        und setzen einzigartige wissenschaftliche Infrastrukturen ein.\",\"name\":\"Forschungszentrum
+        J\xFClich\",\"portal_footer_contact_mail\":null,\"portal_footer_directions\":null,\"portal_footer_newsletter\":\"https:\\u002F\\u002Fsubscribe.newsletter2go.com\\u002F?n2g=bii7v54z-lxditis7-i5i&_ga=2.53847019.276275740.1649231797-286728647.1648640835\"},\"loaded\":false,\"loading\":true},\"fzjsettings\":{\"error\":null,\"settings\":{\"additional_body_class\":null,\"footer\":{\"items\":[]},\"footer_logo_link\":\"\",\"main_font\":\"default\",\"nav_active_color\":\"\",\"nav_font_color\":\"\",\"pre_footer\":{\"items\":[]}},\"loaded\":false,\"loading\":true},\"contactform\":{\"error\":null,\"institut\":{},\"institutsbereich\":{},\"loaded\":false,\"loading\":false},\"unlockform\":{\"error\":null,\"loaded\":false,\"loading\":false,\"token\":null},\"solrsearch\":{\"error\":null,\"items\":[],\"groupCounts\":[],\"total\":0,\"loaded\":false,\"loading\":false,\"batching\":{},\"subrequests\":{}},\"institutlist\":{\"error\":null,\"institutlist\":[],\"loaded\":false,\"loading\":false},\"cart\":{\"error\":null,\"loaded\":false,\"loading\":false,\"formData\":{}},\"jobOfferSearch\":{\"error\":null,\"items\":[],\"total\":0,\"loaded\":false,\"loading\":false,\"batching\":{}},\"relations\":{\"relations\":{\"error\":null,\"loaded\":false,\"loading\":false,\"data\":null},\"stats\":{\"error\":null,\"loaded\":false,\"loading\":false,\"data\":null},\"create\":{\"error\":null,\"loaded\":false,\"loading\":false},\"delete\":{\"error\":null,\"loaded\":false,\"loading\":false},\"rebuild\":{\"error\":null,\"loaded\":false,\"loading\":false},\"subrequests\":{}},\"searchSuggestions\":{\"error\":null,\"items\":[],\"loaded\":false,\"loading\":false},\"slate_block_selections\":{},\"upload_content\":{},\"slate_plugins\":{},\"hashlink\":{\"hash\":null,\"data\":{},\"counter\":0},\"DSGVOBanner\":{\"show\":false},\"submitForm\":{\"error\":null,\"loaded\":false,\"loading\":false},\"formData\":{\"error\":null,\"loaded\":false,\"loading\":false},\"exportCsvFormData\":{\"error\":null,\"loaded\":false,\"loading\":false},\"clearFormData\":{\"error\":null,\"loaded\":false,\"loading\":false},\"loadProtector\":{}};</script><script
+        id=\"__LOADABLE_REQUIRED_CHUNKS__\" type=\"application/json\">[]</script><script
+        id=\"__LOADABLE_REQUIRED_CHUNKS___ext\" type=\"application/json\">{\"namedChunks\":[]}</script><script
+        async=\"\" data-chunk=\"client\" src=\"/static/js/runtime~client.aebd907e.js\"></script><script
+        async=\"\" data-chunk=\"client\" src=\"/static/js/18.e3e17644.chunk.js\"></script><script
+        async=\"\" data-chunk=\"client\" src=\"/static/js/client.13655d32.chunk.js\"></script></body></html>\n
+        \           "
+    headers:
+      cache-control:
+      - private
+      content-encoding:
+      - gzip
+      content-type:
+      - text/html; charset=utf-8
+      date:
+      - Tue, 16 Apr 2024 11:10:43 GMT
+      etag:
+      - W/"27741-wJoW5zn+rQVBHUWa5yfWC+DvfZU"
+      permissions-policy:
+      - camera=(), display-capture=(), geolocation=(), microphone=()
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      set-cookie:
+      - SERVERID=2; path=/
+      strict-transport-security:
+      - max-age=63072000
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-frame-options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1
