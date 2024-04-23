@@ -25,10 +25,13 @@ jobs:
         git config --global user.name "Weather Exporter"
     - name: Install dependencies
       run: |
-        pip install . flake8 pyre-check
+        pip3 install -e ".[tests]"
     - name: flake8 linting
       run: |
         flake8
     - name: pyre type checking
       run: |
-        pyre
+        pyre --noninteractive check
+    - name: execute tests
+      run: |
+        pytest
