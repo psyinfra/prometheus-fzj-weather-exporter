@@ -7,7 +7,7 @@
 
 import requests
 import re
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup  # pyre-ignore[21]
 
 
 def get_weather_data(url: str,
